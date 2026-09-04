@@ -7,15 +7,21 @@ import { filters, work, writing, type Filter } from "../lib/work";
 
 export function WorkArchive() {
   const params = useSearchParams();
-  const current = (params.get("filter") as Filter) || "all";
+  const raw = params.get("filter");
+  const current: Filter = filters.some((f) => f.id === raw) ? (raw as Filter) : "all";
 
   const items = useMemo(() => {
     if (current === "all") return work;
-    if (current === "writing") return [];
+    if (current === "professional") {
+      return work.filter((w) => w.provenance === "professional");
+    }
+    if (current === "independent") {
+      return work.filter((w) => w.provenance === "independent");
+    }
     return work.filter((w) => w.filters.includes(current));
   }, [current]);
 
-  const showWriting = current === "all" || current === "writing";
+  const showWriting = current === "all";
 
   return (
     <>
@@ -35,10 +41,8 @@ export function WorkArchive() {
 
       {items.map((item) => (
         <Link className="archive-item" href={`/work/${item.slug}`} key={item.slug}>
-          <div className="visual" aria-hidden="true">
-            <i style={{ height: "88%" }} />
-            <i style={{ height: "62%" }} />
-            <i style={{ height: "40%" }} />
+          <div className="year-mark" aria-hidden="true">
+            {item.year.split("–")[0]}
           </div>
           <div>
             <p className="meta">
@@ -47,6 +51,7 @@ export function WorkArchive() {
             <h3>{item.title}</h3>
             <p className="meta">{item.method}</p>
             <p>{item.dek}</p>
+            <p className="go">Read →</p>
           </div>
           <p className="meta">{item.provenanceLabel}</p>
         </Link>
@@ -62,10 +67,8 @@ export function WorkArchive() {
                 ? {}
                 : { target: "_blank", rel: "noopener noreferrer" })}
             >
-              <div className="visual" aria-hidden="true">
-                <i style={{ height: "50%" }} />
-                <i style={{ height: "70%" }} />
-                <i style={{ height: "30%" }} />
+              <div className="year-mark" aria-hidden="true">
+                {piece.date.replace(/[^0-9]/g, "").slice(-4) || "2025"}
               </div>
               <div>
                 <p className="meta">

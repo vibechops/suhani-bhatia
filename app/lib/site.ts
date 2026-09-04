@@ -9,8 +9,11 @@ export const site = {
   villageSquare: "https://villagesquare.in/author/suhani-bhatia/",
   resume: "/suhani-bhatia-resume.pdf",
   city: "Mumbai, India",
-  cohort: "TISS ’27",
+  cohort: "MA Public Policy and Law, TISS",
   available: "Available full-time from December 2026",
+  relocate: "Open to relocation across India",
+  interest:
+    "Interested in strategy, public-sector advisory, policy research, development and implementation work.",
 };
 
 export const nav = [

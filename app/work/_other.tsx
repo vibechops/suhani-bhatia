@@ -10,16 +10,15 @@ export function MgnregaPage() {
         Beside the pension fieldwork, I facilitated MGNREGA and
         welfare-entitlement sessions for self-help group women, and helped
         organise eye-care camps for 250 or more residents with the local MP’s
-        office and Axis Bank. This is beneficiary-facing work. It is not a
-        large research project.
+        office and Axis Bank. The sessions sat at the information stage of a
+        claim: what work a household can demand, what a job card is for, which
+        other entitlements sit beside MGNREGA in the same life.
       </p>
       <p>
-        The sessions sat at the information stage of a claim: what work a
-        household can demand, what a job card is for, which other entitlements
-        sit beside MGNREGA in the same life. Observed barriers in rooms of that
-        kind are usually a mix of rumour, timing, and the distance to the
-        worksite or the office. I do not promote those usual patterns into
-        findings from these particular sessions.
+        Observed barriers in rooms of that kind are usually a mix of rumour,
+        timing, and the distance to the worksite or the office. Those usual
+        patterns are not promoted here into findings from these particular
+        sessions.
       </p>
       <NeedInfo
         items={[
@@ -39,8 +38,8 @@ export function LeapPage() {
         The résumé line is precise: I supported the team documenting TRI’s LEAP
         programme design. A public case worth reading would need the programme’s
         own bones: problem, target population, intervention, delivery model,
-        theory of change, implementation, monitoring. I do not reconstruct LEAP
-        from outside those documents.
+        theory of change, implementation, monitoring. Those internals are not
+        reconstructed here from outside the documents.
       </p>
       <div className="impl-map">
         <div className="step"><b>Problem</b><span>Additional information required from TRI.</span></div>
@@ -65,19 +64,41 @@ export function AiesecPage() {
   const w = item("aiesec");
   return (
     <CaseLayout item={w}>
+      <div className="stat-row">
+        <p>
+          <strong>10 · 5 · 3</strong>
+          <span>Corporate, NGO and academic partnerships managed for AIESEC in Delhi IIT, July 2022 to November 2023.</span>
+        </p>
+        <p>
+          <strong>30%</strong>
+          <span>Growth in the applicant pipeline over that period. Conversion rates and rupee figures were not recorded for a public case.</span>
+        </p>
+      </div>
       <p>
-        From July 2022 to November 2023 I managed partnerships for AIESEC in
-        Delhi IIT: 10 corporates, 5 NGOs, 3 academic institutions. The applicant
-        pipeline grew 30 percent. I do not invent conversion rates or rupee
-        figures on top of that.
+        A company, an NGO and a campus office want different things from a
+        student organisation. Partnership work was segmentation and care:
+        knowing which relationship needed a visible role, which needed a quiet
+        calendar, and which would die if it had to be re-sold every month.
       </p>
+      <div className="impl-map">
+        <div className="step">
+          <b>Companies</b>
+          <span>Roles that a campus could actually fill, and a contact who did not have to be found again each term.</span>
+        </div>
+        <div className="step">
+          <b>NGOs</b>
+          <span>Work that students could do without becoming unpaid staff, and a relationship that survived turnover.</span>
+        </div>
+        <div className="step">
+          <b>Campuses</b>
+          <span>A wider top of funnel: more visible roles, more places a student could hear about them.</span>
+        </div>
+      </div>
       <p>
-        The work was segmentation and care. A company, an NGO and a campus
-        office want different things from a student organisation. Pipeline
-        growth of that size, in that period, usually comes from a wider top of
-        funnel (more campuses, more visible roles) plus relationships that do
-        not have to be re-sold every month. I cannot, from the résumé line
-        alone, attribute the 30 percent to a single tactic.
+        Pipeline growth of that size, in that period, usually comes from a
+        wider top of funnel plus relationships that persist. The résumé does
+        not attribute the 30 percent to a single tactic, and this page does
+        not either.
       </p>
     </CaseLayout>
   );
@@ -123,11 +144,10 @@ export function WorkflowPage() {
   return (
     <CaseLayout item={w}>
       <p>
-        Python and SQL are beginner skills on my résumé. This page treats them
-        that way. The task is modest: take published NFHS-5 Phase-II totals,
-        check them, compute a phone gap, and write a clean extract. The scripts
-        in the artefacts folder do that. They do not scrape, they do not
-        pretend to be a pipeline at a fund.
+        Python and SQL are listed as beginner skills on my résumé. This page
+        treats them at that scale. The task is modest: take published NFHS-5
+        Phase-II totals, check them, compute a phone gap, and write a clean
+        extract. The scripts in the artefacts folder do that.
       </p>
       <p>
         Raw input: <code>nfhs_phase2.csv</code>. Cleaning: types, range checks
@@ -135,7 +155,7 @@ export function WorkflowPage() {
         SQL: order states by <code>bank - mobile</code>. Python: the same join
         in pandas, a CSV out. Chart: the ranked map on the mobile-geography
         page. Implication: a digital welfare channel should be costed against
-        the phone number, not the account number.
+        the phone number the system can actually reach.
       </p>
       <Artefacts
         items={[
@@ -159,12 +179,12 @@ export function EvalPage() {
         wards?
       </p>
       <p>
-        I do not choose a randomised trial by default. Randomising help desks
-        across nakas is possible in principle and politically expensive in
-        practice. The strategy paper already wants a comparison ward and
-        quarterly funnel re-surveys. That points to a difference-in-differences
-        with a matched comparison ward, plus a process evaluation, not to an
-        RCT as the first instrument.
+        Randomising help desks across nakas is possible in principle and
+        politically expensive in practice. The strategy paper already wants a
+        comparison ward and quarterly funnel re-surveys. That points to a
+        difference-in-differences with a matched comparison ward, plus a
+        process evaluation. An RCT is a later instrument, if a partner can
+        actually randomise.
       </p>
       <p>
         Treatment: naka help desks and case management, as in Option A.

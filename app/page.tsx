@@ -3,17 +3,27 @@ import Link from "next/link";
 import { WorkLink } from "./components/WorkLink";
 import { PageShell } from "./components/Shell";
 import { site } from "./lib/site";
-import { education, homeItems, item, timeline, writing } from "./lib/work";
+import {
+  capabilities,
+  education,
+  evidence,
+  homeItems,
+  item,
+  timeline,
+  writing,
+} from "./lib/work";
 
 export default function Home() {
   const feature = item("transgender-rights");
-  const besideA = item("womens-agency");
+  const beside = item("rural-service-delivery");
+  const research = item("womens-agency");
   const full = item("migrant-welfare");
   const trio = homeItems("trio");
   const wide = item("green-apple");
   const model = item("programme-costing");
   const tool = item("evidence-matrix");
   const workflow = item("welfare-data-workflow");
+  const more = homeItems("list");
 
   return (
     <PageShell>
@@ -38,6 +48,7 @@ export default function Home() {
               <span>{site.city}</span>
               <span>{site.cohort}</span>
               <span>{site.available}</span>
+              <span>{site.relocate}</span>
             </p>
             <p className="hero-links">
               <Link href="/work">Work</Link>
@@ -49,7 +60,7 @@ export default function Home() {
           <figure className="portrait">
             <Image
               src="/suhani.png"
-              alt="Suhani Bhatia"
+              alt="Suhani Bhatia, photographed in natural light against a plain wall"
               width={400}
               height={500}
               priority
@@ -58,39 +69,52 @@ export default function Home() {
           </figure>
         </section>
 
+        <section className="band" id="evidence">
+          <p className="kicker">Evidence</p>
+          <h2>From the record</h2>
+          <div className="facts">
+            {evidence.map((row) => (
+              <Link key={row.figure + row.label} href={row.href} className="fact">
+                <strong>{row.figure}</strong>
+                <span>{row.label}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         <section className="band" id="intro">
           <p className="kicker">Introduction</p>
-          <h2>How I have come to look at public systems</h2>
+          <h2>How the work holds together</h2>
           <div className="prose">
             <p>
-              I came to public policy after running a small education business in Delhi
-              and after reading psychology as a second degree. Those two educations
-              still organise the way I look at a programme. One asks how an
-              organisation actually works: who shows up, who pays, what breaks on a
-              Tuesday. The other asks how a person decides, hesitates, trusts, or
-              gives up. The MA in Public Policy and Law at TISS has given that
-              combination a third vocabulary: statutes, budgets, evaluation designs,
-              and the slow machinery of the Indian state.
+              Over the last several years the work has moved between villages, a Block
+              Development Officer’s office, a police protection cell, published survey
+              tables, a philanthropic strategy problem, and a tuition centre I ran
+              myself. The subjects have included pensions, MGNREGA, rural public
+              services, women’s agency, transgender rights, urban migrant welfare and
+              labour-market attrition. The settings have changed. Many of the questions
+              have not. They return to a practical problem: what happens between an
+              intervention as it is designed and the person who has to live with its
+              consequences?
             </p>
             <p>
-              The fieldwork has been specific. A protection cell in the Telangana
-              Police, where a rights law has to survive intake. Fourteen interviews
-              for Transform Rural India, asking why a district service reaches one
-              community and not the next. Two villages with Sanchay, following
-              pensions through a Block Development Officer’s office. Writing for
-              Village Square, which requires the same attention in a different
-              register. Alongside that, independent work on NFHS tables, on migrant
-              welfare in Mumbai, and on the cost of actually delivering a benefit
-              rather than recording an enrolment.
+              Sometimes that question is qualitative. Fourteen interviews for Transform
+              Rural India asked why a district service reaches one community and not
+              the next. Two villages with Sanchay followed a pension through the last
+              mile of paperwork. At Pride Place, inside the Telangana Police, a rights
+              statute had to survive intake. Sometimes the question is quantitative:
+              whether financial inclusion, as NFHS records it, travels with the thin
+              measures of agency the same survey also records. Sometimes it is
+              strategic: how a donor might spend a finite grant so that a migrant
+              receives a benefit at the counter. Sometimes it is operational: whether
+              a classroom still exists on a Tuesday because the fee was priced so that
+              a household could continue.
             </p>
             <p>
-              I am interested in gender, social protection, rural public services and
-              the institutions that sit between a circular and a person. I use
-              interviews, case files, published survey data, and simple models. I
-              write the work so that an officer, an editor or a hiring panel can use
-              it. I am available full-time from December 2026, based in Mumbai and
-              open to relocating across India, for strategy, public-sector advisory,
-              policy research, development and implementation roles.
+              Gender, social protection, rural development and policing institutions
+              are the fields in which those methods have had to earn their keep. I
+              write so that an officer, an editor or a colleague who has to decide can
+              use the result. The archive below is organised by that work.
             </p>
           </div>
         </section>
@@ -99,37 +123,19 @@ export default function Home() {
           <p className="kicker">Selected work</p>
           <h2>A body of work gathered over several years</h2>
           <p className="lede">
-            Over the last several years the work has moved between villages,
-            government offices, a police institution, published datasets and a small
-            organisation I ran myself. The settings have changed. The question has
-            been stubborn: what happens between an intervention as it is designed and
-            the person who has to live with its consequences?
+            Professional assignments sit first. Independent research, strategy and
+            technical work follow. Each piece is labelled for what it is: work done
+            for an organisation, analysis done independently, or a demonstration on
+            synthetic data.
           </p>
-          <p className="prose">
-            The archive holds professional research, independent analysis, a
-            programme-costing model, a spatial reading of NFHS, operating experience,
-            writing and speaking. Some pieces are long because the evidence is long.
-            Some are short because the résumé fact is short. Where the public record
-            ends, the page says so.
-          </p>
-          <p className="kicker" style={{ marginTop: 28 }}>
-            I want to see
-          </p>
-          <div className="cap-links">
-            <Link href="/work?filter=policy">Policy research</Link>
-            <Link href="/work?filter=field">Field research</Link>
-            <Link href="/work?filter=quantitative">Quantitative analysis</Link>
-            <Link href="/work?filter=strategy">Strategy</Link>
-            <Link href="/work?filter=programme">Programme design</Link>
-            <Link href="/work?filter=operations">Operations</Link>
-            <Link href="/work?filter=data">Data</Link>
-            <Link href="/work?filter=writing">Writing</Link>
-            <Link href="/work?filter=speaking">Speaking</Link>
+
+          <div className="feature-grid">
+            <WorkLink item={feature} kicker="Professional research · Telangana State Police · 2026" />
+            <WorkLink item={beside} kicker="Professional research · Transform Rural India · 2025–present" />
           </div>
 
-          <div className="feature-grid" style={{ marginTop: 36 }}>
-            <WorkLink item={feature} kicker="Professional research · Telangana · 2026" />
-            <WorkLink item={besideA} kicker="Independent research · NFHS-5" />
+          <div className="research-work">
+            <WorkLink item={research} kicker="Independent research · NFHS-4 and NFHS-5 · 2026" />
           </div>
 
           <div className="full-work">
@@ -143,8 +149,20 @@ export default function Home() {
           </div>
 
           <div className="wide-work">
-            <WorkLink item={wide} kicker="Operations · Delhi · 2018–2023" />
+            <WorkLink item={wide} kicker="Founder and educator · Delhi · 2018–2023" />
           </div>
+
+          <ul className="list-work">
+            {more.map((w) => (
+              <li key={w.slug}>
+                <Link href={`/work/${w.slug}`}>
+                  <span className="year">{w.year}</span>
+                  <strong>{w.title}</strong>
+                  <span className="cat">{w.category}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
 
           <div className="split-two">
             <WorkLink item={model} />
@@ -153,11 +171,35 @@ export default function Home() {
               <WorkLink item={workflow} />
             </div>
           </div>
+
+          <p className="hero-links" style={{ marginTop: 28 }}>
+            <Link href="/work">The full archive</Link>
+          </p>
+        </section>
+
+        <section className="band" id="capabilities">
+          <p className="kicker">Capability</p>
+          <h2>Where each kind of work lives</h2>
+          <dl className="cap-map">
+            {capabilities.map((row) => (
+              <div key={row.label}>
+                <dt>{row.label}</dt>
+                <dd>
+                  {row.items.map((item, i) => (
+                    <span key={item.href}>
+                      {i > 0 ? <span aria-hidden="true"> · </span> : null}
+                      <Link href={item.href}>{item.title}</Link>
+                    </span>
+                  ))}
+                </dd>
+              </div>
+            ))}
+          </dl>
         </section>
 
         <section className="band" id="writing">
           <p className="kicker">Writing</p>
-          <h2>Policy, and other sentences</h2>
+          <h2>Published work</h2>
           <p className="prose">
             Village Square is where field notes have to become readable. The op-ed
             with Prof. Namrata Chindarkar is where the NFHS work is trying to become
@@ -180,13 +222,13 @@ export default function Home() {
         </section>
 
         <section className="band" id="speaking">
-          <p className="kicker">Speaking</p>
-          <h2>Rooms in which the work has to be said aloud</h2>
+          <p className="kicker">Speaking and conversations</p>
+          <h2>India Rural Colloquy and Rural Renaissance</h2>
           <p className="prose">
             In 2025 I emceed Day 2 of the Delhi chapter of the India Rural Colloquy,
-            and recorded conversations for TRI’s Rural Renaissance series. Holding a
-            room is a different test from holding a paragraph.             The speaking note is short on purpose. Photographs from those rooms
-            are not on this site.
+            and recorded conversations for TRI’s Rural Renaissance series. The{" "}
+            <Link href="/speaking">speaking page</Link> describes that work without
+            inflating it. Photographs from those rooms are not published here.
           </p>
         </section>
 
@@ -195,17 +237,17 @@ export default function Home() {
           <h2>How a question is taken apart</h2>
           <p className="prose">
             Semi-structured interviews. Case files and circulars. Implementation maps.
-            NFHS and Census tables. Excel models. Stata at the level of coursework
-            regression. Beginner Python and SQL, used honestly. QGIS-style spatial
-            reasoning on published state totals. Decks for people who have to decide.
-            The <Link href="/methods">methods essay</Link> describes the practice
-            in full.
+            NFHS tables. Excel models. Stata at the scale of published factsheets and
+            coursework regression. Python and SQL used to clean and join public
+            tables. Spatial reading of state indicators. Decks for people who have to
+            decide. The <Link href="/methods">methods essay</Link> describes the
+            practice in full.
           </p>
         </section>
 
         <section className="band" id="education">
           <p className="kicker">Education</p>
-          <h2>Three degrees, used as instruments</h2>
+          <h2>TISS, then the earlier degrees</h2>
           {education.map((e) => (
             <article className="edu" key={e.deg}>
               <h3>{e.deg}</h3>
@@ -219,7 +261,7 @@ export default function Home() {
 
         <section className="band">
           <p className="kicker">Progression</p>
-          <h2>A restrained timeline</h2>
+          <h2>Where the work sat, in order</h2>
           <ol className="timeline">
             {timeline.map((t) => (
               <li key={t.dates + t.title}>
@@ -235,8 +277,8 @@ export default function Home() {
         </section>
 
         <section className="band">
-          <p className="kicker">Questions I keep returning to</p>
-          <h2>Four problems that do not expire</h2>
+          <p className="kicker">Questions</p>
+          <h2>Questions I keep returning to</h2>
           <ol className="q-list">
             <li>What happens after a policy is passed, in the office that has to implement it?</li>
             <li>Who bears the cost, in time and dignity, of accessing a public service?</li>
@@ -249,12 +291,10 @@ export default function Home() {
           <p className="kicker">Availability</p>
           <h2>Some questions are worth spending time on</h2>
           <p className="prose">
-            I am interested in work that has to survive contact with implementation:
-            social protection, gender, rural public services, and the strategy that
-            sits around them. Consulting, research, foundations, government-facing
-            organisations and fellowships are all plausible homes for that work. I am
-            available full-time from December 2026. Mumbai, and open to relocation
-            across India.
+            I am interested in work that requires research to lead somewhere
+            concrete, whether that means understanding a delivery problem, evaluating
+            an intervention, or helping an institution make a difficult decision.{" "}
+            {site.interest} {site.available}. {site.city}. {site.relocate}.
           </p>
           <div className="contact-row">
             <a href={`mailto:${site.email}`}>{site.email}</a>

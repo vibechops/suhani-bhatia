@@ -1,0 +1,9 @@
+criterion,weight,option_a_assisted_access,option_b_fix_the_counter
+Impact inside 24 months,0.20,5,2
+Reach / equity for interstate women,0.10,4,3
+Cost per successful receipt,0.15,2,4
+Feasibility / government dependence,0.15,5,1
+Scalability and systems change,0.15,1,5
+Technology requirement (higher is better / lower need),0.05,3,4
+Adoption at the frontline,0.10,4,2
+Measurability,0.10,5,4

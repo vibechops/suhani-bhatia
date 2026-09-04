@@ -13,7 +13,7 @@ export function WorkLink({
       <p className="tag">{kicker ?? `${item.category} · ${item.year}`}</p>
       <h3>{item.title}</h3>
       <p>{item.dek}</p>
-      <span className="go">Read the work →</span>
+      <span className="go">Read →</span>
     </Link>
   );
 }

@@ -1,10 +1,13 @@
 import Link from "next/link";
 import {
+  BudgetSplit,
   CostBars,
   MigrantFunnel,
   NationalBars,
   PhoneGapMap,
+  Roadmap24,
   StateScatter,
+  WelfareJourney,
 } from "../components/Charts";
 import { EvidenceTool } from "../components/EvidenceTool";
 import { Artefacts, CaseLayout } from "../components/Shell";
@@ -15,13 +18,9 @@ export function AgencyPage() {
   const w = item("womens-agency");
   return (
     <CaseLayout item={w} subtitle="Measuring women’s agency beyond scheme enrolment">
-      <h2>The question</h2>
       <p>
-        Do the indicators Indian welfare uses as stand-ins for women’s
-        empowerment move with the indicators the National Family Health Survey
-        uses as stand-ins for agency? An op-ed with Prof. Namrata Chindarkar,
-        JSW School of Public Policy, IIM Ahmedabad, is in progress on the
-        monitoring half of that question. This page is the empirical companion.
+        Financial inclusion rose sharply between NFHS-4 and NFHS-5. The change
+        in the household decision-making measure was considerably smaller.
       </p>
 
       <div className="stat-row">
@@ -43,13 +42,22 @@ export function AgencyPage() {
         </p>
       </div>
       <p>
-        If financial inclusion were agency, the first movement would have shown
-        up in the second. It did not. Own-use mobile phones moved 8.1 points.
-        House or land ownership moved 4.9. Paid cash work, on a separate
-        indicator, moved 6.3. Accounts are the outlier.
+        If scheme dashboards treat the first movement as evidence of the second,
+        they are reading the wrong series. Own-use mobile phones moved 8.1
+        points. House or land ownership moved 4.9. Paid cash work moved 6.3.
+        Accounts are the outlier.
       </p>
 
       <NationalBars />
+
+      <h2>The question this raises</h2>
+      <p>
+        Do the indicators Indian welfare uses as stand-ins for women’s
+        empowerment move with the indicators the National Family Health Survey
+        uses as stand-ins for agency? An op-ed with Prof. Namrata Chindarkar,
+        JSW School of Public Policy, IIM Ahmedabad, is in progress on the
+        monitoring half of that question. This page is the empirical companion.
+      </p>
 
       <h2>Conceptual frame</h2>
       <p>
@@ -119,12 +127,13 @@ export function AgencyPage() {
       <h2>Limits of the evidence</h2>
       <p>
         Eleven states. Published factsheet totals, so ecological. No controls
-        for wealth or education, because adding them on n = 11 is costume.
-        Decision-making is asked of currently married women; bank and mobile of
-        all women 15–49. The national comparison mixes Phase-I and Phase-II in
-        the published all-India figures. The slope is not a causal estimate of
-        what opening an account does to a woman. It is a description of how two
-        published series fail to travel together.
+        for wealth or education: adding them on n = 11 would dress the model
+        without identifying anything. Decision-making is asked of currently
+        married women; bank and mobile of all women 15–49. The national
+        comparison mixes Phase-I and Phase-II in the published all-India
+        figures. The slope is not a causal estimate of what opening an account
+        does to a woman. It is a description of how two published series fail
+        to travel together.
       </p>
 
       <h2>Sources</h2>
@@ -143,16 +152,6 @@ export function AgencyPage() {
           { href: "/decks/womens-agency", label: "Research slides" },
         ]}
       />
-
-      <aside className="discuss">
-        <h2>Notes for conversation</h2>
-        <ul>
-          <li>Why these measures of agency?</li>
-          <li>Why not unit-level DHS files?</li>
-          <li>What would a stronger identification strategy look like?</li>
-          <li>What evidence would change the monitoring recommendation?</li>
-        </ul>
-      </aside>
     </CaseLayout>
   );
 }
@@ -173,6 +172,12 @@ export function MigrantPage() {
       </p>
 
       <h2>Current-state journey</h2>
+      <p>
+        A migrant who is eligible in principle still has to pass through a
+        sequence of ordinary gates. Friction concentrates at documentation and
+        at the counter. Awareness campaigns do not open those gates.
+      </p>
+      <WelfareJourney />
       <p>
         The closest published funnel is CLRA’s survey of 1,012 seasonal
         migrants (2024). Mumbai’s own baseline is a diagnostic output. I do not
@@ -241,24 +246,57 @@ export function MigrantPage() {
         if H1 and H2 both favour B.
       </p>
 
-      <h2>Recommendation</h2>
-      <p>
-        Stage-gate. Months 0–3, ₹30 lakh: diagnostic on H1–H4, recruit a CSO
-        partner, open the FCS conversation. Default to A in the three wards. If
-        the survey shows the break at served and the MoU is signed, switch to B.
-        Otherwise keep ₹50 lakh to pilot B’s dealer incentive in one ward so
-        the systems option does not die. North star after H3: rupees of
-        benefits received per rupee spent, target at least 3x, reset after the
-        unit-cost test. Comparison ward for attribution.
-      </p>
-      <p>
-        Who: a CSO with naka presence, FCS and BMC as partners. Where: three
-        named wards. When: diagnostic immediately; operations from month 3.
-        How much: ₹5 crore, 10% M&E. Dependency: for B, the MoU. Metric:
-        successful receipts and a rebuilt funnel, quarterly.
-      </p>
+      <div className="reco">
+        <h2>Recommendation</h2>
+        <p>
+          Stage-gate. Months 0–3, ₹30 lakh: diagnostic on H1–H4, recruit a CSO
+          partner, open the FCS conversation. Default to assisted access (Option
+          A) in the three wards. If the survey shows the break at served and the
+          MoU is signed, switch to fixing the counter (Option B). Otherwise keep
+          ₹50 lakh to pilot B’s dealer incentive in one ward so the systems
+          option does not die.
+        </p>
+        <p>
+          Who: a CSO with naka presence, FCS and BMC as partners. Where: Kurla
+          L, Govandi M-East, Andheri K-East. When: diagnostic immediately;
+          operations from month 3. How much: ₹5 crore, 10% independent M&E.
+          Dependency: for B, the MoU. Metric: successful receipts and a rebuilt
+          funnel, quarterly. North star after H3: rupees of benefits received
+          per rupee spent, target at least 3x, reset after the unit-cost test.
+        </p>
+      </div>
 
-      <h2>Risks</h2>
+      <h2>Twenty-four months</h2>
+      <Roadmap24 />
+
+      <h2>What ₹5 crore buys under Option A</h2>
+      <BudgetSplit />
+
+      <h2>What would be measured</h2>
+      <ul className="kpi">
+        <li>
+          <b>North star</b>
+          Rupees of benefits received per rupee of grant. Target ≥ 3 after the unit-cost test.
+        </li>
+        <li>
+          <b>Output</b>
+          People reached at desks; cases opened; grievances filed on refusal.
+        </li>
+        <li>
+          <b>Outcome</b>
+          Successful receipts of rations, BOCW cover, insurance or pension, counted at the frontline.
+        </li>
+        <li>
+          <b>Process</b>
+          Time-to-case-close; dealer exception-handling if ePoS can be pulled.
+        </li>
+        <li>
+          <b>Attribution</b>
+          Comparison ward; quarterly funnel re-survey.
+        </li>
+      </ul>
+
+      <h2>What could make this recommendation wrong</h2>
       <p>
         The diagnostic could show that Mumbai’s interstate share is low, which
         shrinks B. Dealer incentives could be captured. Help desks could become
@@ -279,19 +317,11 @@ export function MigrantPage() {
         items={[
           { href: "/decks/migrant-welfare", label: "12-slide strategy deck" },
           { href: "/artefacts/migrants/cost-model.csv", label: "Cost model CSV" },
+          { href: "/artefacts/migrants/decision-matrix.csv", label: "Decision matrix CSV" },
           { href: "/work/programme-costing", label: "Workbook narrative" },
           { href: "/work/evaluation-design", label: "Evaluation design" },
         ]}
       />
-      <aside className="discuss">
-        <h2>Notes for conversation</h2>
-        <ul>
-          <li>Why not digital-only?</li>
-          <li>How did you allocate ₹5 crore?</li>
-          <li>What would make the recommendation fail?</li>
-          <li>Why three wards, not the whole city?</li>
-        </ul>
-      </aside>
     </CaseLayout>
   );
 }

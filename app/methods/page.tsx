@@ -10,15 +10,14 @@ export default function MethodsPage() {
     <PageShell>
       <div className="wrap band">
         <p className="kicker">Methods</p>
-        <h1>A practice, described without software worship</h1>
+        <h1>How the work is done</h1>
         <div className="prose">
           <p>
             Most of my work begins with a decision someone has to take. A police
             leadership team has to know where a protection cell is leaking. A
             donor has to know whether to buy help desks or dealer incentives. A
             monitoring cell has to know whether an enrolment count is standing in
-            for agency. The method follows the decision. I do not start with a
-            favourite tool.
+            for agency. The method follows that decision.
           </p>
           <p>
             Qualitative research, for me, is semi-structured interviewing and
@@ -38,11 +37,11 @@ export default function MethodsPage() {
             day.
           </p>
           <p>
-            Quantitative work is still, honestly, at the scale of published tables
-            and coursework models. I use NFHS factsheets and national reports, and
-            Stata for ordinary least squares on those tables. I can run a
-            difference-in-differences in a classroom. I will not paste one onto a
-            portfolio unless the design supports it. Excel is the stronger daily
+            Quantitative work, on the public pages, is at the scale of published
+            tables and coursework models. I use NFHS factsheets and national
+            reports, and Stata for ordinary least squares on those tables. I can
+            run a difference-in-differences in a classroom. A portfolio page gets
+            one only when the design supports it. Excel is the stronger daily
             instrument: lookups, pivots, scenario and sensitivity analysis,
             programme cost and coverage models. The migrant costing workbook is
             the public example.

@@ -11,7 +11,7 @@ export default function SpeakingPage() {
     <PageShell>
       <div className="wrap band">
         <p className="kicker">Speaking and conversations</p>
-        <h1>A room is a different instrument</h1>
+        <h1>Speaking and conversations</h1>
         <div className="prose">
           <p>
             In 2025 I emceed Day 2 of the Delhi chapter of the India Rural Colloquy,
@@ -28,7 +28,7 @@ export default function SpeakingPage() {
             said.
           </p>
           <p>
-            I do not have photographs from those rooms on this site. If a recording
+            Photographs from those rooms are not published here. If a recording
             becomes publicly shareable, it will be linked here. Until then the
             speaking work sits beside the{" "}
             <Link href="/work/rural-colloquy">short case in the archive</Link>.

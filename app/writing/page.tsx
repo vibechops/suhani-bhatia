@@ -14,7 +14,7 @@ export default function WritingPage() {
     <PageShell>
       <div className="wrap band">
         <p className="kicker">Writing</p>
-        <h1>Sentences that had to leave the notebook</h1>
+        <h1>Writing</h1>
         <p className="lede">
           Some of this writing is policy argument. Some of it is reporting that
           had to make a place legible. Village Square taught me that a reader who

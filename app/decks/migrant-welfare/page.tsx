@@ -32,9 +32,9 @@ export default function Deck() {
             <p className="kicker">Slide {i + 1}</p>
             <h2>{title}</h2>
             <p>
-              Evidence and numbers live on the{" "}
+              Numbers, sources, the weighted matrix and the cost model live on the{" "}
               <a href="/work/migrant-welfare">full strategy page</a>. Print this
-              view for a leave-behind.
+              view as a leave-behind. Independent analysis. Author estimates.
             </p>
           </section>
         ))}

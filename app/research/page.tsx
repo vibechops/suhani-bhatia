@@ -20,7 +20,8 @@ const groups = [
     title: "Migrant welfare",
     links: [
       { href: "/artefacts/migrants/cost-model.csv", label: "Cost model (CSV)" },
-      { href: "/work/migrant-welfare/deck", label: "Strategy deck" },
+      { href: "/artefacts/migrants/decision-matrix.csv", label: "Decision matrix (CSV)" },
+      { href: "/decks/migrant-welfare", label: "Strategy deck" },
       { href: "/work/migrant-welfare", label: "Strategy page" },
     ],
   },
@@ -48,9 +49,8 @@ export default function ResearchPage() {
         <p className="kicker">Research archive</p>
         <h1>The files behind the pages</h1>
         <p className="lede">
-          For readers who want to inspect the work rather than only read it. Nothing
-          confidential is here. Internal case records from Pride Place are not
-          here. VIP Industries’ figures are not here.
+          Downloadable notes, code, tables and models. Case records from Pride
+          Place and figures from VIP Industries are not included.
         </p>
         {groups.map((g) => (
           <section key={g.title} style={{ marginTop: 32 }}>

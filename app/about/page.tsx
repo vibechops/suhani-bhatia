@@ -11,7 +11,7 @@ export default function AboutPage() {
     <PageShell>
       <div className="wrap band">
         <p className="kicker">About</p>
-        <h1>A person who keeps following the form</h1>
+        <h1>How the questions formed</h1>
         <div className="prose">
           <p>
             I became interested in public systems in a slightly sideways way. For

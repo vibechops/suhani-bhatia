@@ -1,14 +1,14 @@
 export type Filter =
   | "all"
+  | "professional"
+  | "independent"
   | "policy"
   | "field"
   | "quantitative"
   | "strategy"
   | "programme"
   | "operations"
-  | "data"
-  | "writing"
-  | "speaking";
+  | "data";
 
 export type Provenance =
   | "professional"
@@ -19,11 +19,13 @@ export type Provenance =
 export type HomeSlot =
   | "feature"
   | "beside"
+  | "research"
   | "full"
   | "trio"
   | "wide"
   | "model"
   | "tool"
+  | "list"
   | false;
 
 export type WorkItem = {
@@ -44,15 +46,15 @@ export type WorkItem = {
 
 export const filters: { id: Filter; label: string }[] = [
   { id: "all", label: "All" },
+  { id: "professional", label: "Professional" },
+  { id: "independent", label: "Independent" },
   { id: "policy", label: "Policy" },
-  { id: "field", label: "Field research" },
+  { id: "field", label: "Field" },
   { id: "quantitative", label: "Quantitative" },
   { id: "strategy", label: "Strategy" },
   { id: "programme", label: "Programme design" },
   { id: "operations", label: "Operations" },
   { id: "data", label: "Data" },
-  { id: "writing", label: "Writing" },
-  { id: "speaking", label: "Speaking" },
 ];
 
 export const work: WorkItem[] = [
@@ -89,7 +91,7 @@ export const work: WorkItem[] = [
   {
     slug: "migrant-welfare",
     title: "On the lists, not at the counter",
-    dek: "How a philanthropic fund might spend ₹5 crore over 24 months so that low-income interstate migrants in Mumbai receive benefits, rather than accumulate registrations.",
+    dek: "How a philanthropic fund might spend ₹5 crore over 24 months so that low-income interstate migrants in Mumbai receive benefits at the frontline.",
     year: "2026",
     where: "Mumbai",
     category: "Independent strategy analysis",
@@ -113,7 +115,7 @@ export const work: WorkItem[] = [
     provenance: "independent",
     provenanceLabel: "Independent analysis",
     depth: "full",
-    home: "beside",
+    home: "research",
     skills: ["Stata", "NFHS", "Scheme monitoring", "Gender"],
   },
   {
@@ -188,7 +190,7 @@ export const work: WorkItem[] = [
     provenance: "independent",
     provenanceLabel: "Independent analysis",
     depth: "full",
-    home: false,
+    home: "list",
     skills: ["Stata", "NFHS", "Labour and gender"],
   },
   {
@@ -209,7 +211,7 @@ export const work: WorkItem[] = [
   {
     slug: "mgnrega-sessions",
     title: "Welfare information at the SHG",
-    dek: "Entitlement sessions with self-help group women on MGNREGA and related benefits, sitting beside the pension fieldwork rather than standing in for it.",
+    dek: "Entitlement sessions with self-help group women on MGNREGA and related benefits, sitting beside the pension fieldwork.",
     year: "2023–24",
     where: "Sanchay",
     category: "Programme design",
@@ -218,7 +220,7 @@ export const work: WorkItem[] = [
     provenance: "professional",
     provenanceLabel: "Professional experience",
     depth: "note",
-    home: false,
+    home: "list",
     skills: ["Community facilitation", "MGNREGA", "Social protection"],
   },
   {
@@ -233,7 +235,7 @@ export const work: WorkItem[] = [
     provenance: "professional",
     provenanceLabel: "Professional experience",
     depth: "note",
-    home: false,
+    home: "list",
     skills: ["Programme design", "Theory of change", "Documentation"],
   },
   {
@@ -248,13 +250,13 @@ export const work: WorkItem[] = [
     provenance: "professional",
     provenanceLabel: "Professional experience",
     depth: "note",
-    home: false,
+    home: "list",
     skills: ["Stakeholder management", "Pipeline", "Partnerships"],
   },
   {
     slug: "welfare-data-workflow",
     title: "From a public table to a usable file",
-    dek: "A beginner-honest Python and SQL workflow: reading published NFHS factsheet totals, checking them, joining them, and producing a policy-ready extract.",
+    dek: "A Python and SQL workflow: reading published NFHS factsheet totals, checking them, joining them, and producing a policy-ready extract.",
     year: "2026",
     where: "Independent technical work",
     category: "Technical work",
@@ -269,7 +271,7 @@ export const work: WorkItem[] = [
   {
     slug: "evaluation-design",
     title: "How would we know assisted access worked?",
-    dek: "An evaluation design for naka-based help desks in three Mumbai wards. The design follows the diagnostic, rather than assuming a randomised trial.",
+    dek: "An evaluation design for naka-based help desks in three Mumbai wards. The design follows the diagnostic. A randomised trial is a later instrument if a partner can actually randomise.",
     year: "2026",
     where: "Independent analysis",
     category: "Strategy · evaluation",
@@ -278,7 +280,7 @@ export const work: WorkItem[] = [
     provenance: "independent",
     provenanceLabel: "Independent analysis",
     depth: "full",
-    home: false,
+    home: "list",
     skills: ["Impact evaluation", "Identification", "M&E"],
   },
   {
@@ -293,7 +295,7 @@ export const work: WorkItem[] = [
     provenance: "independent",
     provenanceLabel: "Independent analysis",
     depth: "full",
-    home: false,
+    home: "list",
     skills: ["Psychology", "Administrative burden", "Welfare access"],
   },
   {
@@ -319,7 +321,7 @@ export const work: WorkItem[] = [
     where: "Transform Rural India",
     category: "Speaking",
     method: "Moderation · on-camera conversation",
-    filters: ["speaking"],
+    filters: [],
     provenance: "professional",
     provenanceLabel: "Professional communication",
     depth: "note",
@@ -358,7 +360,7 @@ export const writing = [
     publication: "Op-ed in progress, with Prof. Namrata Chindarkar, IIM Ahmedabad",
     date: "2026",
     group: "policy" as const,
-    dek: "The public working note on this site is the empirical companion to that argument.",
+    dek: "The NFHS analysis on this site is the empirical companion to that argument.",
     href: "/work/womens-agency",
     internal: true,
   },
@@ -404,3 +406,65 @@ export function item(slug: string) {
 export function homeItems(slot: Exclude<HomeSlot, false>) {
   return work.filter((w) => w.home === slot);
 }
+
+export const evidence = [
+  { figure: "14", label: "semi-structured interviews across six states", href: "/work/rural-service-delivery" },
+  { figure: "4-part", label: "implementation analysis for Telangana Police", href: "/work/transgender-rights" },
+  { figure: "₹1 lakh", label: "monthly revenue reached by Green Apple Academy", href: "/work/green-apple" },
+  { figure: "250+", label: "residents reached through community eye-care camps", href: "/work/mgnrega-sessions" },
+  { figure: "10 · 5 · 3", label: "corporate, NGO and academic partnerships at AIESEC", href: "/work/aiesec" },
+  { figure: "30%", label: "growth in the applicant pipeline", href: "/work/aiesec" },
+];
+
+export const capabilities = [
+  {
+    label: "Research",
+    items: [
+      { href: "/work/transgender-rights", title: "Telangana Police" },
+      { href: "/work/rural-service-delivery", title: "TRI interviews" },
+      { href: "/work/pension-delivery", title: "Sanchay pensions" },
+    ],
+  },
+  {
+    label: "Analysis",
+    items: [
+      { href: "/work/womens-agency", title: "Women’s agency" },
+      { href: "/work/paid-work", title: "Paid work and accounts" },
+      { href: "/work/attrition", title: "Attrition" },
+    ],
+  },
+  {
+    label: "Strategy",
+    items: [
+      { href: "/work/migrant-welfare", title: "Migrant welfare" },
+      { href: "/work/programme-costing", title: "Cost and coverage" },
+      { href: "/work/evaluation-design", title: "Evaluation design" },
+    ],
+  },
+  {
+    label: "Operations",
+    items: [
+      { href: "/work/green-apple", title: "Green Apple Academy" },
+      { href: "/work/aiesec", title: "AIESEC partnerships" },
+    ],
+  },
+  {
+    label: "Data",
+    items: [
+      { href: "/work/womens-agency", title: "Stata / NFHS" },
+      { href: "/work/programme-costing", title: "Excel model" },
+      { href: "/work/mobile-geography", title: "Spatial reading" },
+      { href: "/work/welfare-data-workflow", title: "Python and SQL" },
+    ],
+  },
+  {
+    label: "Communication",
+    items: [
+      { href: "/writing", title: "Village Square" },
+      { href: "/speaking", title: "India Rural Colloquy" },
+      { href: "/work/rural-colloquy", title: "Rural Renaissance" },
+    ],
+  },
+];
+
+export { interview } from "./interview";

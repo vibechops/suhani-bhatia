@@ -187,7 +187,7 @@ export function CostBars() {
   return (
     <figure className="fig">
       <figcaption>
-        In the base case, ₹5 crore unlocks 25,000 benefits at about ₹2,000 each. The conservative case more than doubles the unit cost.
+        The conservative case raises unit cost from ₹2,000 to about ₹4,200.
       </figcaption>
       <svg viewBox="0 0 640 180" width="100%" role="img" aria-label="Cost scenarios">
         {rows.map((r, i) => {
@@ -242,6 +242,80 @@ export function AttritionFunnel() {
         })}
       </svg>
       <p className="note">Synthetic data used for analytical demonstration. Not VIP Industries’ figures.</p>
+    </figure>
+  );
+}
+
+export function WelfareJourney() {
+  const steps = [
+    { label: "Eligibility", note: "The rule exists. Knowing it applies to you is a separate fact." },
+    { label: "Documentation", note: "Ration cards, employer proof, an address a counter will accept." },
+    { label: "Registration", note: "A name on e-Shram, BOCW, NFSA. Lists accumulate here." },
+    { label: "Application", note: "A claim filed at destination, often through an intermediary." },
+    { label: "Processing", note: "The file moves, or it does not. Exception handling is rare." },
+    { label: "Transaction", note: "ePoS, biometrics, a dealer who will honour portability." },
+    { label: "Receipt", note: "Grain, cash, or cover in hand. The only stage that should count as success." },
+  ];
+  return (
+    <div className="impl-map" aria-label="Migrant welfare journey">
+      {steps.map((s) => (
+        <div className="step" key={s.label}>
+          <b>{s.label}</b>
+          <span>{s.note}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function Roadmap24() {
+  const steps = [
+    { label: "Months 0–3", note: "₹30 lakh. Diagnostic on H1–H4. Recruit a CSO. Open the FCS conversation. Survey n≈1,200 plus ePoS pull." },
+    { label: "Gate, month 3", note: "If the break is at served and an MoU is signed, switch toward Option B. Otherwise default to A, keeping ₹50 lakh to pilot a dealer incentive in one ward." },
+    { label: "Months 3–12", note: "Fifteen naka desks, case management, grievance on every refusal. Comparison ward running." },
+    { label: "Months 12–24", note: "Scale or stop. Reset unit-cost target after H3. Independent M&E reports quarterly. North star: rupees of benefits received per rupee spent." },
+  ];
+  return (
+    <div className="impl-map" aria-label="Twenty-four month roadmap">
+      {steps.map((s) => (
+        <div className="step" key={s.label}>
+          <b>{s.label}</b>
+          <span>{s.note}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function BudgetSplit() {
+  const rows = [
+    { label: "Operations (desks, casework)", v: 3.5 },
+    { label: "Technology (WhatsApp, IVR, tracker)", v: 1.0 },
+    { label: "Independent M&E", v: 0.5 },
+  ];
+  return (
+    <figure className="fig">
+      <figcaption>
+        Option A, as costed: ₹3.5 crore for operations, ₹1 crore for technology, ₹50 lakh ring-fenced for independent monitoring.
+      </figcaption>
+      <svg viewBox="0 0 640 150" width="100%" role="img" aria-label="Budget split of five crore">
+        {rows.map((r, i) => {
+          const y = 12 + i * 44;
+          const w = (r.v / 5) * 420;
+          return (
+            <g key={r.label}>
+              <text x="0" y={y + 14} fontSize="13" fill={ink} fontFamily="system-ui">
+                {r.label}
+              </text>
+              <rect x="260" y={y} width={w} height="16" fill={i === 2 ? wash : accent} />
+              <text x={268 + w} y={y + 13} fontSize="12" fill={ink} fontFamily="system-ui">
+                ₹{r.v} cr
+              </text>
+            </g>
+          );
+        })}
+      </svg>
+      <p className="note">Author estimates for an independent strategy model. Independent analysis.</p>
     </figure>
   );
 }

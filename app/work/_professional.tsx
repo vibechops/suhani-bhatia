@@ -150,30 +150,6 @@ export function TransgenderPage() {
           { href: "/decks/transgender-rights", label: "Stakeholder deck (public reconstruction)" },
         ]}
       />
-
-      <aside className="discuss">
-        <h2>Notes for conversation</h2>
-        <h3>Questions I expect</h3>
-        <ul>
-          <li>What did you actually observe at intake?</li>
-          <li>How did you keep case records confidential while still analysing them?</li>
-          <li>Why compare Kerala and Tamil Nadu, specifically?</li>
-          <li>What would you tell the DGP to do in the next quarter?</li>
-          <li>Where is the line between a police cell and a welfare board?</li>
-        </ul>
-        <h3>Decisions</h3>
-        <ul>
-          <li>To write for leadership, not for a general LGBTQ+ advocacy audience.</li>
-          <li>To treat the SOP as a hypothesis about delivery, open to observation.</li>
-          <li>To withhold case-level findings from this website.</li>
-        </ul>
-        <h3>Limits</h3>
-        <p>
-          A three-month internship cannot evaluate the Cell. It can describe the
-          path a petition is supposed to take, and it can show leadership where
-          that path is empirically thin. The public page is thinner still.
-        </p>
-      </aside>
     </CaseLayout>
   );
 }
@@ -195,33 +171,66 @@ export function RuralPage() {
         writing for Village Square. I also supported documentation of TRI’s
         LEAP programme design, which has its own page.
       </p>
-      <h2>Method</h2>
+
+      <h2>Who was in the room</h2>
+      <div className="impl-map">
+        <div className="step">
+          <b>SHG members</b>
+          <span>Women who use, wait for, or give up on a service that officially exists in the district.</span>
+        </div>
+        <div className="step">
+          <b>Panchayat voices</b>
+          <span>Elected or sitting representatives who sit between the block office and the hamlet.</span>
+        </div>
+        <div className="step">
+          <b>Practitioners</b>
+          <span>People who watch delivery from the NGO or mission side, and who know where a file usually stalls.</span>
+        </div>
+      </div>
       <p>
-        Semi-structured interviews. Respondents in three groups: women in SHGs,
-        elected or sitting panchayat voices, and practitioners who watch
-        delivery from the NGO or mission side. Geography: six states. I do not
-        publish the state list or the names here without TRI’s say-so. Sampling
-        was purposive, organised around the organisation’s work, which means
-        the interviews are evidence about those rooms. They are not a random
-        sample of rural India.
+        Geography: six states. The state list is not published here without
+        TRI’s agreement. Sampling was purposive, organised around the
+        organisation’s work. The interviews are evidence about those rooms.
+        They are not a random sample of rural India.
       </p>
+
+      <h2>How the interviews were read</h2>
       <p>
-        A coding frame for this kind of study usually separates demand-side
-        stories (information, time, social permission to claim) from
-        supply-side stories (staff, last-mile presence, political priority,
-        the habit of a particular block office). I used that distinction as a
-        working scaffold. Theme frequencies are not on this page because I
-        will not invent them.
+        A coding frame for this kind of study separates demand-side stories
+        (information, time, social permission to claim) from supply-side
+        stories (staff, last-mile presence, political priority, the habit of a
+        particular block office). I used that distinction as a working
+        scaffold. Theme frequencies wait for a cleaned codebook.
       </p>
+      <div className="impl-map">
+        <div className="step">
+          <b>Demand</b>
+          <span>Does the household know the service exists, can a woman spend the day claiming it, and is she permitted to?</span>
+        </div>
+        <div className="step">
+          <b>Supply</b>
+          <span>Is the last-mile worker present, is the block office responsive, does the panchayat have a working relationship with that office?</span>
+        </div>
+        <div className="step">
+          <b>Institution</b>
+          <span>Which scheme’s paperwork, which political priority, which local organisation’s density, explains the unevenness?</span>
+        </div>
+      </div>
+
       <h2>What can be said without the transcripts</h2>
       <p>
-        The question itself already contains a finding of sorts: everyone I was
-        sent to speak with recognised the pattern. Unevenness was not a
-        surprise to SHG members or to panchayat representatives. The argument
-        was about cause. Some accounts pointed to the gram panchayat’s
+        Everyone I was sent to speak with recognised the pattern. Unevenness
+        was familiar to SHG members and to panchayat representatives. The
+        argument was about cause. Some accounts pointed to the gram panchayat’s
         relationship with the block. Some pointed to the density of a local
         organisation. Some pointed to a scheme’s paperwork. Those are
         categories of explanation. They are not results.
+      </p>
+      <p>
+        Programme design that ignores this geography will keep writing
+        universal rules and producing local exceptions. The interviews were a
+        way of making those exceptions audible to a team that already works
+        inside them.
       </p>
       <NeedInfo
         items={[
@@ -231,14 +240,6 @@ export function RuralPage() {
           "How the fourteen interviews sat inside a larger TRI evidence base.",
         ]}
       />
-      <aside className="discuss">
-        <h2>Notes for conversation</h2>
-        <ul>
-          <li>How do you know fourteen interviews are enough?</li>
-          <li>What would a better sampling frame have looked like?</li>
-          <li>How did Village Square writing use, or refuse to use, those interviews?</li>
-        </ul>
-      </aside>
     </CaseLayout>
   );
 }
@@ -249,10 +250,10 @@ export function PensionPage() {
     <CaseLayout item={w}>
       <h2>The question</h2>
       <p>
-        A listed pensioner is not the same thing as a paid pensioner. In
-        2023–24, with Sanchay, I looked at pension delivery across two
-        villages, through field interviews and through the Block Development
-        Officer’s office, and presented barriers to access.
+        A name on a pension list and a payment in an account are different
+        facts. In 2023–24, with Sanchay, I looked at pension delivery across
+        two villages, through field interviews and through the Block
+        Development Officer’s office, and presented barriers to access.
       </p>
       <h2>The ordinary path</h2>
       <p>
@@ -287,9 +288,9 @@ export function PensionPage() {
         </div>
       </div>
       <p>
-        I presented barriers to access. I do not reconstruct that presentation
-        from memory as if it were a dataset. The honest public residue is the
-        method: interviews plus the BDO office, two villages, a delivery
+        I presented barriers to access. Reconstructing that presentation from
+        memory as a dataset would be dishonest. What can be stated publicly is
+        the method: interviews plus the BDO office, two villages, a delivery
         problem rather than an awareness campaign.
       </p>
       <NeedInfo
@@ -308,61 +309,84 @@ export function GreenApplePage() {
   const w = item("green-apple");
   return (
     <CaseLayout item={w} subtitle="Curriculum, pricing, parents, and a fee that had to arrive">
+      <div className="stat-row">
+        <p>
+          <strong>2018–23</strong>
+          <span>Founded a tuition centre in Delhi with no inherited classroom and no brand. Closed it in 2023.</span>
+        </p>
+        <p>
+          <strong>₹1 lakh</strong>
+          <span>Monthly revenue reached over five years. Profit margins are not published. They were never recorded for a public case.</span>
+        </p>
+      </div>
+
       <h2>The problem</h2>
       <p>
-        In 2018 I started a tuition centre in Delhi with no inherited classroom
-        and no brand. The customer was a household that wanted a child to keep
-        up at school and could pay a monthly fee if the class felt real. The
+        A household wanted a child to keep up at school and could pay a monthly
+        fee if the class felt real. Existing options were either too expensive,
+        too far, or too casual to trust with a working parent’s evening. The
         value proposition was unromantic: a timetable, a teacher who knew the
-        syllabus, a room that existed every week. Over five years the practice
-        reached about ₹1 lakh a month in revenue. I owned curriculum,
-        operations, pricing and student outcomes. I closed it in 2023.
+        syllabus, a room that existed every week.
       </p>
-      <h2>How it had to work</h2>
+
+      <h2>Customer and curriculum</h2>
       <p>
-        Pricing was the first serious decision. Too low, and I could not pay
-        for the room or for other teachers as the batch grew. Too high, and the
-        household that actually needed the class would leave. I adjusted fees
-        against retention rather than against a market-research document I did
-        not have. Acquisition was local and conversational: parents, schools’
-        word of mouth, the slow reputation of a child whose marks moved. I did
-        not run a digital performance engine. I ran a neighbourhood.
+        The customer was the parent who paid and the child who had to sit
+        through the hour. Curriculum followed the school board the children
+        were already in. I wrote lesson plans around the gaps that showed up in
+        homework and tests. Ownership of
+        student outcomes meant knowing which child was slipping before the next
+        report card made it official.
       </p>
+
+      <h2>Pricing</h2>
       <p>
-        Operations were the Tuesday problem. Batches, substitutions, homework
-        that someone would actually check, a parent who wanted a conversation
-        at 8 p.m. Capacity was physical: one more batch meant one more evening
-        I could still teach well. When I added teachers, I had to decide
-        whether the quality would survive the hand-off. Student outcomes were
-        the only advertisement that mattered, and they were slow. A child’s
-        improvement is not a monthly OKR. It is a report card and a parent’s
-        face.
+        Pricing was the first serious decision. A fee that was too low could
+        not pay for the room or for other teachers as the batch grew. A fee
+        that was too high lost the household that actually needed the class. I
+        adjusted against retention: if families left after a term, the price
+        was wrong for that room, whatever a competitor charged. There was no
+        market-research document. There were conversations at the door.
       </p>
+
+      <h2>Acquisition and operations</h2>
       <p>
-        Constraints were cashflow, space, my own time, and the academic
-        calendar. I do not publish profit margins because I will not invent
-        them. Revenue of about ₹1 lakh a month is the verified figure. What
-        that meant after rent and salaries changed by year. The useful lesson
-        for later policy work is simple. An organisation that cannot price,
-        staff and retain will not deliver, however elegant its theory of
-        change. I learned that before I learned the phrase.
+        Acquisition was local: parents, word of mouth through schools, the slow
+        reputation of a child whose marks moved. I ran a neighbourhood. Batches,
+        substitutions, homework that someone would actually check, a parent who
+        wanted a conversation at 8 p.m.: that was the operating system.
+        Capacity was physical. One more batch meant one more evening I could
+        still teach well. When I added teachers, the decision was whether
+        quality would survive the hand-off.
+      </p>
+
+      <h2>Constraints and decisions that mattered</h2>
+      <p>
+        Cashflow, space, my own time, and the academic calendar set the limits.
+        The decisions that compounded were unglamorous: when to raise fees,
+        when to split a batch, when to hire, when to refuse a subject I could
+        not staff honestly. Closing in 2023 was a decision about the next
+        degree of work, not a story of collapse. Revenue of about ₹1 lakh a
+        month is the verified figure. What remained after rent and salaries
+        changed by year.
+      </p>
+
+      <h2>What this taught me to look for</h2>
+      <p>
+        An organisation that cannot price, staff and retain will not deliver,
+        however elegant its theory of change. I learned that in a classroom
+        before I learned the vocabulary of programme design. When I now sit in
+        a panchayat interview or cost a help desk, I still ask the Tuesday
+        question: will this still exist next month for the person who has to
+        use it?
       </p>
       <NeedInfo
         items={[
-          "Peak student numbers, if I reconstruct them from records.",
+          "Peak student numbers, if reconstructed from records.",
           "Fee bands by year.",
           "How teaching staff was organised in the last two years.",
         ]}
       />
-      <aside className="discuss">
-        <h2>Notes for conversation</h2>
-        <ul>
-          <li>How did you grow it without a marketing budget?</li>
-          <li>What did you do when a teacher left mid-term?</li>
-          <li>Why close it?</li>
-          <li>What from Green Apple do you still use in a panchayat interview?</li>
-        </ul>
-      </aside>
     </CaseLayout>
   );
 }

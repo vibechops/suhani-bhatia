@@ -16,8 +16,8 @@ export function NeedInfo({ items }: { items: string[] }) {
     <aside className="need">
       <h2>Additional information required</h2>
       <p>
-        The public case stops where the résumé and the published record stop.
-        To take this page further I would need:
+        This page uses what can be stated from the résumé and the public record.
+        To take it further I would need:
       </p>
       <ul>
         {items.map((item) => (

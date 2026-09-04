@@ -1,0 +1,10 @@
+variable,definition,source,notes
+dec,Currently married women who usually participate in three household decisions (%),NFHS-5 Phase-II factsheets,Own health care; major purchases; visits to family
+bank,Women 15-49 with a bank or savings account they themselves use (%),NFHS-5 Phase-II factsheets,
+mobile,Women 15-49 with a mobile phone they themselves use (%),NFHS-5 Phase-II factsheets,
+bank_nat_nfhs4,India total 53.0,NFHS-4 India report,
+bank_nat_nfhs5,India total 78.6,NFHS-5 India report,
+dec_nat_nfhs4,India total 84.0,NFHS-4 India report,Currently married women
+dec_nat_nfhs5,India total 88.7,NFHS-5 India report,
+paid_cash_nfhs4,India total 17.2,NFHS-4 India report,Worked in last 12 months and paid in cash
+paid_cash_nfhs5,India total 23.5,NFHS-5 India report,

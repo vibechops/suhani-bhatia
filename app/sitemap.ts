@@ -1,25 +1,21 @@
 import type { MetadataRoute } from "next";
-import { site } from "./data";
+import { site } from "./lib/site";
+import { work } from "./lib/work";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: site.url,
+  const pages = ["", "/work", "/writing", "/speaking", "/about", "/methods", "/research"].map(
+    (path) => ({
+      url: `${site.url}${path || "/"}`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
-    },
-    {
-      url: `${site.url}/work/agency`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${site.url}/work/migrants`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-  ];
+      changeFrequency: "monthly" as const,
+      priority: path === "" ? 1 : 0.7,
+    })
+  );
+  const cases = work.map((w) => ({
+    url: `${site.url}/work/${w.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+  return [...pages, ...cases];
 }

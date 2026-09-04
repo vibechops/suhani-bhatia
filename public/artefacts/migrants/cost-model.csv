@@ -1,0 +1,25 @@
+sheet,item,value,unit,notes
+Inputs,grant,50000000,INR,5 crore
+Inputs,months,24,months,
+Inputs,wards,3,count,Kurla L; Govandi M-East; Andheri K-East
+Inputs,me_share,0.10,share,Ring-fenced M&E
+Assumptions,unit_cost_base,2000,INR_per_benefit,To be tested in H3
+Assumptions,reach_base,60000,workers,
+Assumptions,receipt_base,25000,benefits,
+Assumptions,conversion_base,0.4167,share,25000/60000
+Population,segment,informal workers under 15000/month,text,Author estimate of planning total
+Coverage,eligible,planning,text,Diagnostic must fill
+Coverage,reachable,60000,workers,Base
+Coverage,enrolled,60000,workers,Assisted access
+Coverage,successful_receipt_base,25000,benefits,
+Coverage,successful_receipt_conservative,12000,benefits,
+Coverage,successful_receipt_upside,35000,benefits,
+Cost,operations_base,35000000,INR,
+Cost,tech_base,10000000,INR,
+Cost,me_base,5000000,INR,
+Scenarios,conservative_unit,4167,INR,
+Scenarios,base_unit,2000,INR,
+Scenarios,upside_unit,1429,INR,
+Sensitivity,conversion_minus_30_receipts,17500,benefits,Base receipts * 0.7
+Sensitivity,conversion_minus_30_unit,2857,INR,5cr/17500
+Sensitivity,unit_plus_30,2600,INR,If unit cost is 2600; 25000 benefits exceed 5cr

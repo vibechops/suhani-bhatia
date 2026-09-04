@@ -13,11 +13,10 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#f7f3ee",
-          color: "#a56b62",
+          background: "#f3eee4",
+          color: "#6f2430",
           fontSize: 15,
           fontFamily: "Georgia, serif",
-          letterSpacing: "-0.04em",
         }}
       >
         SB

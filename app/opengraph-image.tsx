@@ -14,8 +14,8 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#F0EBDE",
-          color: "#1F2BE0",
+          background: "#f7f3ee",
+          color: "#3a3530",
           padding: "64px 72px",
         }}
       >
@@ -24,21 +24,19 @@ export default function OpenGraphImage() {
             display: "flex",
             justifyContent: "space-between",
             fontSize: 18,
-            letterSpacing: "0.16em",
-            textTransform: "uppercase",
+            color: "#a56b62",
             fontFamily: "Georgia, serif",
-            opacity: 0.7,
           }}
         >
           <span>Mumbai</span>
-          <span>TISS ’27</span>
+          <span>TISS 2027</span>
           <span>suhanibhatia.com</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div
             style={{
-              fontSize: 92,
-              lineHeight: 0.9,
+              fontSize: 88,
+              lineHeight: 0.95,
               letterSpacing: "-0.04em",
               fontFamily: "Georgia, serif",
             }}
@@ -47,14 +45,15 @@ export default function OpenGraphImage() {
           </div>
           <div
             style={{
-              marginTop: 28,
-              fontSize: 28,
-              maxWidth: 720,
-              lineHeight: 1.3,
+              marginTop: 24,
+              fontSize: 26,
+              maxWidth: 760,
+              lineHeight: 1.35,
               fontFamily: "Georgia, serif",
+              color: "#7a7268",
             }}
           >
-            How public services perform against what they are mandated to deliver.
+            Public policy. Welfare, gender, and how a scheme meets a person.
           </div>
         </div>
       </div>

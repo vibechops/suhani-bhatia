@@ -16,7 +16,7 @@ export const site = {
     "Open to strategy, public-sector advisory, policy research and implementation work.",
 };
 
-export const nav = [
+export const nav: { href: string; label: string; external?: boolean }[] = [
   { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
   { href: "/resume", label: "Résumé" },

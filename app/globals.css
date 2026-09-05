@@ -627,6 +627,61 @@ table.data th { color: var(--muted); font-size: 12px; font-weight: 600; }
   padding: 8px 12px;
 }
 .cv-download:hover { background: var(--accent-soft); }
+
+.note {
+  padding: 36px 0 80px;
+}
+.note h1 {
+  font-size: clamp(32px, 4.5vw, 48px);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+  max-width: 14em;
+  margin: 8px 0 10px;
+}
+.note-body {
+  max-width: 680px;
+}
+.note-body h2 {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 600;
+  margin: 28px 0 8px;
+}
+.note-body p, .note-body li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.note-body ol { padding-left: 1.2em; }
+.slide-card {
+  margin: 40px 0 8px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 10px;
+}
+.slide-card a { display: block; color: var(--accent); }
+.slide-card img {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.slide-card figcaption {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 10px;
+  line-height: 1.45;
+  padding: 0 4px 4px;
+}
+.note-foot {
+  margin-top: 36px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.note-foot a { color: var(--accent); }
 .cv h2 {
   font-size: 11px;
   letter-spacing: 0.14em;

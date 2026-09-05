@@ -8,6 +8,7 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/suhani-bhatia-870a19215",
   villageSquare: "https://villagesquare.in/author/suhani-bhatia/",
   resume: "/suhani-bhatia-resume.pdf",
+  dalbergPdf: "/suhani-bhatia-dalberg-assignment.pdf",
   city: "Mumbai, India",
   cohort: "MA Public Policy and Law, TISS",
   available: "Available full-time from December 2026",

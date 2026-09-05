@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AgencyDelta, CoverageGrid, PromisePath, RecordMarks } from "./components/Infographics";
 import { PageShell } from "./components/Shell";
 import { site } from "./lib/site";
-import { evidence, item } from "./lib/work";
+import { item } from "./lib/work";
 
 const selected = [
   { slug: "transgender-rights", kicker: "Telangana Police" },
@@ -13,8 +14,6 @@ const selected = [
 ] as const;
 
 export default function Home() {
-  const figures = evidence.slice(0, 4);
-
   return (
     <PageShell>
       <div className="wrap home">
@@ -55,6 +54,12 @@ export default function Home() {
           person is expected to claim what the state has already promised.
         </blockquote>
 
+        <section className="band" id="path">
+          <p className="kicker">The journey</p>
+          <h2>How a public promise travels</h2>
+          <PromisePath />
+        </section>
+
         <section className="band" id="work">
           <p className="kicker">Selected work</p>
           <h2>Five problems</h2>
@@ -79,15 +84,12 @@ export default function Home() {
 
         <section className="band" id="evidence">
           <p className="kicker">From the record</p>
-          <h2>Selected figures</h2>
-          <div className="facts">
-            {figures.map((row) => (
-              <Link key={row.figure + row.label} href={row.href} className="fact">
-                <strong>{row.figure}</strong>
-                <span>{row.label}</span>
-              </Link>
-            ))}
+          <h2>What the numbers show</h2>
+          <div className="info-pair">
+            <AgencyDelta />
+            <CoverageGrid />
           </div>
+          <RecordMarks />
         </section>
 
         <section className="band contact" id="contact">

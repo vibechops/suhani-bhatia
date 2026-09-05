@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { MethodFlow } from "../components/Infographics";
 import { PageShell } from "../components/Shell";
-import { steps, territories } from "../lib/work";
+import { territories } from "../lib/work";
 
 export const metadata = {
   title: "Approach",
@@ -26,14 +27,10 @@ export default function ApproachPage() {
           ))}
         </div>
 
-        <ol className="how-steps" style={{ marginTop: 40 }}>
-          {steps.map((s) => (
-            <li key={s.label}>
-              <b>{s.label}</b>
-              <span>{s.text}</span>
-            </li>
-          ))}
-        </ol>
+        <p className="kicker" style={{ marginTop: 48 }}>
+          Sequence
+        </p>
+        <MethodFlow />
 
         <h2 style={{ marginTop: 48 }}>Tools</h2>
         <dl className="cap-map">

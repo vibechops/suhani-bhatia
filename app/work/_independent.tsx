@@ -11,6 +11,7 @@ import {
   StateScatter,
   WelfareJourney,
 } from "../components/Charts";
+import { CoverageGrid } from "../components/Infographics";
 import { EvidenceTool } from "../components/EvidenceTool";
 import { Artefacts, CaseLayout } from "../components/Shell";
 import { nfhsNational, nfhsStates } from "../lib/nfhs";
@@ -106,6 +107,7 @@ export function AgencyPage() {
         2023–24. A short add-on could ask whether she decided to apply, knows
         the amount, operates the account, and could refuse.
       </p>
+      <CoverageGrid linked={false} />
       <p className="note">
         n = 11 Phase-II states. Ecological. Decision-making is asked of currently
         married women; bank and mobile of all women 15–49. No wealth or education

@@ -47,10 +47,10 @@ export default function ResearchPage() {
     <PageShell>
       <div className="wrap band">
         <p className="kicker">Research archive</p>
-        <h1>The files behind the pages</h1>
-        <p className="lede">
-          Downloadable notes, code, tables and models. Case records from Pride
-          Place and figures from VIP Industries are not included.
+        <h1>Files</h1>
+        <p className="lede" style={{ maxWidth: "28em" }}>
+          Notes, code, tables and models. Pride Place case records and VIP figures
+          are not included.
         </p>
         {groups.map((g) => (
           <section key={g.title} style={{ marginTop: 32 }}>

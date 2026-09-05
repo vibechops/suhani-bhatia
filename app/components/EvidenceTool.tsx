@@ -20,7 +20,7 @@ const seed: Row[] = [
     method: "Published national totals, women 15–49",
     finding: "Accounts 53.0% to 78.6% (+25.6 pp). Three household decisions 84.0% to 88.7% (+4.7 pp).",
     confidence: "high",
-    implication: "Scheme MIS that treats a Jan Dhan account as agency is reading the wrong series.",
+    implication: "The two measures moved very differently. Financial inclusion is a weak proxy for agency in scheme monitoring.",
   },
   {
     id: "2",

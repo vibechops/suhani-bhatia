@@ -3,7 +3,7 @@ export const site = {
   url: "https://suhanibhatia.com",
   tagline: "Public policy · research · strategy",
   description:
-    "Policy researcher and analyst. Fieldwork, institutions, data and strategy, concerned with how public programmes are encountered in ordinary life.",
+    "I diagnose where policy, institutions and implementation come apart, and recommend what can actually be done under real constraints.",
   email: "suhani3537@gmail.com",
   linkedin: "https://www.linkedin.com/in/suhani-bhatia-870a19215",
   villageSquare: "https://villagesquare.in/author/suhani-bhatia/",
@@ -13,16 +13,12 @@ export const site = {
   available: "Available full-time from December 2026",
   relocate: "Open to relocation across India",
   interest:
-    "Interested in strategy, public-sector advisory, policy research, development and implementation work.",
+    "Open to strategy, public-sector advisory, policy research and implementation work.",
 };
 
 export const nav = [
   { href: "/work", label: "Work" },
-  { href: "/writing", label: "Writing" },
-  { href: "/speaking", label: "Speaking" },
   { href: "/about", label: "About" },
-  { href: "/methods", label: "Methods" },
-  { href: "/research", label: "Research" },
-  { href: site.resume, label: "Résumé", external: true },
+  { href: "/resume", label: "Résumé" },
   { href: "/#contact", label: "Contact" },
 ];

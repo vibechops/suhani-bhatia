@@ -11,20 +11,10 @@ export default function WorkPage() {
   return (
     <PageShell>
       <div className="wrap band">
-        <p className="kicker">Archive</p>
+        <p className="kicker">Work</p>
         <h1>Work</h1>
-        <p className="lede">
-          This archive collects the work I am prepared to discuss: professional
-          research, independent analysis, models, operating cases, writing and
-          speaking. Each entry carries its provenance. Synthetic data is labelled
-          where it is used. Published writing is listed with its publication.
-        </p>
-        <p className="prose">
-          The filters change which pieces are visible. They do not create separate
-          websites. Professional work is the work done for organisations.
-          Independent work is analysis I undertook myself. The strongest cases have
-          their own pages. Shorter notes exist so that the résumé line is not the
-          only public record of that assignment.
+        <p className="lede" style={{ maxWidth: "24em" }}>
+          Professional, independent and technical work. Each is labelled.
         </p>
         <Suspense fallback={null}>
           <WorkArchive />

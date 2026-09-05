@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
       { source: "/work/telangana-police", destination: "/work/transgender-rights", permanent: true },
       { source: "/work/pensions", destination: "/work/pension-delivery", permanent: true },
       { source: "/work/spatial-access", destination: "/work/mobile-geography", permanent: true },
-      { source: "/work/policy-data-workflow", destination: "/work/welfare-data-workflow", permanent: true },
+      { source: "/methods", destination: "/approach", permanent: true },
     ];
   },
 };

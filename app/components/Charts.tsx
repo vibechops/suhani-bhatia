@@ -250,10 +250,9 @@ export function WelfareJourney() {
   const steps = [
     { label: "Eligibility", note: "The rule exists. Knowing it applies to you is a separate fact." },
     { label: "Documentation", note: "Ration cards, employer proof, an address a counter will accept." },
-    { label: "Registration", note: "A name on e-Shram, BOCW, NFSA. Lists accumulate here." },
     { label: "Application", note: "A claim filed at destination, often through an intermediary." },
-    { label: "Processing", note: "The file moves, or it does not. Exception handling is rare." },
-    { label: "Transaction", note: "ePoS, biometrics, a dealer who will honour portability." },
+    { label: "Verification", note: "The file is checked. Exception handling is rare. Biometrics fail." },
+    { label: "Approval", note: "A name on e-Shram, BOCW, NFSA. Lists can accumulate without a benefit." },
     { label: "Receipt", note: "Grain, cash, or cover in hand. The only stage that should count as success." },
   ];
   return (
@@ -317,5 +316,64 @@ export function BudgetSplit() {
       </svg>
       <p className="note">Author estimates for an independent strategy model. Independent analysis.</p>
     </figure>
+  );
+}
+
+export function Diagnostic90() {
+  const tests = [
+    { label: "H1", note: "Does Mumbai’s funnel break at served, or at attempt? Survey n≈1,200 plus ePoS pull." },
+    { label: "H2", note: "Will Maharashtra FCS sign an MoU on dealer incentives within six months?" },
+    { label: "H3", note: "Can assisted access unlock a benefit for under ₹2,000? Benchmark Haqdarshak, Aajeevika Bureau, MRC." },
+    { label: "H4", note: "Are interstate migrants the majority of the segment, or do intrastate workers already draw rations in the state?" },
+  ];
+  return (
+    <div className="diag">
+      <p className="kind">Estimate · hypothesis</p>
+      <div className="stat-row" style={{ margin: "0 0 16px", border: 0, padding: 0 }}>
+        <p>
+          <strong>₹30 lakh</strong>
+          <span>First ninety days, before locking the remaining grant.</span>
+        </p>
+        <p>
+          <strong>90 days</strong>
+          <span>Recruit a CSO, open the FCS conversation, test H1–H4.</span>
+        </p>
+      </div>
+      <ol className="how-steps">
+        {tests.map((t) => (
+          <li key={t.label}>
+            <b>{t.label}</b>
+            <span>{t.note}</span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+export function OptionPair() {
+  return (
+    <div className="option-pair">
+      <article>
+        <p className="kind">Hypothesis to cost</p>
+        <h3>A. Assisted access</h3>
+        <p>
+          Fifteen naka help desks, WhatsApp and IVR, case-managed claims, a
+          grievance on every refusal. Starts without waiting for a government
+          reform. Stops when the grant stops.
+        </p>
+        <p className="note">Reach 60,000 and benefits 25,000 are estimates, not observed outcomes.</p>
+      </article>
+      <article>
+        <p className="kind">Hypothesis to cost</p>
+        <h3>B. Systems / counter reform</h3>
+        <p>
+          Dealer incentive for portability, flexible stock, notified exception
+          handling, BMC residence attestation. Cheaper if it works. Depends on
+          an FCS memorandum within six months.
+        </p>
+        <p className="note">Institutional dependence is the binding constraint, not the idea.</p>
+      </article>
+    </div>
   );
 }

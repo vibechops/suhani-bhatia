@@ -10,9 +10,9 @@ export function WorkLink({
 }) {
   return (
     <Link className="work-link" href={`/work/${item.slug}`}>
-      <p className="tag">{kicker ?? `${item.category} · ${item.year}`}</p>
+      <p className="tag">{kicker ?? `${item.provenanceLabel} · ${item.year}`}</p>
       <h3>{item.title}</h3>
-      <p>{item.dek}</p>
+      <p>{item.problem}</p>
       <span className="go">Read →</span>
     </Link>
   );

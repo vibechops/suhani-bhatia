@@ -74,7 +74,11 @@ export function Footer() {
           LinkedIn
         </a>
         {" · "}
-        <a href={site.resume}>Résumé</a>
+        <Link href="/resume">Résumé</Link>
+        {" · "}
+        <Link href="/approach">Approach</Link>
+        {" · "}
+        <Link href="/writing">Writing</Link>
       </span>
     </footer>
   );

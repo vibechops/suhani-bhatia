@@ -2,8 +2,10 @@ import Link from "next/link";
 import {
   BudgetSplit,
   CostBars,
+  Diagnostic90,
   MigrantFunnel,
   NationalBars,
+  OptionPair,
   PhoneGapMap,
   Roadmap24,
   StateScatter,
@@ -17,7 +19,7 @@ import { item } from "../lib/work";
 export function AgencyPage() {
   const w = item("womens-agency");
   return (
-    <CaseLayout item={w} subtitle="Measuring women’s agency beyond scheme enrolment">
+    <CaseLayout item={w}>
       <p>
         Financial inclusion rose sharply between NFHS-4 and NFHS-5. The change
         in the household decision-making measure was considerably smaller.
@@ -42,41 +44,28 @@ export function AgencyPage() {
         </p>
       </div>
       <p>
-        If scheme dashboards treat the first movement as evidence of the second,
-        they are reading the wrong series. Own-use mobile phones moved 8.1
-        points. House or land ownership moved 4.9. Paid cash work moved 6.3.
-        Accounts are the outlier.
+        The two measures moved very differently. That divergence makes it
+        difficult to treat financial inclusion as a sufficient proxy for agency.
+        Own-use mobile phones moved 8.1 points. House or land ownership moved
+        4.9. Paid cash work moved 6.3. Accounts are the outlier.
       </p>
 
       <NationalBars />
 
-      <h2>The question this raises</h2>
+      <h2>The programme question</h2>
       <p>
-        Do the indicators Indian welfare uses as stand-ins for women’s
-        empowerment move with the indicators the National Family Health Survey
-        uses as stand-ins for agency? An op-ed with Prof. Namrata Chindarkar,
-        JSW School of Public Policy, IIM Ahmedabad, is in progress on the
-        monitoring half of that question. This page is the empirical companion.
+        Can Indian welfare use financial inclusion as a stand-in for women’s
+        agency? An account is a resource. Decision-making, in the NFHS sense, is
+        a thin measure of agency. An op-ed with Prof. Namrata Chindarkar, JSW
+        School of Public Policy, IIM Ahmedabad, is in progress on the monitoring
+        half of that question.
       </p>
 
-      <h2>Conceptual frame</h2>
+      <h2>How I investigated it</h2>
       <p>
-        Naila Kabeer’s distinction still earns its keep: resources, agency,
-        achievements. An account is a resource. Decision-making, in the NFHS
-        sense, is a thin measure of agency: currently married women who usually
-        participate in own health care, major household purchases, and visits
-        to family or relatives. Scheme dashboards typically count the resource
-        (Jan Dhan, SHG membership, women as a share of MGNREGA persondays) and
-        then speak in the language of the agency.
-      </p>
-
-      <h2>Data and variables</h2>
-      <p>
-        IIPS and MoHFW, NFHS-5 India report and Phase-II state factsheets;
-        NFHS-4 India report for the earlier round. Published totals for women
-        15–49. The state analysis uses eleven Phase-II states that carry the
-        three indicators on the same factsheet. It is an ecological
-        cross-section.
+        Published NFHS-4 and NFHS-5 totals for women 15–49. State cut: eleven
+        Phase-II states that carry the three indicators on the same factsheet.
+        Ecological cross-section, not a causal model.
       </p>
       <table className="data">
         <thead>
@@ -99,47 +88,33 @@ export function AgencyPage() {
         </tbody>
       </table>
 
-      <h2>Cross-section</h2>
+      <h2>Interpretation</h2>
       <p>
-        Correlation between own-use accounts and decision-making: 0.72. Between
-        own-use mobiles and decision-making: 0.22. OLS of decisions on accounts:
-        intercept 63.37, slope 0.326, R² 0.52. Adding mobile phones takes R² to
-        0.55 and returns a mobile coefficient of −0.038. A 10-point difference
-        in accounts predicts about 3 points in decision-making. The national
-        time series is stricter. The same slope applied to a 25.6-point jump in
-        accounts would have predicted about 8 points of decision-making. The
-        country recorded 4.7.
+        Accounts and decision-making correlate at 0.72; mobiles and
+        decision-making at 0.22. A 10-point difference in accounts predicts
+        about 3 points in decisions. Applied to the national 25.6-point jump,
+        that slope would have predicted about 8 points. The country recorded
+        4.7. The slope is a description of how two published series fail to
+        travel together, not a causal estimate of what opening an account does.
       </p>
       <StateScatter />
 
-      <h2>What monitoring would have to ask</h2>
+      <h2>For monitoring</h2>
       <p>
-        MGNREGA’s gender number is women’s share of persondays, about 58% in FY
-        2024–25: labour days billed. DAY-NRLM counts members, loans, insurance
-        covers. PMMVY counts portal instalments. Jean Drèze and Reetika Khera,
-        using RTI figures in The Hindu (March 2025), put effective PMMVY
-        coverage at about 9% of births in 2023–24. A short add-on to concurrent
-        evaluation could ask whether she decided to apply, whether she knows
-        the amount, whether the money landed in an account she operates, and
-        whether she could refuse.
+        Scheme dashboards count labour days, members, loans, portal instalments.
+        Drèze and Khera put effective PMMVY coverage at about 9% of births in
+        2023–24. A short add-on could ask whether she decided to apply, knows
+        the amount, operates the account, and could refuse.
       </p>
-
-      <h2>Limits of the evidence</h2>
-      <p>
-        Eleven states. Published factsheet totals, so ecological. No controls
-        for wealth or education: adding them on n = 11 would dress the model
-        without identifying anything. Decision-making is asked of currently
-        married women; bank and mobile of all women 15–49. The national
-        comparison mixes Phase-I and Phase-II in the published all-India
-        figures. The slope is not a causal estimate of what opening an account
-        does to a woman. It is a description of how two published series fail
-        to travel together.
+      <p className="note">
+        n = 11 Phase-II states. Ecological. Decision-making is asked of currently
+        married women; bank and mobile of all women 15–49. No wealth or education
+        controls.
       </p>
 
       <h2>Sources</h2>
       <ol>
         <li>IIPS and MoHFW, NFHS-5 (2019–21) and NFHS-4 (2015–16) India reports; NFHS-5 Phase-II factsheets.</li>
-        <li>Ministry of Rural Development, MGNREGA dashboard, women’s persondays, FY 2024–25.</li>
         <li>Jean Drèze and Reetika Khera, “A leap backward for maternity entitlements,” The Hindu, 11 March 2025.</li>
         <li>Naila Kabeer, “Resources, Agency, Achievements,” Development and Change, 1999.</li>
       </ol>
@@ -159,67 +134,37 @@ export function AgencyPage() {
 export function MigrantPage() {
   const w = item("migrant-welfare");
   return (
-    <CaseLayout item={w} subtitle="Independent strategy analysis · Mumbai · 2026">
+    <CaseLayout item={w}>
       <h2>The decision</h2>
       <p>
-        A private philanthropy has ₹5 crore and twenty-four months. Government
-        is a partner, not the grantee. The question is how to improve access to
-        existing welfare among low-income informal workers in three high-migrant
-        wards of Mumbai (Kurla L, Govandi M-East, Andheri K-East), with success
-        defined as benefits received at the frontline. Ten percent of the grant
-        is ring-fenced for independent monitoring. Budgets and targets below are
-        my estimates.
+        A philanthropy has ₹5 crore and 24 months. Government is a partner, not
+        the grantee. How to improve access to existing welfare among low-income
+        informal workers in Kurla L, Govandi M-East and Andheri K-East, with
+        success defined as benefits received. Ten percent for independent M&E.
+        Figures below are my estimates.
       </p>
 
       <h2>Current-state journey</h2>
       <p>
-        A migrant who is eligible in principle still has to pass through a
-        sequence of ordinary gates. Friction concentrates at documentation and
-        at the counter. Awareness campaigns do not open those gates.
+        Eligibility in principle is not receipt. Friction concentrates at
+        documents and at the counter. Awareness campaigns do not open those gates.
       </p>
       <WelfareJourney />
-      <p>
-        The closest published funnel is CLRA’s survey of 1,012 seasonal
-        migrants (2024). Mumbai’s own baseline is a diagnostic output. I do not
-        treat the CLRA numbers as Mumbai’s numbers. I treat them as the reason
-        a diagnostic is worth ninety days.
-      </p>
+      <p className="kind">Cited evidence · not a Mumbai baseline</p>
       <MigrantFunnel />
       <p>
-        Two breaks do most of the work. B1 is eligibility and documents at
-        destination: household ration cards stay at source; 68% of migrants in
-        the cited study do not carry theirs; a naka is not an address an FPS
-        will always accept; BOCW boards want employer proof; NFSA lists still
-        lean on an old census. B2 is the counter even when eligibility exists:
-        interstate portability is 0.8% of PDS transactions; dealer refusal and
-        biometric failure are common in the CLRA sample; many dealers never use
-        exception handling (Dalberg / Kantar / Omidyar ONORC study, 2022).
+        CLRA’s 2024 survey of 1,012 seasonal migrants is the closest published
+        funnel, not Mumbai’s baseline. Two breaks do most of the work: documents
+        at destination (68% in that study do not carry a ration card), and the
+        counter even when eligibility exists (interstate PDS portability 0.8%;
+        dealer refusal and unused exception handling in the 2022 Dalberg / Kantar
+        / Omidyar ONORC study).
       </p>
 
-      <h2>Hypotheses the first ninety days have to test</h2>
-      <ol>
-        <li>Mumbai’s funnel breaks at served, or at attempt. Survey n≈1,200 plus ePoS pull.</li>
-        <li>Maharashtra FCS will sign an MoU on dealer incentives within six months.</li>
-        <li>Assisted access can unlock a benefit for under ₹2,000. Benchmark Haqdarshak, Aajeevika Bureau, MRC.</li>
-        <li>Interstate migrants are the majority of the segment. Intrastate workers already draw rations in the state.</li>
-      </ol>
+      <h2>Two strategic hypotheses</h2>
+      <OptionPair />
 
-      <h2>Options</h2>
-      <p>
-        <strong>A. Assisted access at the naka.</strong> Fifteen help desks,
-        WhatsApp and IVR in Hindi, Bhojpuri and Marathi, case-managed claims
-        (e-Shram to BOCW, ONORC splitting, PM-SYM, PM-JAY), a grievance on every
-        refusal. Reach 60,000, benefits 25,000: estimates. Budget 3.5 cr
-        operations, 1.0 cr tech, 0.5 cr M&E.
-      </p>
-      <p>
-        <strong>B. Fix the counter.</strong> Dealer incentive for portability,
-        flexible stock following the Andhra Pradesh precedent, notified
-        exception handling, BMC residence attestation. Depends on an FCS
-        memorandum within six months.
-      </p>
-
-      <h2>Weighted criteria</h2>
+      <h2>Criteria</h2>
       <table className="data">
         <thead>
           <tr>
@@ -247,24 +192,27 @@ export function MigrantPage() {
       </p>
 
       <div className="reco">
-        <h2>Recommendation</h2>
+        <p className="kind">Recommendation</p>
+        <h2>Start with assisted access</h2>
         <p>
-          Stage-gate. Months 0–3, ₹30 lakh: diagnostic on H1–H4, recruit a CSO
-          partner, open the FCS conversation. Default to assisted access (Option
-          A) in the three wards. If the survey shows the break at served and the
-          MoU is signed, switch to fixing the counter (Option B). Otherwise keep
-          ₹50 lakh to pilot B’s dealer incentive in one ward so the systems
-          option does not die.
+          Use the first 90 days to determine whether the binding constraint
+          warrants a shift toward systems reform. Default to assisted access
+          (Option A) in the three wards. If the survey shows the break at served
+          and the MoU is signed, switch to fixing the counter (Option B).
+          Otherwise keep ₹50 lakh to pilot B’s dealer incentive in one ward so
+          the systems option does not die.
         </p>
         <p>
           Who: a CSO with naka presence, FCS and BMC as partners. Where: Kurla
           L, Govandi M-East, Andheri K-East. When: diagnostic immediately;
           operations from month 3. How much: ₹5 crore, 10% independent M&E.
           Dependency: for B, the MoU. Metric: successful receipts and a rebuilt
-          funnel, quarterly. North star after H3: rupees of benefits received
-          per rupee spent, target at least 3x, reset after the unit-cost test.
+          funnel, quarterly.
         </p>
       </div>
+
+      <h2>The 90-day diagnostic</h2>
+      <Diagnostic90 />
 
       <h2>Twenty-four months</h2>
       <Roadmap24 />
@@ -279,31 +227,14 @@ export function MigrantPage() {
           Rupees of benefits received per rupee of grant. Target ≥ 3 after the unit-cost test.
         </li>
         <li>
-          <b>Output</b>
-          People reached at desks; cases opened; grievances filed on refusal.
-        </li>
-        <li>
           <b>Outcome</b>
-          Successful receipts of rations, BOCW cover, insurance or pension, counted at the frontline.
+          Successful receipts at the frontline: rations, BOCW, insurance or pension.
         </li>
         <li>
-          <b>Process</b>
-          Time-to-case-close; dealer exception-handling if ePoS can be pulled.
-        </li>
-        <li>
-          <b>Attribution</b>
-          Comparison ward; quarterly funnel re-survey.
+          <b>Check</b>
+          Comparison ward and a quarterly funnel re-survey. Help desks that vanish with the grant, or a low interstate share in the diagnostic, would reverse this.
         </li>
       </ul>
-
-      <h2>What could make this recommendation wrong</h2>
-      <p>
-        The diagnostic could show that Mumbai’s interstate share is low, which
-        shrinks B. Dealer incentives could be captured. Help desks could become
-        a parallel bureaucracy that vanishes with the grant. e-Shram’s 31 crore
-        registrations coexist, in one Gurugram survey of 400, with zero
-        recorded benefits. Lists fail quietly.
-      </p>
 
       <h2>Sources</h2>
       <ol>
@@ -350,11 +281,8 @@ export function PaidWorkPage() {
         </p>
       </div>
       <p>
-        Financial inclusion and employment are different stories, even when
-        policy speeches braid them. The agency note on this site asks about
-        household decisions. This note asks about paid cash work. Both sit far
-        behind accounts. I do not stack a causal model on two national points.
-        The finding is descriptive and, for that reason, hard to wave away.
+        Accounts and paid work are different stories. Both sit far behind
+        financial inclusion. Descriptive, two national points, no causal model.
       </p>
       <NationalBars />
       <p>
@@ -395,11 +323,11 @@ export function CostingPage() {
         </tbody>
       </table>
       <p>
-        Sensitivity: if conversion from reach to receipt falls by 30% in the
-        base case, successful benefits drop from 25,000 to 17,500 and unit cost
-        rises from ₹2,000 to about ₹2,860. If unit cost itself rises 30%, the
-        25,000 target is not credible at ₹5 crore. Those two switches are the
-        ones a donor should watch in months 0–3.
+        If conversion from reach to receipt falls 30% in the base case,
+        successful benefits drop from 25,000 to 17,500 and unit cost rises from
+        ₹2,000 to about ₹2,860. If unit cost itself rises 30%, the 25,000 target
+        is not credible at ₹5 crore. Those are the two switches to watch in
+        months 0–3.
       </p>
       <p className="note">Independent analysis. Author estimates. CSV is auditable line by line.</p>
       <Artefacts items={[{ href: "/artefacts/migrants/cost-model.csv", label: "Download CSV workbook" }]} />
@@ -413,26 +341,16 @@ export function MobileGeoPage() {
     <CaseLayout item={w}>
       <h2>The question</h2>
       <p>
-        Digitally mediated welfare (OTP, e-KYC, portability, many DBT
-        corrections) assumes a woman can be reached on a phone she herself
-        uses. NFHS-5 asks that question directly. It also asks whether she has
-        a bank account she herself uses. Where the second exists and the first
-        does not, the welfare system has an account it cannot easily speak to.
+        OTP, e-KYC and portability assume a woman can be reached on a phone she
+        herself uses. Where she has an account she uses and a phone she does not,
+        the system has a number it cannot speak to.
       </p>
       <PhoneGapMap />
       <p>
-        Spatial unit: state. Sample: eleven NFHS-5 Phase-II states with
-        published totals. Method: simple subtraction, mapped as a ranked
-        cartogram. Madhya Pradesh and Chhattisgarh are the severe cases in this
-        set. Tamil Nadu and Arunachal Pradesh are not. The policy implication
-        is local: a digital-first grievance channel in Bhopal is a different
-        object from the same channel in Chennai.
-      </p>
-      <p>
-        This is basic QGIS work in spirit: a join of an attribute table to a
-        geography. The geography here is represented as a ranked map because a
-        national shapefile would overclaim completeness. The CSV in the
-        artefacts folder is what one would join.
+        Eleven NFHS-5 Phase-II states. Ranked gap, not a national shapefile.
+        Madhya Pradesh and Chhattisgarh are the severe cases in this set. A
+        digital-first channel in Bhopal is a different object from the same
+        channel in Chennai.
       </p>
       <Artefacts
         items={[
@@ -449,11 +367,9 @@ export function EvidencePage() {
   return (
     <CaseLayout item={w}>
       <p>
-        I built this because literature tables rot in documents. The matrix
-        keeps a research question tied to a source, a method, a finding, a
-        confidence label and an implication. Add a row. Download CSV. The
-        seed data is from work already on this site. Cursor and Claude helped
-        write the interface. They did not choose the sources.
+        A literature table that stays tied to a question, source, method,
+        finding, confidence and implication. Seed data is from work already on
+        this site. Add a row. Download CSV.
       </p>
       <EvidenceTool />
     </CaseLayout>

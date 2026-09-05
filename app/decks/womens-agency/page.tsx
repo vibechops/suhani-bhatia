@@ -20,7 +20,7 @@ export default function Deck() {
       <div className="wrap deck">
         <p className="kicker">Independent research · 9 slides</p>
         <h1 style={{ fontFamily: "var(--serif)", fontSize: "42px", fontWeight: 400, margin: "8px 0 28px" }}>
-          Who counts as empowered?
+          Financial inclusion is not the same as agency
         </h1>
         {slides.map((title, i) => (
           <section className="slide" key={i}>

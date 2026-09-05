@@ -13,7 +13,9 @@ export function WorkArchive() {
   const items = useMemo(() => {
     if (current === "all") return work;
     if (current === "professional") {
-      return work.filter((w) => w.provenance === "professional");
+      return work.filter(
+        (w) => w.provenance === "professional" || w.filters.includes("professional")
+      );
     }
     if (current === "independent") {
       return work.filter((w) => w.provenance === "independent");
@@ -49,9 +51,7 @@ export function WorkArchive() {
               {item.where} · {item.year}
             </p>
             <h3>{item.title}</h3>
-            <p className="meta">{item.method}</p>
-            <p>{item.dek}</p>
-            <p className="go">Read →</p>
+            <p>{item.problem}</p>
           </div>
           <p className="meta">{item.provenanceLabel}</p>
         </Link>
@@ -75,7 +75,6 @@ export function WorkArchive() {
                   {piece.publication} · {piece.date}
                 </p>
                 <h3>{piece.title}</h3>
-                <p>{piece.dek}</p>
               </div>
               <p className="meta">Published writing</p>
             </a>

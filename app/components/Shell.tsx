@@ -11,23 +11,6 @@ export function PageShell({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function NeedInfo({ items }: { items: string[] }) {
-  return (
-    <aside className="need">
-      <h2>Additional information required</h2>
-      <p>
-        This page uses what can be stated from the résumé and the public record.
-        To take it further I would need:
-      </p>
-      <ul>
-        {items.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
-    </aside>
-  );
-}
-
 export function CaseLayout({
   item,
   subtitle,
@@ -48,7 +31,8 @@ export function CaseLayout({
             {item.provenanceLabel} · {item.year}
           </p>
           <h1>{item.title}</h1>
-          {subtitle ? <p className="sub">{subtitle}</p> : null}
+          <p className="sub">{item.problem}</p>
+          {subtitle ? <p className="meta">{subtitle}</p> : null}
           <p className="meta">
             {item.where} · {item.method}
           </p>

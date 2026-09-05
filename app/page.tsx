@@ -39,10 +39,10 @@ export default function Home() {
           </div>
           <figure className="portrait">
             <Image
-              src="/suhani.png"
-              alt="Suhani Bhatia, photographed in natural light against a plain wall"
-              width={400}
-              height={500}
+              src="/suhani.jpg"
+              alt="Suhani Bhatia, wearing a black blazer and glasses"
+              width={800}
+              height={800}
               priority
             />
             <figcaption>Mumbai, 2026</figcaption>

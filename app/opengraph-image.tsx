@@ -28,7 +28,8 @@ export default function OpenGraphImage() {
             style={{
               fontSize: 64,
               lineHeight: 1.08,
-              fontFamily: "Georgia, serif",
+              fontFamily: "system-ui, sans-serif",
+              fontWeight: 600,
               maxWidth: 1000,
               letterSpacing: -1,
             }}

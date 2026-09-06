@@ -16,7 +16,8 @@ export default function Icon() {
           background: "#6a1b4d",
           color: "#ffffff",
           fontSize: 15,
-          fontFamily: "Georgia, serif",
+          fontFamily: "system-ui, sans-serif",
+          fontWeight: 700,
         }}
       >
         SB

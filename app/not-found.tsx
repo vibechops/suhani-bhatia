@@ -1,17 +1,19 @@
 import Link from "next/link";
-import { PageShell } from "./components/Shell";
+import { PageHead, PageShell } from "./components/Shell";
 
 export default function NotFound() {
   return (
     <PageShell>
-      <div className="wrap band">
-        <p className="kicker">404</p>
-        <h1>This page is not here.</h1>
-        <p className="prose">
-          <Link href="/">Home</Link>
-          {" · "}
-          <Link href="/work">Work</Link>
-        </p>
+      <div className="wrap" style={{ paddingBottom: 96 }}>
+        <PageHead kicker="404" title="This page is not here." />
+        <div className="btn-row">
+          <Link className="btn btn-primary" href="/">
+            Home
+          </Link>
+          <Link className="btn" href="/work">
+            Work
+          </Link>
+        </div>
       </div>
     </PageShell>
   );

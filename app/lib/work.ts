@@ -42,6 +42,8 @@ export type WorkItem = {
   provenanceLabel: string;
   depth: "full" | "note" | "tool";
   home: HomeSlot;
+  role: string;
+  output: string;
   skills: string[];
 };
 
@@ -73,6 +75,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional research",
     depth: "full",
     home: "feature",
+    role: "Research intern, Pride Place",
+    output: "Four-part implementation analysis and a stakeholder deck for police leadership, with a three-state comparison.",
     skills: ["Statutory research", "Institutional analysis", "Field observation", "Stakeholder decks"],
   },
   {
@@ -89,6 +93,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional research",
     depth: "full",
     home: "beside",
+    role: "Consultant, Transform Rural India",
+    output: "Fourteen interviews across six states, synthesised into published analysis for Village Square.",
     skills: ["Semi-structured interviewing", "Field data collection", "Rural livelihoods"],
   },
   {
@@ -105,6 +111,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "full",
+    role: "Independent analyst",
+    output: "12-slide strategy deck, cost and coverage model, weighted decision matrix, 90-day diagnostic and evaluation design.",
     skills: ["Strategy", "Programme design", "Excel modelling", "Evaluation design"],
   },
   {
@@ -121,6 +129,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "research",
+    role: "Independent researcher",
+    output: "Research note with Stata do-file and data; op-ed in progress with Prof. Namrata Chindarkar, IIM Ahmedabad.",
     skills: ["Stata", "NFHS", "Scheme monitoring", "Gender"],
   },
   {
@@ -137,6 +147,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional research",
     depth: "full",
     home: "trio",
+    role: "Field intern, Sanchay",
+    output: "Barrier analysis across two villages, presented to the organisation and the BDO office.",
     skills: ["Field interviews", "Social protection", "Implementation analysis"],
   },
   {
@@ -153,6 +165,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Synthetic demonstration",
     depth: "full",
     home: "trio",
+    role: "HR intern, VIP Industries",
+    output: "Attrition structure for frontline roles, plus a reproducible funnel method on synthetic data.",
     skills: ["Excel", "Labour markets", "Segmentation"],
   },
   {
@@ -169,6 +183,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "tool",
+    role: "Independent analyst",
+    output: "Ranked state map of the account-to-phone gap and a note on what it means for OTP-based welfare.",
     skills: ["QGIS-style spatial reasoning", "NFHS", "Digital welfare"],
   },
   {
@@ -185,6 +201,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional experience",
     depth: "full",
     home: "wide",
+    role: "Founder and educator",
+    output: "A tuition centre run for five years to about ₹1 lakh a month, owning curriculum, pricing and retention.",
     skills: ["Operations", "Pricing", "Service design", "Ownership"],
   },
   {
@@ -201,6 +219,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "list",
+    role: "Independent researcher",
+    output: "Companion research note on paid work and accounts, NFHS national time series.",
     skills: ["Stata", "NFHS", "Labour and gender"],
   },
   {
@@ -217,6 +237,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "tool",
+    role: "Independent analyst",
+    output: "Auditable Excel cost and coverage workbook: seven sheets, three scenarios, ±30% sensitivity.",
     skills: ["Excel", "Scenario analysis", "Sensitivity", "Unit costs"],
   },
   {
@@ -233,6 +255,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional experience",
     depth: "note",
     home: "list",
+    role: "Field intern, Sanchay",
+    output: "Entitlement sessions for SHG women; eye-care camps reaching 250+ residents with the MP's office and Axis Bank.",
     skills: ["Community facilitation", "MGNREGA", "Social protection"],
   },
   {
@@ -249,6 +273,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional experience",
     depth: "note",
     home: "list",
+    role: "Consultant, Transform Rural India",
+    output: "Programme design documentation: problem, population, delivery, monitoring.",
     skills: ["Programme design", "Theory of change", "Documentation"],
   },
   {
@@ -265,6 +291,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional experience",
     depth: "note",
     home: "trio",
+    role: "Corporate partnerships and international relations",
+    output: "Eighteen partnerships held across companies, NGOs and campuses; applicant pipeline up 30 percent.",
     skills: ["Stakeholder management", "Pipeline", "Partnerships"],
   },
   {
@@ -281,6 +309,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "note",
     home: "tool",
+    role: "Independent",
+    output: "Python and SQL workflow that reads, checks and joins published NFHS totals into a policy-ready extract.",
     skills: ["Python", "SQL", "Data cleaning"],
   },
   {
@@ -297,6 +327,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "list",
+    role: "Independent analyst",
+    output: "Difference-in-differences design with a matched comparison ward and a process evaluation.",
     skills: ["Impact evaluation", "Identification", "M&E"],
   },
   {
@@ -313,6 +345,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "full",
     home: "list",
+    role: "Independent analyst",
+    output: "Six-stage framework from awareness to receipt, with hypotheses kept separate from published evidence.",
     skills: ["Psychology", "Administrative burden", "Welfare access"],
   },
   {
@@ -329,6 +363,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Independent analysis",
     depth: "tool",
     home: "tool",
+    role: "Independent",
+    output: "A working evidence matrix with CSV export, seeded from sources cited on this site.",
     skills: ["Research workflow", "AI-assisted research", "Product thinking"],
   },
   {
@@ -345,6 +381,8 @@ export const work: WorkItem[] = [
     provenanceLabel: "Professional communication",
     depth: "note",
     home: false,
+    role: "Emcee, Transform Rural India",
+    output: "Day 2 moderation at the India Rural Colloquy 2025; recorded conversations for the Rural Renaissance series.",
     skills: ["Moderation", "Public conversation"],
   },
 ];

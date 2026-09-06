@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MethodFlow } from "../components/Infographics";
-import { PageShell } from "../components/Shell";
+import { PageHead, PageShell } from "../components/Shell";
 import { territories } from "../lib/work";
 
 export const metadata = {
@@ -11,13 +11,14 @@ export const metadata = {
 export default function ApproachPage() {
   return (
     <PageShell>
-      <div className="wrap band">
-        <p className="kicker">Approach</p>
-        <h1>How I work</h1>
-        <p className="lede" style={{ maxWidth: "28em" }}>
-          Start with the decision someone has to take. Then choose the method.
-        </p>
+      <div className="wrap" style={{ paddingBottom: 96 }}>
+        <PageHead
+          kicker="Approach"
+          title="Start with the decision someone has to take. Then choose the method."
+          lede="Four kinds of question I keep coming back to, a six-step sequence for getting from question to recommendation, and the tools that carry it."
+        />
 
+        <h2>Where the questions sit</h2>
         <div className="territory">
           {territories.map((t) => (
             <article key={t.label}>
@@ -27,33 +28,40 @@ export default function ApproachPage() {
           ))}
         </div>
 
-        <p className="kicker" style={{ marginTop: 48 }}>
-          Sequence
-        </p>
+        <h2 style={{ marginTop: 64 }}>Sequence</h2>
         <MethodFlow />
 
-        <h2 style={{ marginTop: 48 }}>Tools</h2>
+        <h2 style={{ marginTop: 64 }}>Tools</h2>
         <dl className="cap-map">
           <div>
             <dt>Quantitative</dt>
-            <dd>Excel, Stata, Python, SQL.</dd>
+            <dd>Excel (scenario, sensitivity, cost and coverage models), Stata (regression, difference-in-differences), Python and SQL for reproducible extracts.</dd>
           </div>
           <div>
             <dt>Research</dt>
-            <dd>Interviews, field observation, statutes, administrative documents, published surveys.</dd>
+            <dd>Semi-structured interviews, field observation, statutes and rules, administrative documents, published surveys (NFHS, Census).</dd>
           </div>
           <div>
             <dt>Spatial</dt>
-            <dd>State-level mapping of published indicators.</dd>
+            <dd>State-level mapping of published indicators; QGIS-ready outputs.</dd>
           </div>
           <div>
             <dt>Communication</dt>
-            <dd>Written analysis, stakeholder decks, reporting, moderation.</dd>
+            <dd>Stakeholder decks, one-page cases, written analysis, moderation.</dd>
+          </div>
+          <div>
+            <dt>Standards</dt>
+            <dd>Every figure labelled observed, calculated, estimated or proposed. Confidential material stays with the organisation.</dd>
           </div>
         </dl>
-        <p className="hero-links" style={{ marginTop: 28 }}>
-          <Link href="/research">Research files</Link>
-        </p>
+        <div className="btn-row" style={{ marginTop: 40 }}>
+          <Link className="btn btn-primary" href="/work">
+            See the work
+          </Link>
+          <Link className="btn" href="/research">
+            Research files
+          </Link>
+        </div>
       </div>
     </PageShell>
   );

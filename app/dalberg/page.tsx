@@ -30,10 +30,10 @@ export const metadata: Metadata = {
 export default function DalbergPage() {
   return (
     <PageShell>
-      <article className="wrap note">
+      <article className="wrap memo">
         <header className="cv-top">
           <div>
-            <p className="kicker">For Dalberg</p>
+            <p className="kicker">For Dalberg · Analyst case</p>
             <h1>The Analyst case, and how I got to the one page</h1>
           </div>
           <a
@@ -51,67 +51,97 @@ export default function DalbergPage() {
           method. The slide is the output.
         </p>
 
-        <div className="note-body">
-          <h2>The question I actually answered</h2>
-          <p>
-            The brief is low-income urban migrants in Mumbai, a ₹5 crore donor,
-            and 24 months. I did not try to repair “migrant welfare.” Greater
-            Mumbai already has schemes, portals, and a construction-worker
-            welfare board. The useful question was: given that machinery, where
-            do workers still fall out of actual benefit receipt, and what can
-            this budget change?
-          </p>
-          <p>
-            I narrowed to migrant construction workers, especially naka and
-            short-tenure workers without a cooperative contractor. BOCW is the
-            destination scheme keyed to them. Food, identity, and health systems
-            exist. They are not the residual this rupee should buy.
-          </p>
+        <div className="memo-grid">
+          <div className="memo-body">
+            <h2>The question I actually answered</h2>
+            <p>
+              The brief is low-income urban migrants in Mumbai, a ₹5 crore donor,
+              and 24 months. I did not try to repair “migrant welfare.” Greater
+              Mumbai already has schemes, portals, and a construction-worker
+              welfare board. The useful question was: given that machinery, where
+              do workers still fall out of actual benefit receipt, and what can
+              this budget change?
+            </p>
+            <p>
+              I narrowed to migrant construction workers, especially naka and
+              short-tenure workers without a cooperative contractor. BOCW is the
+              destination scheme keyed to them. Food, identity, and health systems
+              exist. They are not the residual this rupee should buy.
+            </p>
 
-          <h2>How I worked</h2>
-          <p>
-            I started with what the Board already does, then asked what still
-            has no owner. Active Greater Mumbai registrations sat near 28,000
-            from July 2023 to May 2026 while statewide stock grew. That is
-            consistent with an entry gap. The eligible migrant
-            construction-worker population is an estimate (1.3 to 4.5 lakh),
-            not an administrative count. CAG claim figures are Maharashtra-wide
-            and pre-RTS. I did not treat them as Mumbai’s current conversion
-            rate.
-          </p>
-          <p>
-            Every figure on the slide is labelled: observed, calculated,
-            estimated, or a proposed test. I did not invent a donor preference
-            beyond the brief. I did not recommend an app. Technology sits under
-            the operating model.
-          </p>
+            <h2>How I worked</h2>
+            <p>
+              I started with what the Board already does, then asked what still
+              has no owner. Active Greater Mumbai registrations sat near 28,000
+              from July 2023 to May 2026 while statewide stock grew. That is
+              consistent with an entry gap. The eligible migrant
+              construction-worker population is an estimate (1.3 to 4.5 lakh),
+              not an administrative count. CAG claim figures are Maharashtra-wide
+              and pre-RTS. I did not treat them as Mumbai’s current conversion
+              rate.
+            </p>
+            <p>
+              Every figure on the slide is labelled: observed, calculated,
+              estimated, or a proposed test. I did not invent a donor preference
+              beyond the brief. I did not recommend an app. Technology sits under
+              the operating model.
+            </p>
 
-          <h2>What I would not claim</h2>
-          <p>
-            I did not pick a permanent winner. Option 1, entry and first-benefit
-            support, is preferred because the addressable population is larger
-            and the Mumbai-specific entry evidence is stronger. It proceeds only
-            if a 90-day test can secure an accepted proof route and verification
-            capacity. If that fails, and the Board will share individual-level
-            IWBMS records, the page switches to claims-to-receipt case
-            management. The recommendation is a gate, not a slogan.
-          </p>
+            <h2>What I would not claim</h2>
+            <p>
+              I did not pick a permanent winner. Option 1, entry and first-benefit
+              support, is preferred because the addressable population is larger
+              and the Mumbai-specific entry evidence is stronger. It proceeds only
+              if a 90-day test can secure an accepted proof route and verification
+              capacity. If that fails, and the Board will share individual-level
+              IWBMS records, the page switches to claims-to-receipt case
+              management. The recommendation is a gate, not a slogan.
+            </p>
 
-          <h2>What to look at on the page</h2>
-          <ol>
-            <li>
-              The funnel: eligible, proof, registration, claim, receipt. Two
-              barriers sit on that path: entry, then conversion.
-            </li>
-            <li>
-              Two options that do not hybridise. One finds unregistered naka
-              workers. The other works the existing registrant stock.
-            </li>
-            <li>
-              Five tests in 90 days. The metric throughout is incremental
-              benefits received.
-            </li>
-          </ol>
+            <h2>What to look at on the page</h2>
+            <ol>
+              <li>
+                The funnel: eligible, proof, registration, claim, receipt. Two
+                barriers sit on that path: entry, then conversion.
+              </li>
+              <li>
+                Two options that do not hybridise. One finds unregistered naka
+                workers. The other works the existing registrant stock.
+              </li>
+              <li>
+                Five tests in 90 days. The metric throughout is incremental
+                benefits received.
+              </li>
+            </ol>
+          </div>
+
+          <aside className="memo-aside">
+            <dl className="case-facts">
+              <div>
+                <dt>Brief</dt>
+                <dd>Low-income urban migrants, Mumbai. ₹5 crore, 24 months.</dd>
+              </div>
+              <div>
+                <dt>Segment</dt>
+                <dd>Migrant construction workers; naka and short-tenure.</dd>
+              </div>
+              <div>
+                <dt>Scheme</dt>
+                <dd>Greater Mumbai BOCW welfare board.</dd>
+              </div>
+              <div className="out">
+                <dt>Recommendation</dt>
+                <dd>Entry-to-first-benefit support, gated by a 90-day feasibility test.</dd>
+              </div>
+            </dl>
+            <a
+              className="btn btn-primary"
+              href={site.dalbergPdf}
+              download="Suhani-Bhatia-Dalberg-Assignment.pdf"
+            >
+              Download the PDF
+            </a>
+          </aside>
         </div>
 
         <figure className="slide-card">
@@ -143,7 +173,7 @@ export default function DalbergPage() {
           </figcaption>
         </figure>
 
-        <p className="note-foot">
+        <p className="memo-foot">
           {site.name}
           {" · "}
           {site.city}

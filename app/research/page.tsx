@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PageShell } from "../components/Shell";
+import { Artefacts, PageHead, PageShell } from "../components/Shell";
 
 export const metadata = {
   title: "Research archive",
@@ -8,36 +8,34 @@ export const metadata = {
 
 const groups = [
   {
-    title: "Women’s agency",
+    title: "Women's agency",
+    page: "/work/womens-agency",
     links: [
       { href: "/artefacts/agency/agency.do", label: "Stata do-file" },
       { href: "/artefacts/agency/nfhs_phase2.csv", label: "Phase-II CSV" },
       { href: "/artefacts/agency/dictionary.csv", label: "Variable dictionary" },
-      { href: "/work/womens-agency", label: "Research page" },
     ],
   },
   {
     title: "Migrant welfare",
+    page: "/work/migrant-welfare",
     links: [
       { href: "/artefacts/migrants/cost-model.csv", label: "Cost model (CSV)" },
       { href: "/artefacts/migrants/decision-matrix.csv", label: "Decision matrix (CSV)" },
       { href: "/decks/migrant-welfare", label: "Strategy deck" },
-      { href: "/work/migrant-welfare", label: "Strategy page" },
     ],
   },
   {
     title: "Spatial / QGIS-ready",
-    links: [
-      { href: "/artefacts/agency/nfhs_phase2.csv", label: "State indicators CSV" },
-      { href: "/work/mobile-geography", label: "Map and note" },
-    ],
+    page: "/work/mobile-geography",
+    links: [{ href: "/artefacts/agency/nfhs_phase2.csv", label: "State indicators CSV" }],
   },
   {
     title: "Python and SQL",
+    page: "/work/welfare-data-workflow",
     links: [
       { href: "/artefacts/workflow/clean.py", label: "Python workflow" },
       { href: "/artefacts/workflow/query.sql", label: "SQL queries" },
-      { href: "/work/welfare-data-workflow", label: "Workflow page" },
     ],
   },
 ];
@@ -45,25 +43,20 @@ const groups = [
 export default function ResearchPage() {
   return (
     <PageShell>
-      <div className="wrap band">
-        <p className="kicker">Research archive</p>
-        <h1>Files</h1>
-        <p className="lede" style={{ maxWidth: "28em" }}>
-          Notes, code, tables and models. Pride Place case records and VIP figures
-          are not included.
-        </p>
+      <div className="wrap" style={{ paddingBottom: 96 }}>
+        <PageHead
+          kicker="Research archive"
+          title="Files behind the work"
+          lede="Notes, code, tables and models, downloadable and checkable. Pride Place case records and VIP Industries figures are not included."
+        />
         {groups.map((g) => (
-          <section key={g.title} style={{ marginTop: 32 }}>
-            <h3 style={{ fontFamily: "var(--serif)", fontSize: 24, fontWeight: 400 }}>
-              {g.title}
-            </h3>
-            <p className="artefacts">
-              {g.links.map((l) => (
-                <Link key={l.href} href={l.href}>
-                  {l.label}
-                </Link>
-              ))}
-            </p>
+          <section key={g.title} style={{ marginBottom: 40 }}>
+            <h2 style={{ marginBottom: 0 }}>
+              <Link href={g.page} style={{ color: "inherit", textDecoration: "none" }}>
+                {g.title}
+              </Link>
+            </h2>
+            <Artefacts items={g.links} />
           </section>
         ))}
       </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { PageShell } from "../../components/Shell";
 
 export const metadata = { title: "Women’s agency research slides" };
@@ -19,15 +20,13 @@ export default function Deck() {
     <PageShell>
       <div className="wrap deck">
         <p className="kicker">Independent research · 9 slides</p>
-        <h1 style={{ fontFamily: "var(--serif)", fontSize: "42px", fontWeight: 400, margin: "8px 0 28px" }}>
-          Financial inclusion is not the same as agency
-        </h1>
+        <h1>Financial inclusion is not the same as agency</h1>
         {slides.map((title, i) => (
           <section className="slide" key={i}>
             <p className="kicker">Slide {i + 1}</p>
             <h2>{title}</h2>
             <p>
-              Tables and code: <a href="/work/womens-agency">research page</a>.
+              Tables and code: <Link href="/work/womens-agency">research page</Link>.
             </p>
           </section>
         ))}

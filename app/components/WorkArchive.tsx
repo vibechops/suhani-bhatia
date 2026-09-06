@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
-import { filters, work, writing, type Filter } from "../lib/work";
+import { filters, work, writing, type Filter, type Provenance } from "../lib/work";
+
+function tagClass(p: Provenance) {
+  if (p === "professional" || p === "published") return "tag pro";
+  return "tag ind";
+}
 
 export function WorkArchive() {
   const params = useSearchParams();
@@ -41,6 +46,11 @@ export function WorkArchive() {
         ))}
       </div>
 
+      <p className="meta" style={{ margin: "16px 0 24px" }}>
+        {items.length} {items.length === 1 ? "item" : "items"}
+        {showWriting ? ` · ${writing.length} pieces of writing` : ""}
+      </p>
+
       {items.map((item) => (
         <Link className="archive-item" href={`/work/${item.slug}`} key={item.slug}>
           <div className="year-mark" aria-hidden="true">
@@ -48,12 +58,21 @@ export function WorkArchive() {
           </div>
           <div>
             <p className="meta">
-              {item.where} · {item.year}
+              {item.where} · {item.year} · {item.role}
             </p>
             <h3>{item.title}</h3>
             <p>{item.problem}</p>
+            <p className="out">
+              <b>Output · </b>
+              {item.output}
+            </p>
           </div>
-          <p className="meta">{item.provenanceLabel}</p>
+          <div className="tagcol">
+            <span className={tagClass(item.provenance)}>{item.provenanceLabel}</span>
+            {item.category.toLowerCase() !== item.provenanceLabel.toLowerCase() ? (
+              <span className="meta">{item.category}</span>
+            ) : null}
+          </div>
         </Link>
       ))}
 
@@ -75,8 +94,11 @@ export function WorkArchive() {
                   {piece.publication} · {piece.date}
                 </p>
                 <h3>{piece.title}</h3>
+                <p>{piece.dek}</p>
               </div>
-              <p className="meta">Published writing</p>
+              <div className="tagcol">
+                <span className="tag pro">Published writing</span>
+              </div>
             </a>
           ))
         : null}

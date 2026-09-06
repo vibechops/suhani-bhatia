@@ -1,10 +1,10 @@
 import { nfhsNational, nfhsStates } from "../lib/nfhs";
 
-const accent = "#6f2430";
-const ink = "#1c1814";
-const muted = "#6a6158";
-const line = "#d9d0c3";
-const wash = "#e8dfd0";
+const accent = "#6a1b4d";
+const ink = "#0f1b2d";
+const muted = "#5f6979";
+const line = "#e3e6eb";
+const wash = "#c9b3c0";
 
 export function NationalBars() {
   const rows = [
@@ -156,13 +156,13 @@ export function MigrantFunnel() {
       <svg viewBox="0 0 640 220" width="100%" role="img" aria-label="Migrant welfare funnel">
         {steps.map((s, i) => {
           const y = 16 + i * 50;
-          const bw = (s.v / 100) * 420;
+          const bw = (s.v / 100) * 380;
           return (
             <g key={s.label}>
               <text x="0" y={y + 14} fontSize="13" fill={ink} fontFamily="system-ui">
                 {s.label}
               </text>
-              <rect x="200" y={y} width="420" height="16" fill={line} />
+              <rect x="200" y={y} width="380" height="16" fill={line} />
               <rect x="200" y={y} width={bw} height="16" fill={i === 3 ? accent : wash} />
               <text x={208 + bw} y={y + 13} fontSize="12" fill={ink} fontFamily="system-ui">
                 {s.v}%
@@ -227,7 +227,7 @@ export function AttritionFunnel() {
       <svg viewBox="0 0 640 170" width="100%" role="img" aria-label="Synthetic attrition funnel">
         {steps.map((s, i) => {
           const y = 12 + i * 50;
-          const w = (s.v / 1000) * 420;
+          const w = (s.v / 1000) * 380;
           return (
             <g key={s.label}>
               <text x="0" y={y + 14} fontSize="13" fill={ink} fontFamily="system-ui">

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Suhani Bhatia";
+export const alt = "Suhani Bhatia · Policy analyst";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -14,26 +14,29 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#f3eee4",
-          color: "#1c1814",
+          background: "#ffffff",
+          color: "#0f1b2d",
           padding: "64px 72px",
+          borderTop: "14px solid #6a1b4d",
         }}
       >
-        <div style={{ display: "flex", fontSize: 18, color: "#6f2430" }}>
-          Public policy · research · strategy
+        <div style={{ display: "flex", fontSize: 20, color: "#5f6979", letterSpacing: 2, textTransform: "uppercase" }}>
+          Suhani Bhatia · Policy analyst · Mumbai
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div
             style={{
-              fontSize: 84,
-              lineHeight: 0.95,
+              fontSize: 64,
+              lineHeight: 1.08,
               fontFamily: "Georgia, serif",
+              maxWidth: 1000,
+              letterSpacing: -1,
             }}
           >
-            Suhani Bhatia
+            I find where public programmes fail the people they are meant to reach, and what to do about it.
           </div>
-          <div style={{ marginTop: 24, fontSize: 26, maxWidth: 760, color: "#6a6158" }}>
-            Where policy meets the person it is supposed to serve.
+          <div style={{ marginTop: 28, fontSize: 24, color: "#5f6979" }}>
+            Field research across six states · Stata and NFHS · Excel cost models · TISS MPP 2027
           </div>
         </div>
       </div>

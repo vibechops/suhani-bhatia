@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { PageShell } from "../../components/Shell";
 
 export const metadata = { title: "Pride Place stakeholder deck" };
@@ -18,9 +19,7 @@ export default function Deck() {
     <PageShell>
       <div className="wrap deck">
         <p className="kicker">Public reconstruction · 8 slides</p>
-        <h1 style={{ fontFamily: "var(--serif)", fontSize: "42px", fontWeight: 400, margin: "8px 0 28px" }}>
-          When a rights law meets a police station
-        </h1>
+        <h1>When a rights law meets a police station</h1>
         <p className="note" style={{ marginBottom: 24 }}>
           This is a public reconstruction of the argument, not a dump of the
           internal deck or of case records.
@@ -30,7 +29,7 @@ export default function Deck() {
             <p className="kicker">Slide {i + 1}</p>
             <h2>{title}</h2>
             <p>
-              Full case: <a href="/work/transgender-rights">implementation page</a>.
+              Full case: <Link href="/work/transgender-rights">implementation page</Link>.
             </p>
           </section>
         ))}

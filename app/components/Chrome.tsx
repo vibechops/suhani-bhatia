@@ -65,7 +65,9 @@ export function Footer() {
         <div className="foot-grid">
           <div>
             <strong>{site.name}</strong>
-            <p>{site.description}</p>
+            <p>
+              {site.role} · {site.city}
+            </p>
           </div>
           <ul>
             <li><Link href="/work">Work</Link></li>

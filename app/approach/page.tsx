@@ -14,8 +14,7 @@ export default function ApproachPage() {
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <PageHead
           kicker="Approach"
-          title="Start with the decision someone has to take. Then choose the method."
-          lede="Four kinds of question I keep coming back to, a six-step sequence for getting from question to recommendation, and the tools that carry it."
+          title="Start with the decision. Then choose the method."
         />
 
         <h2>Where the questions sit</h2>

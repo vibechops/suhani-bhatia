@@ -46,8 +46,8 @@ export default function ResearchPage() {
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <PageHead
           kicker="Research archive"
-          title="Files behind the work"
-          lede="Notes, code, tables and models, downloadable and checkable. Pride Place case records and VIP Industries figures are not included."
+          title="Research files"
+          lede="Code, tables and models behind the work. Confidential records are not included."
         />
         {groups.map((g) => (
           <section key={g.title} style={{ marginBottom: 40 }}>

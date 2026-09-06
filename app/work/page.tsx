@@ -13,8 +13,8 @@ export default function WorkPage() {
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <PageHead
           kicker="Work"
-          title="Every piece of work, labelled by what it is"
-          lede="Professional assignments, independent analysis and technical demonstrations. Each entry says who it was for, what I did, and what came out."
+          title="Work"
+          lede="Professional, independent and technical. Each entry is labelled."
         />
         <Suspense fallback={null}>
           <WorkArchive />

@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <PageHead
           kicker="About"
-          title="Business, psychology, then public policy. In that order, and it shows."
+          title="Business, psychology, then public policy."
         />
 
         <div className="about-grid">

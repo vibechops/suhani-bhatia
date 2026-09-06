@@ -15,8 +15,7 @@ export default function WritingPage() {
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <PageHead
           kicker="Writing"
-          title="Published analysis and pieces in progress"
-          lede="Reported and analytical writing for Village Square, and an op-ed in progress with IIM Ahmedabad."
+          title="Writing"
         />
 
         <h2>Policy and research</h2>

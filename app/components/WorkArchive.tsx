@@ -58,7 +58,7 @@ export function WorkArchive() {
           </div>
           <div>
             <p className="meta">
-              {item.where} · {item.year} · {item.role}
+              {item.where} · {item.year}
             </p>
             <h3>{item.title}</h3>
             <p>{item.problem}</p>

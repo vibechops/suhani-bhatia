@@ -94,7 +94,6 @@ export function Footer() {
         </div>
         <div className="fine">
           <span>© {new Date().getFullYear()} {site.name}</span>
-          <span>{site.available}</span>
         </div>
       </div>
     </footer>

@@ -12,7 +12,6 @@ export const site = {
   dalbergPdf: "/suhani-bhatia-dalberg-assignment.pdf",
   city: "Mumbai, India",
   cohort: "MA Public Policy and Law, TISS (2027)",
-  available: "Available full-time from December 2026",
   relocate: "Open to relocation across India",
   interest:
     "Open to strategy, public-sector advisory, policy research and implementation work.",

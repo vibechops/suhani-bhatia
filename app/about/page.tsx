@@ -74,7 +74,7 @@ export default function AboutPage() {
               <div>
                 <h2>Practical</h2>
                 <p className="prose">
-                  English and Hindi. Based in Mumbai. {site.relocate}. {site.available}.
+                  English and Hindi. Based in Mumbai. {site.relocate}.
                 </p>
                 <div className="btn-row">
                   <Link className="btn btn-primary" href="/resume">

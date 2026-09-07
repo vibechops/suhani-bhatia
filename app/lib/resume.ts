@@ -117,4 +117,4 @@ export const skillBlocks = [
 ];
 
 export const summary =
-  "Policy analyst with field and desk research across six Indian states on how social protection, gender and rural livelihood programmes reach, or fail to reach, intended beneficiaries. Combines qualitative research, institutional analysis and quantitative methods using Stata, NFHS and Census data, and Excel-based cost and coverage models; translates findings into structured written analysis and stakeholder decks. MPP and Law, TISS (2027). Available full-time from December 2026.";
+  "Policy analyst with field and desk research across six Indian states on how social protection, gender and rural livelihood programmes reach, or fail to reach, intended beneficiaries. Combines qualitative research, institutional analysis and quantitative methods using Stata, NFHS and Census data, and Excel-based cost and coverage models; translates findings into structured written analysis and stakeholder decks. MPP and Law, TISS (2027).";

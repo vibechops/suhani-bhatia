@@ -44,7 +44,6 @@ export default function Home() {
           </div>
           <p className="hero-facts">
             <span>{site.cohort}</span>
-            <span>{site.available}</span>
           </p>
         </div>
         <figure className="portrait portrait-reel">
@@ -216,8 +215,8 @@ export default function Home() {
       <section className="cta" id="contact">
         <div className="wrap">
           <div>
-            <p className="kicker">Availability</p>
-            <h2>{site.available}</h2>
+            <p className="kicker">Contact</p>
+            <h2>{site.interest}</h2>
             <div className="btn-row">
               <a className="btn btn-primary" href={`mailto:${site.email}`}>
                 Email Suhani

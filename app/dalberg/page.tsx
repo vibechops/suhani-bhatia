@@ -177,8 +177,6 @@ export default function DalbergPage() {
           {site.name}
           {" · "}
           {site.city}
-          {" · "}
-          {site.available}
           <br />
           <a href={`mailto:${site.email}`}>{site.email}</a>
           {" · "}

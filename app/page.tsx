@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { PageShell } from "./components/Shell";
 import { clients, site } from "./lib/site";
@@ -48,14 +47,16 @@ export default function Home() {
             <span>{site.available}</span>
           </p>
         </div>
-        <figure className="portrait">
-          <Image
-            src="/suhani.jpg"
-            alt="Suhani Bhatia, wearing a black blazer and glasses"
-            width={800}
-            height={800}
-            priority
-            sizes="(max-width: 800px) 320px, 420px"
+        <figure className="portrait portrait-reel">
+          <video
+            src="/hero-rural-pulse.mp4"
+            poster="/hero-rural-pulse.jpg"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            aria-label="Field footage from the India Rural Colloquy"
           />
         </figure>
       </section>

@@ -57,9 +57,6 @@ export default function ApproachPage() {
           <Link className="btn btn-primary" href="/work">
             See the work
           </Link>
-          <Link className="btn" href="/research">
-            Research files
-          </Link>
         </div>
       </div>
     </PageShell>

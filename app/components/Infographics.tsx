@@ -117,16 +117,40 @@ export function PromisePath() {
 }
 
 export function MethodFlow() {
+  const phases = [
+    { name: "Frame", hint: "What has to be decided", items: steps.slice(0, 2) },
+    { name: "Trace", hint: "Where the promise breaks", items: steps.slice(2, 4) },
+    { name: "Recommend", hint: "What can survive", items: steps.slice(4, 6) },
+  ];
+
   return (
-    <ol className="info-flow">
-      {steps.map((s, i) => (
-        <li key={s.label}>
-          <span className="n">{String(i + 1).padStart(2, "0")}</span>
-          <b>{s.label}</b>
-          <span>{s.text}</span>
-        </li>
-      ))}
-    </ol>
+    <figure className="seq">
+      <ol className="seq-spine" aria-hidden="true">
+        {steps.map((s, i) => (
+          <li key={s.label}>
+            <span>{String(i + 1).padStart(2, "0")}</span>
+          </li>
+        ))}
+      </ol>
+      <div className="seq-board">
+        {phases.map((phase, pi) => (
+          <section className="seq-col" key={phase.name}>
+            <p className="seq-phase">{phase.name}</p>
+            <p className="seq-hint">{phase.hint}</p>
+            <ol start={pi * 2 + 1}>
+              {phase.items.map((s, j) => (
+                <li key={s.label}>
+                  <span className="seq-n">{String(pi * 2 + j + 1).padStart(2, "0")}</span>
+                  <b>{s.label}</b>
+                  <span>{s.text}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+      <figcaption className="seq-note">If a test fails, reverse the call.</figcaption>
+    </figure>
   );
 }
 

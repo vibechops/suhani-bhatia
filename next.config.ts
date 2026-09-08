@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
       { source: "/work/pensions", destination: "/work/pension-delivery", permanent: true },
       { source: "/work/spatial-access", destination: "/work/mobile-geography", permanent: true },
       { source: "/methods", destination: "/approach", permanent: true },
+      { source: "/research", destination: "/work", permanent: true },
     ];
   },
   async rewrites() {

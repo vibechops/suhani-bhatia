@@ -65,7 +65,10 @@ export default function Home() {
           <span className="label">Worked with</span>
           <ul>
             {clients.map((c) => (
-              <li key={c}>{c}</li>
+              <li key={c.name}>
+                <img src={c.logo} alt="" className={c.kind} />
+                {c.name}
+              </li>
             ))}
           </ul>
         </div>
@@ -143,7 +146,7 @@ export default function Home() {
           <div className="sec-head">
             <div>
               <p className="kicker">How I work</p>
-              <h2>Diagnosis before prescription</h2>
+              <h2>Find the break first</h2>
             </div>
             <p className="hero-links">
               <Link href="/approach">Full approach</Link>

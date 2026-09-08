@@ -1,0 +1,25 @@
+{
+  "name": "Assistant",
+  "short_name": "Assistant",
+  "description": "Voice to list. Speak when a task is done.",
+  "start_url": "/labs/companion",
+  "scope": "/labs/companion",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e58ab0",
+  "theme_color": "#e58ab0",
+  "icons": [
+    {
+      "src": "/labs/companion/icon",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/labs/companion/opengraph-image",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

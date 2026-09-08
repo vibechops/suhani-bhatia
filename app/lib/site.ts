@@ -19,16 +19,17 @@ export const site = {
 
 export const nav: { href: string; label: string; external?: boolean }[] = [
   { href: "/work", label: "Work" },
+  { href: "/labs", label: "Labs" },
   { href: "/approach", label: "Approach" },
   { href: "/about", label: "About" },
   { href: "/resume", label: "Résumé" },
 ];
 
 export const clients = [
-  "Telangana State Police",
-  "Transform Rural India",
-  "Village Square",
-  "VIP Industries",
-  "Sanchay",
-  "AIESEC",
+  { name: "Telangana State Police", logo: "/logos/telangana-police.png", kind: "mark" as const },
+  { name: "Transform Rural India", logo: "/logos/tri.png", kind: "word" as const },
+  { name: "Village Square", logo: "/logos/village-square-mark.png", kind: "mark" as const },
+  { name: "VIP Industries", logo: "/logos/vip.png", kind: "word" as const },
+  { name: "Sanchay", logo: "/logos/sanchay.svg", kind: "mark" as const },
+  { name: "AIESEC", logo: "/logos/aiesec.jpg", kind: "mark" as const },
 ];

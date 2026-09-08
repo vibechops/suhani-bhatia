@@ -445,13 +445,13 @@ export const education = [
 ];
 
 export const timeline = [
-  { dates: "2018 – 2023", title: "Green Apple Academy", where: "Operating a neighbourhood service under cash and capacity constraints" },
-  { dates: "2022 – 2023", title: "AIESEC in Delhi IIT", where: "Partnerships and pipeline" },
-  { dates: "2023 – 2024", title: "Sanchay", where: "Pensions and welfare access in two villages" },
-  { dates: "2025", title: "VIP Industries", where: "Attrition in Tier 2 and Tier 3 labour markets" },
-  { dates: "2025 – present", title: "Transform Rural India / Village Square", where: "Multi-state field research and published analysis" },
-  { dates: "2025 – 2027", title: "TISS Mumbai", where: "MA Public Policy and Law" },
   { dates: "2026", title: "Telangana State Police, Pride Place", where: "Implementation of a rights statute inside a police cell" },
+  { dates: "2025 – 2027", title: "TISS Mumbai", where: "MA Public Policy and Law" },
+  { dates: "2025 – present", title: "Transform Rural India / Village Square", where: "Multi-state field research and published analysis" },
+  { dates: "2025", title: "VIP Industries", where: "Attrition in Tier 2 and Tier 3 labour markets" },
+  { dates: "2023 – 2024", title: "Sanchay", where: "Pensions and welfare access in two villages" },
+  { dates: "2022 – 2023", title: "AIESEC in Delhi IIT", where: "Partnerships and pipeline" },
+  { dates: "2018 – 2023", title: "Green Apple Academy", where: "Operating a neighbourhood service under cash and capacity constraints" },
 ];
 
 export function item(slug: string) {

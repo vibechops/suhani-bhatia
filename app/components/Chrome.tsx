@@ -9,6 +9,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const path = usePathname();
   const isActive = (href: string) => path === href || (href !== "/" && path.startsWith(href + "/"));
+  if (path.startsWith("/labs/companion")) return null;
 
   return (
     <header className="site-head">
@@ -30,15 +31,17 @@ export function Header() {
             Contact
           </a>
         </nav>
-        <button
-          className="nav-toggle"
-          type="button"
-          aria-expanded={open}
-          aria-controls="mobile-nav"
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? "Close" : "Menu"}
-        </button>
+        <div className="head-end">
+          <button
+            className="nav-toggle"
+            type="button"
+            aria-expanded={open}
+            aria-controls="mobile-nav"
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? "Close" : "Menu"}
+          </button>
+        </div>
       </div>
       <nav
         id="mobile-nav"
@@ -71,11 +74,11 @@ export function Footer() {
           </div>
           <ul>
             <li><Link href="/work">Work</Link></li>
+            <li><Link href="/labs">Labs</Link></li>
             <li><Link href="/approach">Approach</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/resume">Résumé</Link></li>
             <li><Link href="/writing">Writing</Link></li>
-            <li><Link href="/research">Research files</Link></li>
           </ul>
           <ul>
             <li><a href={`mailto:${site.email}`}>{site.email}</a></li>

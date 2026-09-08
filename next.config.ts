@@ -14,6 +14,21 @@ const nextConfig: NextConfig = {
       { source: "/methods", destination: "/approach", permanent: true },
     ];
   },
+  async rewrites() {
+    return [{ source: "/prep", destination: "/prep.html" }];
+  },
+  async headers() {
+    return [
+      {
+        source: "/prep",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+      {
+        source: "/prep.html",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

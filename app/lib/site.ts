@@ -19,10 +19,8 @@ export const site = {
 
 export const nav: { href: string; label: string; external?: boolean }[] = [
   { href: "/work", label: "Work" },
-  { href: "/labs", label: "Labs" },
   { href: "/approach", label: "Approach" },
-  { href: "/about", label: "About" },
-  { href: "/resume", label: "Résumé" },
+  { href: "/about", label: "Resume" },
 ];
 
 export const clients = [

@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import { PageHead, PageShell } from "../components/Shell";
 import { site } from "../lib/site";
 import { education, timeline } from "../lib/work";
 
 export const metadata = {
-  title: "About",
-  description: "About Suhani Bhatia, policy analyst based in Mumbai.",
+  title: "Resume",
+  description: "Resume of Suhani Bhatia, policy analyst based in Mumbai.",
 };
 
 export default function AboutPage() {
@@ -14,8 +13,13 @@ export default function AboutPage() {
     <PageShell>
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <PageHead
-          kicker="About"
+          kicker="Resume"
           title="Business, psychology, then public policy."
+          aside={
+            <a className="btn btn-primary" href={site.resume} download="Suhani-Bhatia-Resume.pdf">
+              Download résumé
+            </a>
+          }
         />
 
         <div className="about-grid">
@@ -77,9 +81,9 @@ export default function AboutPage() {
                   English and Hindi. Based in Mumbai. {site.relocate}.
                 </p>
                 <div className="btn-row">
-                  <Link className="btn btn-primary" href="/resume">
-                    Résumé
-                  </Link>
+                  <a className="btn" href={site.resume} download="Suhani-Bhatia-Resume.pdf">
+                    Download résumé
+                  </a>
                   <a className="btn" href={`mailto:${site.email}`}>
                     Email
                   </a>

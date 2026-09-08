@@ -11,8 +11,8 @@ export default function PensionLabPage() {
   return (
     <PageShell>
       <div className="wrap lab">
-        <Link className="back" href="/labs">
-          ← Labs
+        <Link className="back" href="/work#labs">
+          ← Work
         </Link>
         <PageHead
           kicker="Labs · sketch"

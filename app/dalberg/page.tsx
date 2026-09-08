@@ -180,7 +180,9 @@ export default function DalbergPage() {
           <br />
           <a href={`mailto:${site.email}`}>{site.email}</a>
           {" · "}
-          <Link href="/resume">Résumé</Link>
+          <a href={site.resume} download="Suhani-Bhatia-Resume.pdf">
+            Résumé
+          </a>
           {" · "}
           <Link href="/work">Work</Link>
           {" · "}

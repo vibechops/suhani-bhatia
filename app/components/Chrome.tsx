@@ -15,7 +15,7 @@ export function Header() {
     <header className="site-head">
       <div className="wrap">
         <Link className="wordmark" href="/">
-          Suhani Bhatia <small>{site.role}</small>
+          Suhani Bhatia
         </Link>
         <nav className="nav-desktop" aria-label="Primary">
           {nav.map((item) => (
@@ -27,9 +27,6 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <a className="btn" href={`mailto:${site.email}`}>
-            Contact
-          </a>
         </nav>
         <div className="head-end">
           <button
@@ -53,9 +50,6 @@ export function Header() {
             {item.label}
           </Link>
         ))}
-        <a href={`mailto:${site.email}`} onClick={() => setOpen(false)}>
-          Contact
-        </a>
       </nav>
     </header>
   );
@@ -74,10 +68,9 @@ export function Footer() {
           </div>
           <ul>
             <li><Link href="/work">Work</Link></li>
-            <li><Link href="/labs">Labs</Link></li>
+            <li><Link href="/work#labs">Labs</Link></li>
             <li><Link href="/approach">Approach</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/resume">Résumé</Link></li>
+            <li><Link href="/about">Resume</Link></li>
             <li><Link href="/writing">Writing</Link></li>
           </ul>
           <ul>

@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 import { WorkArchive } from "../components/WorkArchive";
+import { ReelStrip } from "../components/ReelStrip";
+import { LabsStrip } from "../components/LabsStrip";
 import { PageHead, PageShell } from "../components/Shell";
 
 export const metadata = {
@@ -16,9 +18,11 @@ export default function WorkPage() {
           title="Work"
           lede="Professional, independent and technical. Each entry is labelled."
         />
+        <ReelStrip note />
         <Suspense fallback={null}>
           <WorkArchive />
         </Suspense>
+        <LabsStrip />
       </div>
     </PageShell>
   );

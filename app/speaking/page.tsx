@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReelStrip } from "../components/ReelStrip";
 import { PageHead, PageShell } from "../components/Shell";
 
 export const metadata = {
@@ -15,9 +16,10 @@ export default function SpeakingPage() {
           title="Moderation and on-camera conversation"
           lede="Emcee, Day 2 of the Delhi chapter of the India Rural Colloquy 2025. Recorded conversations for Transform Rural India's Rural Renaissance series."
         />
+        <ReelStrip note />
         <div className="btn-row">
-          <Link className="btn btn-primary" href="/work/rural-colloquy">
-            Archive note
+          <Link className="btn" href="/work">
+            All work
           </Link>
         </div>
       </div>

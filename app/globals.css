@@ -83,8 +83,7 @@ h3 { font-size: 19px; }
   margin-inline: auto;
 }
 
-.band { padding: clamp(64px, 9vw, 112px) 0; }
-.band + .band { padding-top: 0; }
+.band { padding: clamp(48px, 6vw, 72px) 0; }
 .band.tint { background: var(--paper); }
 
 .kicker {
@@ -248,8 +247,8 @@ h3 { font-size: 19px; }
 ------------------------------------------------------------------ */
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-  gap: clamp(32px, 5vw, 72px);
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: clamp(20px, 3vw, 40px);
   align-items: center;
   padding: 64px 0 clamp(48px, 6vw, 80px);
 }
@@ -307,7 +306,8 @@ h3 { font-size: 19px; }
   background: var(--paper);
 }
 .portrait-reel {
-  width: min(100%, 300px);
+  width: min(100%, 360px);
+  justify-self: start;
 }
 .portrait-reel video {
   aspect-ratio: 9 / 16;
@@ -671,6 +671,59 @@ h3 { font-size: 19px; }
 .archive-item .out b { color: var(--muted); font-weight: 500; }
 .archive-item:hover h3 { color: var(--accent); }
 .archive-item .tagcol { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+
+.reel-strip { margin: 8px 0 56px; }
+.reel-strip .sec-head { margin-bottom: 20px; padding-bottom: 0; border: 0; }
+.reel-strip h2 { font-size: clamp(22px, 2.2vw, 28px); }
+.reel-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(148px, 168px);
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
+}
+.reel-card { margin: 0; scroll-snap-align: start; }
+.reel-hit {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--line-strong);
+  background: var(--paper-2);
+  cursor: pointer;
+  position: relative;
+  border-radius: 0;
+}
+.reel-hit video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background: var(--paper-2);
+}
+.reel-cue {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(26, 26, 25, 0.72);
+  padding: 5px 8px;
+  line-height: 1;
+}
+.reel-cue.on { background: rgba(26, 26, 25, 0.4); }
+.reel-card figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
 .tag {
   display: inline-block;
   font-size: 12px;
@@ -1525,11 +1578,12 @@ a.info-card:hover h3 { color: var(--accent); }
   .hero { grid-template-columns: 1fr; gap: 36px; padding-top: 40px; }
   .hero h1 { font-size: clamp(34px, 9vw, 48px); }
   .portrait { justify-self: start; width: min(100%, 320px); }
-  .portrait-reel { width: min(100%, 280px); }
+  .portrait-reel { width: min(100%, 336px); }
   .portrait::before { inset: 16px -16px -16px 16px; }
 
-  .proof .wrap { flex-direction: column; align-items: flex-start; gap: 12px; }
-  .proof li { font-size: 16px; }
+  .proof .wrap { flex-direction: column; align-items: stretch; gap: 16px; }
+  .proof ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .proof li { font-size: 13px; }
 
   .cards { grid-template-columns: 1fr; }
   .card { min-height: 0; padding: 22px 20px 18px; }
@@ -2141,20 +2195,31 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.028em; }
 .card:hover { border-color: var(--ink); transform: none; box-shadow: none; }
 .card .kind { color: var(--muted); }
 .proof { padding: 32px 0; }
-.proof .wrap { flex-direction: column; align-items: flex-start; gap: 20px; }
-.proof ul { gap: 20px 40px; align-items: flex-start; }
+.proof .wrap { flex-direction: column; align-items: stretch; gap: 20px; }
+.proof ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px 24px;
+  align-items: start;
+}
 .proof li {
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 10px;
   color: var(--muted);
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0;
+  white-space: normal;
 }
 .proof img { height: 36px; }
 .proof img.mark { width: 36px; height: 36px; border-radius: 6px; }
 .proof img.word { height: 36px; max-width: 110px; }
+@media (max-width: 960px) {
+  .proof ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 .sec-head { margin-bottom: 40px; }
 .method article { border-top: 1px solid var(--ink); }
 .seq-spine span { background: var(--ink); }

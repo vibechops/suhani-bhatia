@@ -15,7 +15,10 @@ const nextConfig: NextConfig = {
     ];
   },
   async rewrites() {
-    return [{ source: "/prep", destination: "/prep.html" }];
+    return [
+      { source: "/prep", destination: "/prep.html" },
+      { source: "/interview", destination: "/interview.html" },
+    ];
   },
   async headers() {
     return [
@@ -25,6 +28,14 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/prep.html",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+      {
+        source: "/interview",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+      {
+        source: "/interview.html",
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
       },
     ];

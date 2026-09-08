@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Suhani · Dalberg interview prep</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #5a5a5a;
+      --line: #ddd8ce;
+      --paper: #f4f1ea;
+      --card: #fff;
+      --accent: #1c4738;
+      --accent-soft: #e6efe9;
+      --bad: #7a2a2a;
+      --bad-soft: #f6eaea;
+      --warn-soft: #f6efd8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--paper); color: var(--ink); }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      min-height: 100vh;
+      padding-bottom: 72px;
+    }
+    header.app { background: var(--accent); color: #fff; padding: 16px 18px 14px; }
+    header.app h1 { font-size: 18px; font-weight: 650; }
+    header.app p { font-size: 13px; opacity: 0.85; margin-top: 3px; }
+    nav.tabs {
+      position: sticky; top: 0; z-index: 5;
+      display: flex; gap: 0; overflow-x: auto;
+      background: var(--accent); border-top: 1px solid rgba(255,255,255,.15);
+    }
+    nav.tabs button {
+      appearance: none; border: 0; background: transparent;
+      color: #d7e6de; font: inherit; font-size: 13px; font-weight: 600;
+      padding: 10px 14px; white-space: nowrap; cursor: pointer;
+    }
+    nav.tabs button.on { color: #fff; border-bottom: 2px solid #fff; }
+    .wrap { max-width: 740px; margin: 0 auto; padding: 16px; }
+    .hidden { display: none; }
+    .note { background: var(--warn-soft); border: 1px solid #ead9a8; padding: 12px 14px; font-size: 13.5px; margin-bottom: 14px; }
+    h2 { font-size: 18px; margin: 8px 0 8px; }
+    h3 { font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 18px 0 8px; }
+    p.lead { color: var(--muted); font-size: 14.5px; margin-bottom: 14px; }
+    .card { background: var(--card); border: 1px solid var(--line); padding: 14px; margin-bottom: 10px; }
+    .card h4 { font-size: 15px; margin-bottom: 6px; }
+    .card p, .card li { font-size: 14px; }
+    ul { margin: 6px 0 0 18px; }
+    ol.lessons { list-style: none; margin: 0; }
+    ol.lessons li { margin: 0 0 8px; }
+    button, .card-btn {
+      appearance: none; border: 1px solid var(--line); background: var(--card);
+      color: var(--ink); font: inherit; cursor: pointer;
+    }
+    .card-btn { display: block; width: 100%; text-align: left; padding: 12px; margin-bottom: 8px; }
+    .card-btn b { display: block; }
+    .card-btn span { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+    .primary {
+      background: var(--accent); color: #fff; border-color: var(--accent);
+      padding: 12px 16px; font-weight: 600; width: 100%; text-align: center; margin-top: 8px;
+    }
+    .ghost { background: transparent; padding: 10px 14px; width: 100%; text-align: center; margin-top: 8px; font-size: 13.5px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    @media (max-width: 520px) { .grid2.stack { grid-template-columns: 1fr; } }
+    table.cmp { width: 100%; border-collapse: collapse; font-size: 13px; background: var(--card); }
+    table.cmp th, table.cmp td { border: 1px solid var(--line); padding: 7px 8px; text-align: left; vertical-align: top; }
+    table.cmp th { background: var(--accent-soft); }
+    .script { background: var(--card); border: 1px solid var(--line); padding: 14px; font-size: 14.5px; white-space: pre-wrap; }
+    .tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .step { }
+    .why { margin-top: 10px; padding: 10px 12px; background: var(--accent-soft); font-size: 13.5px; }
+    .nav2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+    .timer {
+      font-variant-numeric: tabular-nums; font-weight: 700; font-size: 28px;
+      text-align: center; padding: 12px; background: var(--card); border: 1px solid var(--line);
+    }
+    label.chk { display: flex; gap: 10px; align-items: flex-start; background: var(--card); border: 1px solid var(--line); padding: 10px 12px; margin-bottom: 6px; font-size: 14px; }
+    label.chk input { margin-top: 3px; }
+    .opts { display: grid; gap: 8px; margin-top: 10px; }
+    .opt { width: 100%; padding: 10px 12px; text-align: left; font-size: 14px; }
+    .opt.right { background: var(--accent-soft); border-color: var(--accent); }
+    .opt.wrong { background: var(--bad-soft); }
+    .foot { font-size: 12px; color: var(--muted); margin-top: 18px; }
+    .hour { display: grid; grid-template-columns: 72px 1fr; gap: 8px; font-size: 13.5px; margin: 8px 0; }
+    .hour b { color: var(--accent); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="app">
+    <h1>Dalberg interview prep</h1>
+    <p>For Suhani. From zero. Case + fit. Not CAT.</p>
+  </header>
+  <nav class="tabs" id="tabs">
+    <button class="on" data-v="home">Home</button>
+    <button data-v="basics">Basics</button>
+    <button data-v="fit">Fit</button>
+    <button data-v="cases">Cases</button>
+    <button data-v="math">Math</button>
+    <button data-v="plan">Plan</button>
+  </nav>
+
+  <div class="wrap" id="home">
+    <div class="note">The Mettl test is a filter. The interview is the job. If Friday’s mail comes, you still have 10 days. If it does not, this work is not wasted: Bridgespan, Sattva, FSG, IDinsight use the same muscle.</div>
+    <p class="lead">You have already done a Dalberg case. The Mumbai welfare assignment is the same skill, out loud, with a person watching. This tool starts from zero anyway, because the interview has a format you have not practised.</p>
+
+    <h3>The hour</h3>
+    <div class="card">
+      <div class="hour"><b>0–5</b><span>Hello. “Tell me about yourself.”</span></div>
+      <div class="hour"><b>5–35</b><span>Case. They talk. You structure, calculate, recommend.</span></div>
+      <div class="hour"><b>35–55</b><span>Fit. Why Dalberg, why you, one or two stories.</span></div>
+      <div class="hour"><b>55–60</b><span>Your questions. Not “what is the culture.”</span></div>
+    </div>
+    <p class="lead">Fit is half the hour. A clean case with a hollow “I want to make a difference” still fails.</p>
+
+    <h3>This cycle</h3>
+    <div class="card">
+      <p>11 Sep · Mettl invite, if shortlisted</p>
+      <p>12–14 Sep · Aptitude</p>
+      <p>17 Sep · Interview shortlist + webinar details</p>
+      <p>18 Sep, 3pm · Case webinar. Live only. Be there.</p>
+      <p>From 22 Sep · Round 1. Then 1 to 4 rounds, each eliminative.</p>
+      <p>Late Oct · Offers</p>
+    </div>
+
+    <div class="grid2">
+      <button class="card-btn" onclick="go('basics')"><b>Start at zero</b><span>What a case is, in 15 minutes</span></button>
+      <button class="card-btn" onclick="go('fit')"><b>Your answers</b><span>Written in your voice, from your work</span></button>
+      <button class="card-btn" onclick="go('cases')"><b>Guided cases</b><span>Four. First one is your assignment</span></button>
+      <button class="card-btn" onclick="go('plan')"><b>Day-by-day</b><span>8 Sep to 22 Sep</span></button>
+    </div>
+    <a class="ghost" href="/prep" style="display:block">Aptitude / Mettl practice →</a>
+    <p class="foot">Private. Not in the site nav. Do not forward to a group chat.</p>
+  </div>
+
+  <div class="wrap hidden" id="basics">
+    <h2>From zero</h2>
+    <p class="lead">A case is not a quiz. It is a 25-minute conversation where they watch how you think when the data is incomplete. That is the Analyst job.</p>
+
+    <div class="card">
+      <h4>1. What they put in front of you</h4>
+      <p>A short story. A client (government, foundation, NGO, sometimes a company). A messy goal. A constraint: money, 24 months, political risk, missing data. Then: “How would you approach this?”</p>
+      <p style="margin-top:8px">You do not need the right industry fact. You need a structure, a hypothesis, a number, and a recommendation they can repeat to a partner.</p>
+    </div>
+
+    <div class="card">
+      <h4>2. Dalberg is not McKinsey</h4>
+      <table class="cmp">
+        <tr><th></th><th>Usual consulting</th><th>Dalberg</th></tr>
+        <tr><td>Client</td><td>One company P&amp;L</td><td>Government, donor, NGO, sometimes corporate</td></tr>
+        <tr><td>Win</td><td>Profit, share, cost</td><td>Take-up, coverage, a person actually receiving the thing</td></tr>
+        <tr><td>Data</td><td>Company files</td><td>Ugly, late, two sources that disagree</td></tr>
+        <tr><td>Control</td><td>Client can decide</td><td>Client cannot move the whole system alone</td></tr>
+        <tr><td>Framework</td><td>Revenue − cost</td><td>You build it. Their words: no off-the-shelf framework</td></tr>
+      </table>
+      <p style="margin-top:8px">If you open with “I’d look at revenue and costs,” they know you memorised Victor Cheng and did not read their site.</p>
+    </div>
+
+    <div class="card">
+      <h4>3. Their five steps. Memorise this, not a 12-box framework.</h4>
+      <ol>
+        <li><b>Understand.</b> Repeat the question. Ask 3 clarifying questions. Name the success metric.</li>
+        <li><b>Structure.</b> Pause. Draw 3–4 buckets. Say them numbered. Ask if that is a fair way to split the problem.</li>
+        <li><b>Analyse.</b> Pick the bucket that would change the answer. Hypothesis first: “I think the break is documents, not awareness, because…”</li>
+        <li><b>Quantify.</b> Use their numbers. Talk while you calculate. Sense-check: “Does 80,000 households on 5 crore feel like ₹625 a household? That is a transfer, not a system.”</li>
+        <li><b>Synthesise.</b> 20 seconds. “I would do X, because Y. Risk is Z. Next fact I’d want is…”</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h4>4. MECE, without the cult</h4>
+      <p>Mutually exclusive: buckets don’t overlap. Collectively exhaustive: you didn’t forget a whole world.</p>
+      <p style="margin-top:8px"><b>Bad:</b> awareness, documents, “implementation,” “political will.” Those overlap and one of them means nothing.</p>
+      <p style="margin-top:8px"><b>Better, pensions:</b></p>
+      <ul>
+        <li>Does the person know a benefit exists?</li>
+        <li>Can they prove they are eligible?</li>
+        <li>Can they complete the application without a tout?</li>
+        <li>Once enrolled, do they actually get paid?</li>
+      </ul>
+      <p style="margin-top:8px">That is a funnel. You have used this on BOCW. Use a funnel whenever the problem is “people should get X and don’t.”</p>
+    </div>
+
+    <div class="card">
+      <h4>5. How to open (first 90 seconds)</h4>
+      <p>Write this on the top of your page every time:</p>
+      <p style="margin-top:8px"><b>S</b>ituation · <b>C</b>omplication · <b>Q</b>uestion</p>
+      <p style="margin-top:8px">Then say: “Let me make sure I have this. You are [client]. You want [outcome] in [time]. The tension is [constraint]. The question is [decision]. Is that right?”</p>
+      <p style="margin-top:8px">Then three questions, max:</p>
+      <ul>
+        <li>What does success look like, in a number?</li>
+        <li>What is already on the ground?</li>
+        <li>What can this client actually control?</li>
+      </ul>
+      <p style="margin-top:8px">Then: “Give me 20 seconds to structure.” Silence is allowed. They prefer a pause to a word-vomit.</p>
+    </div>
+
+    <div class="card">
+      <h4>6. How to close</h4>
+      <p>They will say “so what would you recommend?” Do not restart the case.</p>
+      <p style="margin-top:8px">“I would go with [option]. Because [one fact]. The risk is [one risk]. In week one I would [one test].”</p>
+      <p style="margin-top:8px">Three sentences. Then stop talking.</p>
+    </div>
+
+    <div class="card">
+      <h4>7. How they score you</h4>
+      <ul>
+        <li>Did you structure, or list ideas?</li>
+        <li>Did you pick a metric of success that is receipt, not “awareness”?</li>
+        <li>Did you say a hypothesis before fishing for data?</li>
+        <li>Can they follow your maths?</li>
+        <li>Did you name what you don’t know?</li>
+        <li>Would they put you in front of a Joint Secretary next week?</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>8. Notes on paper</h4>
+      <p>Landscape. Left half: structure. Right half: numbers. Top line: the question in 8 words. Circle the recommendation when you have it. You will need that circle at minute 28 when your brain empties.</p>
+    </div>
+
+    <p class="foot">Official practice cases on dalberg.com/join-our-team/interview-prep : ImproMed, Electric tuk-tuks in Bangkok. Download those after Case 2 here. Do them with Sahil, not alone.</p>
+    <button class="primary" onclick="go('fit')">Next: your fit answers</button>
+  </div>
+
+  <div class="wrap hidden" id="fit">
+    <h2>Fit is half the interview</h2>
+    <p class="lead">Say these out loud. Reading is not prep. The 90-second timer is the first question they will ask.</p>
+
+    <h3>Tell me about yourself · 90 seconds</h3>
+    <div class="timer" id="intro-t">1:30</div>
+    <button class="primary" onclick="startIntro()">Start timer and speak</button>
+    <div class="script" id="intro-script">I work on the last mile of public programmes: a pension, a protection order, a welfare benefit that exists on paper and still does not reach the person.
+
+I learned how an organisation actually runs by founding a tuition centre in Delhi and taking it to about a lakh a month: pricing, staffing, retention, cash.
+
+Then I went into the field. At Sanchay I sat with households and the BDO’s office on pension delivery. At Transform Rural India I did 14 interviews across six states on why district services are uneven. This summer I was inside Telangana Police’s transgender protection cell, writing for leadership about where the 2019 Act does not become a station-level outcome.
+
+I am now at TISS, public policy and law. Dalberg is the job that mix was built for: structure a messy public problem, quantify under bad data, recommend what a client can actually do.</div>
+    <p class="lead" style="margin-top:8px">Cut the TISS line if they already have the CV. Do not list every internship. End on the job, not on “I am passionate.”</p>
+
+    <h3>Why consulting</h3>
+    <div class="script">The assignment you asked for is the work I already like. A donor, 5 crore, 24 months, two options, and what evidence would decide. I want to do that every week, with a team, for a client who can move a system. A paper that does not force a decision is not enough for me.</div>
+
+    <h3>Why social impact, not BCG</h3>
+    <div class="script">I have sat with people who were eligible for a pension and still not paid. The interesting problem for me is not a company P&amp;L. It is a public promise that dies in an office. I can do the same structuring at a strategy firm. I would be bored by the objective.</div>
+
+    <h3>Why Dalberg</h3>
+    <div class="script">Three things you say about yourselves, which match how I already work.
+
+One: the problems are systemic. The client cannot pull one lever. That is the Telangana cell: a police unit cannot complete a welfare pathway alone.
+
+Two: solutions need more than one actor. The Sanchay pension work only moved when the BDO office, the SHG, and the household were in the same conversation.
+
+Three: data is scarce. I am used to two sources that disagree, and to saying so. The NFHS agency note is an example: accounts moved, decisions barely did. I would rather name the limit than invent a causal story.
+
+India is also the right office. Last-mile welfare, digital public infrastructure, state capability. That is the work I want to be the Analyst on.</div>
+    <p class="lead" style="margin-top:8px">If they probe: Advisors, not Design or Data Insight, because I want the problem-structuring seat first. I can work with those teams. I am not applying as a designer.</p>
+
+    <h3>The issue you are most passionate about</h3>
+    <div class="script">Last-mile social protection. Not “poverty.” Specifically: people the state has already declared eligible, who still do not receive. Pensions, BOCW, a protection order. I care about the conversion from statute to a rupee in a bank account, because that is measurable and it is where programmes quietly fail.</div>
+
+    <h3>SPAR stories · learn four, not twelve</h3>
+    <p class="lead">SPAR: Situation, Problem, Action, Result. 60–90 seconds. One number. One thing you would do differently.</p>
+
+    <div class="card">
+      <div class="tag">Limited data</div>
+      <h4>Sanchay pensions</h4>
+      <p><b>S.</b> Two villages. Pension delivery. No clean beneficiary file from the block.</p>
+      <p><b>P.</b> I could not wait for a census. Eligible people were still not paid.</p>
+      <p><b>A.</b> Interviews plus the BDO office. Mapped where the file died: document, authentication, or last-mile cash. Did not pretend I had a district rate.</p>
+      <p><b>R.</b> A barrier note for the organisation, not a slogan. I still cannot quote a coverage percentage I trust. That is the point I would say in the interview: I will not invent a denominator.</p>
+    </div>
+    <div class="card">
+      <div class="tag">Leadership / entrepreneur</div>
+      <h4>Green Apple Academy</h4>
+      <p><b>S.</b> Tuition centre I founded. Evenings. Neighbourhood acquisition.</p>
+      <p><b>P.</b> Quality vs growth. A subject I could not staff honestly.</p>
+      <p><b>A.</b> Raised fees when retention allowed. Hired only when I could hand off. Refused a subject rather than fake it. Closed it to go to the next work.</p>
+      <p><b>R.</b> About ₹1 lakh a month at peak. The consulting point is not the revenue. It is that a theory of change that cannot price, staff and retain will not deliver. I already learned that at 16–23.</p>
+    </div>
+    <div class="card">
+      <div class="tag">Pushback / judgement</div>
+      <h4>Telangana protection cell</h4>
+      <p><b>S.</b> Three months. Police leadership audience. The Act is 2019.</p>
+      <p><b>P.</b> Easy story: restating the Act. Useless story: a rights slogan.</p>
+      <p><b>A.</b> Compared Kerala and Tamil Nadu public architecture. Treated the SOP as a hypothesis about delivery. Kept case records inside the cell.</p>
+      <p><b>R.</b> A four-part note: where entitlement does not become an administrative act. I would tell a partner the same: a cell can exist and a person can still be unprotected at the station gate.</p>
+    </div>
+    <div class="card">
+      <div class="tag">Analysis under a constraint</div>
+      <h4>Women’s agency / NFHS</h4>
+      <p><b>S.</b> Schemes treat Jan Dhan as empowerment.</p>
+      <p><b>P.</b> Accounts moved 25.6 points. Decision-making moved 4.7. n is small. Causality is not available.</p>
+      <p><b>A.</b> Said so. Used published totals. Did not dress OLS up as a treatment effect.</p>
+      <p><b>R.</b> A monitoring recommendation: stop using the account as a synonym for agency. Dalberg likes this instinct. Do not hide the limit.</p>
+    </div>
+
+    <h3>If they poke the CV</h3>
+    <div class="card">
+      <p><b>7.6 at TISS.</b> “Not the highest in this pile. TISS this year is methods-heavy. I can walk you through the NFHS note and the cost model. I will not pretend a 9.2.”</p>
+      <p style="margin-top:8px"><b>BBA, not SRCC / not IIT.</b> “The through-line is the last-mile problem, not the brand of the undergraduate college. Green Apple is the operating proof. TISS is the methods layer.”</p>
+      <p style="margin-top:8px"><b>CAT / quant anxiety.</b> Do not volunteer it. If they see slowness on case math: “I do programme math in units: rupees per household, coverage, months. I am drilling speed. Talk me through a number and I will stay out loud.”</p>
+      <p style="margin-top:8px"><b>VIP / HR intern.</b> One line: attrition in Tier 2/3 labour markets. Then go back to delivery work. Do not let the interview become an HR internship.</p>
+    </div>
+
+    <h3>Questions for them</h3>
+    <div class="card">
+      <ul>
+        <li>What does an Analyst actually own on a typical India project in the first six months?</li>
+        <li>When two official numbers disagree, how does the team decide whether to collect, estimate, or drop the claim?</li>
+        <li>How much of Mumbai/Delhi work is government vs foundation vs corporate?</li>
+        <li>You ran a webinar on the case process. What do new Analysts still get wrong in month two?</li>
+      </ul>
+      <p style="margin-top:8px">Do not ask about work-life balance in round 1. Do not ask if you can work from home.</p>
+    </div>
+    <button class="primary" onclick="go('cases')">Next: cases</button>
+  </div>
+
+  <div class="wrap hidden" id="cases">
+    <h2>Cases</h2>
+    <p class="lead">Do these in order. Case 1 is training wheels: you already solved it. The point is to say it in the Dalberg five steps. Then new ones.</p>
+    <button class="card-btn" onclick="openCase('c1')"><b>Case 1 · Warmup</b><span>Your ₹5 crore migrant assignment, as an interview</span></button>
+    <button class="card-btn" onclick="openCase('c2')"><b>Case 2 · Pensions</b><span>New. Built from Sanchay. They will like this world.</span></button>
+    <button class="card-btn" onclick="openCase('c3')"><b>Case 3 · Guesstimate</b><span>How many eligible construction workers in Delhi?</span></button>
+    <button class="card-btn" onclick="openCase('c4')"><b>Case 4 · Programme design</b><span>Girls’ secondary school, rural state. Classic Dalberg.</span></button>
+    <div class="card">
+      <h4>After these four</h4>
+      <p>Download Dalberg’s own two: ImproMed, Electric tuk-tuks in Bangkok. Do them with a partner. Then one more public-sector case from any casebook: vaccination, sanitation, last-mile finance.</p>
+      <p style="margin-top:8px">Never do a case only in your head. Speak. Time 25 minutes. Phone recording is fine.</p>
+    </div>
+  </div>
+
+  <!-- CASE 1 -->
+  <div class="wrap hidden" id="c1"></div>
+  <div class="wrap hidden" id="c2"></div>
+  <div class="wrap hidden" id="c3"></div>
+  <div class="wrap hidden" id="c4"></div>
+
+  <div class="wrap hidden" id="math">
+    <h2>Case math</h2>
+    <p class="lead">Not CAT. Talk out loud. No calculator. If you stall 20 seconds, say the approach and keep going.</p>
+    <div class="card" id="mq"></div>
+    <div class="nav2">
+      <button class="ghost" onclick="skipMath()">Skip</button>
+      <button class="primary" id="mnext" onclick="nextMath()">Check</button>
+    </div>
+    <p class="foot" id="mscore"></p>
+  </div>
+
+  <div class="wrap hidden" id="plan">
+    <h2>Plan · 8 to 22 Sep</h2>
+    <p class="lead">Tick on this phone. Aptitude days stay light on cases. Fit every day from the 15th.</p>
+    <div id="plan-list"></div>
+    <p class="foot">If the Mettl mail does not come, keep the case plan. The webinar is only for shortlisted names. The skill is still the skill.</p>
+  </div>
+
+<script>
+const TABS = ["home","basics","fit","cases","math","plan","c1","c2","c3","c4"];
+function go(id) {
+  TABS.forEach(x => {
+    const el = document.getElementById(x);
+    if (el) el.classList.toggle("hidden", x !== id);
+  });
+  document.querySelectorAll("nav.tabs button").forEach(b => {
+    b.classList.toggle("on", b.dataset.v === id || (id.startsWith("c") && b.dataset.v === "cases"));
+  });
+  window.scrollTo(0,0);
+}
+document.getElementById("tabs").addEventListener("click", e => {
+  const b = e.target.closest("button");
+  if (b && b.dataset.v) go(b.dataset.v);
+});
+
+let introT = null;
+function startIntro() {
+  let left = 90;
+  const el = document.getElementById("intro-t");
+  if (introT) clearInterval(introT);
+  el.textContent = "1:30";
+  introT = setInterval(() => {
+    left -= 1;
+    const m = Math.floor(left/60);
+    el.textContent = `${m}:${String(Math.max(0,left%60)).padStart(2,"0")}`;
+    if (left <= 0) { clearInterval(introT); el.textContent = "Stop."; }
+  }, 1000);
+}
+
+const CASES = {
+  c1: {
+    title: "Case 1 · ₹5 crore, urban migrants",
+    steps: [
+      {
+        t: "The prompt. Read twice. Do not start solving.",
+        b: "A donor is considering ₹5 crore to improve access to government welfare for low-income urban migrants in Mumbai. They prefer technology, but will hear alternatives. They want measurable results in 24 months. How would you approach this?"
+      },
+      {
+        t: "Your clarifying questions. Say them before any framework.",
+        b: "Good ones:\n\n1. Success metric: registration, or actual benefit receipt?\n2. Who is ‘migrant’ here: recent circular, or anyone not from Mumbai?\n3. What already exists: e-Shram, ONORC, BOCW, NGOs?\n4. What can the donor not do? (They cannot rewrite the Act.)\n\nYou already chose receipt, not registration. Say that as a hypothesis: ‘If we count cards issued we will look successful on the wrong dashboard.’"
+      },
+      {
+        t: "Structure. 20 silent seconds, then number the buckets.",
+        b: "Funnel, not ‘technology vs field.’\n\n1. Know the scheme exists\n2. Prove eligibility (ID, address, 90-day work)\n3. Complete the application without a tout\n4. Stay enrolled and get paid\n\nThen: which two breaks are worth ₹5 crore in 24 months? You cannot fix the whole funnel."
+      },
+      {
+        t: "Hypothesis. This is where you sound like you, not a casebook.",
+        b: "‘I would not lead with awareness. Application volume is already high in many Boards. I would test documents and last-mile processing first, because that is where eligible people still fall out.’\n\nThat sentence is your Telangana/Sanchay brain. Use it."
+      },
+      {
+        t: "They give you a number. Use it.",
+        b: "Suppose: 19 lakh applications, 2.6 lakh active members.\n\nSay: 2.6 / 19 ≈ 14%. Most people who start do not stay active. So a campaign that drives more applications may add to the 19 lakh without adding to the 2.6 lakh.\n\n₹5 crore / 10,000 households = ₹5,000 per household if you treated it as a transfer. That is a useful sense-check: this grant is not a UBI. It has to change a process."
+      },
+      {
+        t: "Two options, then a test. They asked this on the assignment. They will ask it again.",
+        b: "Option A: assisted application through to first payment (case owners at the chowk).\nOption B: a worker app / portal upgrade.\n\nYou prefer A unless they can show the portal is the binding constraint and the documents are already in hand.\n\nClose: I would pilot A in two wards for 90 days. Kill it if first-payment rate does not move. I would not spend the 5 crore on a new app until that test."
+      },
+      {
+        t: "Close, 20 seconds",
+        b: "‘Recommend assisted case-ownership to first payment, not a new app. Because applications already exist and active membership does not. Risk: we become a tout with a nicer badge. Week-one test: 400-worker chowk census on documents and prior rejections.’\n\nStop."
+      }
+    ]
+  },
+  c2: {
+    title: "Case 2 · State pensions, last mile",
+    steps: [
+      {
+        t: "Prompt",
+        b: "A state rural development department wants to increase the share of eligible elderly who actually receive their social pension, in 18 months, with ₹8 crore extra (not the pension budget itself). How should they spend it?"
+      },
+      {
+        t: "Clarify",
+        b: "Ask:\n\n1. Is the problem enrolment, or payment after enrolment?\n2. Is Aadhaar-bank linking already mandatory?\n3. Rural only, or rural + peri-urban?\n4. What is the current receipt rate, even roughly?\n\nIf they don’t know the receipt rate, that is the first finding. ‘We may be solving enrolment while the break is failed DBT.’"
+      },
+      {
+        t: "Structure",
+        b: "Same funnel:\n1. Eligible and known to the system\n2. Documents and authentication (Aadhaar, account, age proof)\n3. Application / mutation / life certificate\n4. Payment that lands and can be withdrawn\n\nAdd a cross-cut: women vs men, and people who cannot walk to the CSC."
+      },
+      {
+        t: "They say: enrolment looks high on the dashboard, complaints are about money not arriving.",
+        b: "Update the hypothesis out loud. ‘Then I would not buy an IEC van. I would look at failed DBT, biometric mismatch, and the last-mile cash-out point.’\n\nThis is the move. Let the new fact kill your first structure’s emphasis. They are testing whether you update."
+      },
+      {
+        t: "Number",
+        b: "80,000 enrolled. 62,000 received last month. ₹8 crore over 18 months.\n\nGap: 18,000 people. 8e7 / 18000 ≈ ₹4,400 per missing person over 18 months, or about ₹244 a month. The pension itself is larger than that. So the grant cannot be a top-up. It has to fix process for many people cheaply.\n\nSense-check: a call centre of 40 people at ₹25,000/month fully loaded ≈ ₹1.2 crore/year. Affordable. May not touch biometric failure."
+      },
+      {
+        t: "Recommend",
+        b: "I would split: diagnose the 18,000 with a 1,000-person phone-plus-village sample in month 1 (failed DBT vs never-authenticated vs cannot withdraw). Then put the bulk of the 8 crore on the winning break only. If it is authentication, pay for assisted biometric camps, not posters. If it is last-mile cash-out, pay BC / SHG cash-out points, not a new app.\n\nBring Sanchay in one sentence, then leave it. I have seen the BDO file and the household disagree. I would not trust the dashboard until that sample."
+      }
+    ]
+  },
+  c3: {
+    title: "Case 3 · Guesstimate",
+    steps: [
+      {
+        t: "Prompt",
+        b: "How many construction workers in NCT Delhi are eligible for a BOCW card but do not have an active one? Rough order of magnitude. 8 minutes."
+      },
+      {
+        t: "Rules of guesstimates",
+        b: "1. Say the formula first.\n2. Round aggressively (10, 20 million, not 19.4).\n3. Label every assumption as assumption.\n4. Give a range, then a best guess.\n5. They care about the tree, not the census."
+      },
+      {
+        t: "A clean tree",
+        b: "Eligible ≈ people who do construction work in Delhi × share who meet 90-day rule × share who are not already active members.\n\nI do not need the legal definition of ‘building worker’ in minute one. I need a labour-force path."
+      },
+      {
+        t: "One path (say it slowly)",
+        b: "Delhi NCT population ~ 2 crore (20 million).\nWorking-age ~ 65% → 13 million.\nLabour force ~ 50% of that → 6.5 million. (Women’s LFPR is lower; say 6 million to be conservative.)\nConstruction as a share of employment: maybe 8–12% in a city this size. Use 10% → 6 lakh people.\n\n90-day attachment: not all are construction on the day you count them. Use 60% → ~3.6 lakh eligible.\n\nActive Board members you were given in press: ~2.6 lakh statewide-looking figures can be Delhi-wide active. If 2.6 lakh active and some are not currently in construction, the uncovered eligible might still be in the 1–3 lakh range.\n\nBest guess I’d say: order of 1 to 3 lakh uncovered eligible. I would not defend a point estimate."
+      },
+      {
+        t: "What they wanted",
+        b: "You named population → workers → construction → eligibility rule → already enrolled.\nYou did not freeze. You offered a range.\nYou said which official number you’d buy tomorrow (Board active members, PLFS occupation share).\n\nThat is a pass. A precise 2,47,000 is a fail."
+      }
+    ]
+  },
+  c4: {
+    title: "Case 4 · Programme design",
+    steps: [
+      {
+        t: "Prompt",
+        b: "A foundation has ₹12 crore and 3 years to raise girls’ completion of class 10 in a large poor rural state. They can work in 4 districts. How would you design the programme?"
+      },
+      {
+        t: "Do not open with 3Cs or 4Ps",
+        b: "Clarify:\n1. Completion = enrolled in 10, or sat the exam, or passed?\n2. Are we allowed to pay families, or only schools?\n3. What is the current completion rate, even a state ASER / UDISE number?\n4. Why 4 districts: political, or ours to choose?"
+      },
+      {
+        t: "Structure from the girl, not from ‘stakeholders’",
+        b: "Why a girl leaves before 10:\n1. Distance / safety of the school\n2. Money (fees, books, lost wages, marriage)\n3. Quality (she is in school but not learning, so the exam is hopeless)\n4. Household / social permission\n\nThen: what the ₹12 crore can buy in 4 districts in 3 years. A state-wide campaign is a different case."
+      },
+      {
+        t: "They say learning levels in grade 8 are very low, and secondary schools are 8 km away in two of the four districts.",
+        b: "Two breaks, both real. Prioritise with the number they gave, or ask for one.\n\nHypothesis: in the two far districts, distance/safety may dominate. In the two nearer districts, learning and exam failure may dominate. One programme for four districts is a mistake.\n\nThat sentence is ‘segment.’ Dalberg loves it."
+      },
+      {
+        t: "Money",
+        b: "₹12 crore / 3 years = ₹4 crore a year. 4 districts. ₹1 crore per district-year.\n\nA residential hostel is expensive. A bicycle + escort + one extra teacher per school might fit.\n\nYou do not need the perfect unit cost. You need to show that ₹1 crore/district/year is a design constraint, not a rounding error."
+      },
+      {
+        t: "Close",
+        b: "‘I would not run one programme in four districts. I’d pick the binding constraint per pair of districts after a 6-week diagnostic: attendance vs learning vs distance. I’d ring-fence 10% for measurement against completion and pass, not enrolment. I’d avoid a new app. I’d want one district as a comparison if the state will allow it.’\n\nIf they ask why you: SHG sessions at Sanchay, TRI interviews, TISS evaluation course. One line. Then back to the case."
+      }
+    ]
+  }
+};
+
+function openCase(id) {
+  const c = CASES[id];
+  let html = `<button class="ghost" onclick="go('cases')" style="margin-top:0">All cases</button><h2>${c.title}</h2>`;
+  c.steps.forEach((s, i) => {
+    html += `<div class="card step" data-i="${i}" ${i ? 'style="display:none"' : ""}>
+      <div class="tag">Step ${i+1} / ${c.steps.length}</div>
+      <h4>${s.t}</h4>
+      <p style="white-space:pre-wrap">${s.b}</p>
+    </div>`;
+  });
+  html += `<div class="nav2"><button class="ghost" id="${id}-back">Back</button><button class="primary" id="${id}-next">Next step</button></div>`;
+  document.getElementById(id).innerHTML = html;
+  go(id);
+  let n = 0;
+  const steps = () => [...document.getElementById(id).querySelectorAll(".step")];
+  document.getElementById(id+"-next").onclick = () => {
+    const els = steps();
+    if (n >= els.length - 1) { go("cases"); return; }
+    els[n].style.display = "none";
+    n += 1;
+    els[n].style.display = "block";
+    document.getElementById(id+"-next").textContent = n === els.length - 1 ? "Done" : "Next step";
+  };
+  document.getElementById(id+"-back").onclick = () => {
+    const els = steps();
+    if (n === 0) { go("cases"); return; }
+    els[n].style.display = "none";
+    n -= 1;
+    els[n].style.display = "block";
+    document.getElementById(id+"-next").textContent = "Next step";
+  };
+}
+
+const MATH = [
+  { q: "₹5 crore for 10,000 households. Rupees per household?", o:["₹500","₹5,000","₹50,000","₹5 lakh"], a:1, w:"5,00,00,000 ÷ 10,000 = ₹5,000. If the pension is larger than this, the grant is a process budget, not a transfer." },
+  { q: "2.6 lakh active out of 19 lakh applications. Roughly what percent stay active?", o:["7%","14%","26%","40%"], a:1, w:"2.6 / 19 ≈ 0.137. About 14%. Round to 15% in a case and keep moving." },
+  { q: "A programme costs ₹800 per worker. Budget ₹80 lakh. How many workers?", o:["1,000","8,000","10,000","80,000"], a:2, w:"80,00,000 ÷ 800 = 10,000." },
+  { q: "Enrolment rises from 120 to 150. Percent increase?", o:["20%","25%","30%","80%"], a:1, w:"(150−120)/120 = 25%." },
+  { q: "40% of 1.2 lakh workers.", o:["36,000","40,000","48,000","4.8 lakh"], a:2, w:"10% of 1.2 lakh = 12,000. 40% = 48,000." },
+  { q: "₹12 crore over 3 years, 4 districts. Per district per year?", o:["₹50 lakh","₹1 crore","₹3 crore","₹4 crore"], a:1, w:"12/3 = 4 crore a year. ÷ 4 districts = ₹1 crore per district-year." },
+  { q: "80,000 enrolled, 62,000 paid. How many in the gap?", o:["8,000","18,000","22,000","62,000"], a:1, w:"80,000 − 62,000 = 18,000." },
+  { q: "18,000 people, ₹8 crore. Rupees per person in the gap?", o:["₹444","₹2,200","₹4,400","₹8,000"], a:2, w:"8,00,00,000 ÷ 18,000 ≈ 4,444. Say ₹4,400." },
+  { q: "A team of 40 at ₹25,000 a month each, for a year. Annual cost?", o:["₹12 lakh","₹1.2 crore","₹3 crore","₹10 crore"], a:1, w:"40 × 25,000 = 10,00,000 a month. ×12 = ₹1.2 crore." },
+  { q: "If A is 20% more than 50, A is?", o:["60","70","80","100"], a:0, w:"50 × 1.2 = 60. ‘20% more’ is not +20." },
+  { q: "3 people take 12 days. 6 people, same work?", o:["3 days","6 days","8 days","24 days"], a:1, w:"Twice the people, half the days. 6." },
+  { q: "A pilot needs 90 days. How many such pilots in 24 months?", o:["4","6","8","12"], a:2, w:"24 months = 720 days. 720/90 = 8 sequential. In the case, say ‘8 if sequential, more if parallel wards.’" }
+];
+let mi = 0, mLocked = false, mRight = 0, mTried = 0;
+function renderMath() {
+  mLocked = false;
+  const q = MATH[mi];
+  document.getElementById("mq").innerHTML = `<div class="tag">Q ${mi+1} / ${MATH.length}</div><h4>${q.q}</h4>
+    <div class="opts">${q.o.map((x,i)=>`<button class="opt" onclick="pickMath(${i})">${x}</button>`).join("")}</div>
+    <div id="mwhy"></div>`;
+  document.getElementById("mnext").textContent = "Check";
+  document.getElementById("mscore").textContent = mTried ? `So far ${mRight}/${mTried}` : "";
+}
+function pickMath(i) {
+  if (mLocked) return;
+  mLocked = true;
+  mTried += 1;
+  const q = MATH[mi];
+  if (i === q.a) mRight += 1;
+  [...document.querySelectorAll("#mq .opt")].forEach((el, idx) => {
+    if (idx === q.a) el.classList.add("right");
+    if (idx === i && i !== q.a) el.classList.add("wrong");
+  });
+  document.getElementById("mwhy").innerHTML = `<div class="why">${q.w}</div>`;
+  document.getElementById("mnext").textContent = mi === MATH.length-1 ? "Finish" : "Next";
+  document.getElementById("mscore").textContent = `${mRight}/${mTried}`;
+}
+function nextMath() {
+  if (!mLocked) return;
+  if (mi >= MATH.length-1) {
+    document.getElementById("mq").innerHTML = `<h4>${mRight}/${MATH.length}</h4><p>70%+ is enough. Redo the misses by refreshing math.</p>`;
+    return;
+  }
+  mi += 1;
+  renderMath();
+}
+function skipMath() {
+  if (mi >= MATH.length-1) return;
+  mi += 1;
+  renderMath();
+}
+renderMath();
+
+const PLAN = [
+  ["Tue 8 Sep", "Read Basics once. Record Tell-me-about-yourself once. Do not start a new case yet."],
+  ["Wed 9 Sep", "Case 1 warmup, out loud. Then Fit: Why Dalberg, twice."],
+  ["Thu 10 Sep", "Case math set. Fit: four SPAR stories, once each, standing up."],
+  ["Fri 11 Sep", "If Mettl mail comes, switch to /prep. If not, Case 2 pensions. Still 20 min of /prep."],
+  ["Sat 12 Sep", "Mettl window. Light: 15 min intro + Why consulting."],
+  ["Sun 13 Sep", "Mettl if not done. Evening: Case 3 guesstimate only."],
+  ["Mon 14 Sep", "Last Mettl day. Night: reread Why Dalberg. Sleep."],
+  ["Tue 15 Sep", "Status mail day. Case 4. Then redo Case 1 in 20 minutes, timed."],
+  ["Wed 16 Sep", "ImproMed (Dalberg site). Partner required. Fit poke questions."],
+  ["Thu 17 Sep", "Interview shortlist day. If yes: calendar the webinar. One full mock hour (case + fit)."],
+  ["Fri 18 Sep", "Webinar 3pm. Notes into this page’s five steps. Do not skip."],
+  ["Sat 19 Sep", "Electric tuk-tuks. Partner. Record the close."],
+  ["Sun 20 Sep", "Full mock with Sahil. 60 minutes. Brutal on ‘so what’."],
+  ["Mon 21 Sep", "Rest the new material. Intro + Why Dalberg + one SPAR. Sleep."],
+  ["Tue 22 Sep", "Round 1 possible. Paper, pen, water, numbers you always use: 1 crore = 10 million, 1 lakh = 100,000."]
+];
+const PK = "suhani-interview-plan";
+function planSave() {
+  const on = [...document.querySelectorAll("#plan-list input")].map(x => x.checked);
+  localStorage.setItem(PK, JSON.stringify(on));
+}
+function renderPlan() {
+  const saved = JSON.parse(localStorage.getItem(PK) || "[]");
+  document.getElementById("plan-list").innerHTML = PLAN.map((p,i) =>
+    `<label class="chk"><input type="checkbox" ${saved[i]?"checked":""} onchange="planSave()"><span><b>${p[0]}</b><br>${p[1]}</span></label>`
+  ).join("");
+}
+renderPlan();
+</script>
+</body>
+</html>

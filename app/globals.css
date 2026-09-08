@@ -2140,8 +2140,21 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.028em; }
 .card { background: transparent; border-color: var(--line-strong); }
 .card:hover { border-color: var(--ink); transform: none; box-shadow: none; }
 .card .kind { color: var(--muted); }
-.proof img { filter: grayscale(1); opacity: 0.78; }
-.proof li { color: var(--ink-2); font-weight: 500; }
+.proof { padding: 32px 0; }
+.proof .wrap { flex-direction: column; align-items: flex-start; gap: 20px; }
+.proof ul { gap: 20px 40px; align-items: flex-start; }
+.proof li {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.proof img { height: 36px; }
+.proof img.mark { width: 36px; height: 36px; border-radius: 6px; }
+.proof img.word { height: 36px; max-width: 110px; }
 .sec-head { margin-bottom: 40px; }
 .method article { border-top: 1px solid var(--ink); }
 .seq-spine span { background: var(--ink); }

@@ -1,0 +1,233 @@
+{
+  "months": {
+    "header": [
+      "Month",
+      "Capacity",
+      "Theme",
+      "Must-ship this month",
+      "Apply / watch",
+      "Weekly drills",
+      "Do not do",
+      "Her constraint"
+    ],
+    "rows": [
+      [
+        "Sep 2026 (remainder)",
+        "8-10 hrs/week",
+        "Lock proof she already almost has",
+        "1) Pride Place 1-pager\n2) BOCW 2-pager\n3) STAR story bank (Pride Place / Sanchay / TRI)\n4) Field CV bullet locked (sites, languages, travel windows)",
+        "Submit 1 UN/UNDP Gender Intern pack while still enrolled (undp-india-gender-intern-delhi.md).\nWatch only: FEMAT Law & Governance intern (deadline 10 Oct).",
+        "2x 30-min Stata drills\n1 timed 500-word brief (no AI)\n2 PrepLounge cases (not 5)",
+        "Do not spray 20 applications.\nSkip CSRBOX managers, BharatCares field, GIZ advisor, senior UN posts.\nNo new paid courses this month.",
+        "Still in college. Light capacity."
+      ],
+      [
+        "Oct 2026",
+        "18 hrs/week",
+        "Build proof folder + first apply wave",
+        "1) Stata replication table (NFHS extract)\n2) SurveyCTO/ODK 20-question form + screenshots\n3) Excel cost-coverage model + matching 3-slide deck\n4) Field QC checklist from a J-PAL RA JD",
+        "Apply (Core, eligible-now):\n- IEIC RA gender / rolling (ieic-ra-gender-portfolio-2026.md, ieic-ra-rolling-bihar-mp-2026.md)\n- IDinsight evergreen Associate (idinsight-associate-senior-associate-evergreen-delhi.md)\n- Sattva Analyst Freshteam (gov / corporate advisory Mumbai)\n- EY GPS Analyst Transformation Delivery\n- PRS Analyst / Associate Analyst\n- Vidhi if a Fellow wave is open\n- FEMAT intern by 10 Oct\nWatch: YLAC Policy in Action (14 Nov-13 Dec).",
+        "Stata 3x/week (30 min)\n2 cases/week\n1 timed brief/week\nSunday: application log review",
+        "No ESG/BRSR deep dive yet.\nNo Dalberg apply (Sep cycle closed); prep decks only.\nIgnore streams 8-11 as primary chase.",
+        "College ends. First real build+apply month."
+      ],
+      [
+        "Nov 2026",
+        "12 hrs/week if interning; 18 if not",
+        "Internship month (or heavy apply if none lands)",
+        "If interning: protect drills only.\nIf not: IDR-shaped reported piece (1,200 words, no AI edit) + bilingual Hindi/English pair of one short piece.",
+        "Targets if still open:\n- YLAC Policy in Action (ylac-policy-in-action-nov-dec-2026.md)\n- MWCD Internship rolling (mwcd-internship-programme-rolling.md)\n- Village Square / TRI content or intern lane\n- UNDP / UN Women intern (while enrolled)\n- SNEHA only if she wants Mumbai VAW adjacency\nIf no intern: 6 applications from Core orgs (IEIC, IDinsight, Sattva, EY GPS, PRS, CEGIS).",
+        "Stata 2x/week\n1 case/week if interning, 3 if not\n1 timed brief/week",
+        "Do not take every internship.\nSkip clinical counselling claims for SNEHA.\nNo new certs.",
+        "College break. Available for internship."
+      ],
+      [
+        "Dec 2026",
+        "6 hrs/week (+ LAMP essays if portal opens)",
+        "Exams first; LAMP is the only exception",
+        "LAMP essay bank: 4 timed ~500-word essays if PRS opens 2027-28 window.\nKeep Pride Place / BOCW / Stata table polished for applications.",
+        "Watch: LAMP Fellowship 2027-28 (2026-27 already closed: prs-lamp-fellowship-2026-27.md).\nRolling only if energy left: IEIC / IDinsight / Sattva.",
+        "1 timed 500-word essay/week\n1 Stata drill/week\nNo case binge",
+        "No new courses.\nNo application spray during exams.\nNo ESG certs.",
+        "College break. Exams."
+      ],
+      [
+        "Jan 2027",
+        "12-15 hrs/week",
+        "RA network + consulting case block",
+        "Case log to 10 (PrepLounge + Bridgespan toolkit cases).\nOne newspaper-headline slide (Dalberg shape).\nOptional: NITI YP SOP draft only if 1-year experience + master's/LLB bar is honest.",
+        "Watch/apply:\n- J-PAL SA general / network RA pools (jpal-general-field-research-associate-2026-27.md, jpal-general-data-research-associate-2026-27.md)\n- Bridgespan India AC cycle (last India deadline in corpus was 29 Jan 2026; treat late Jan as the watch)\n- Rolling: IEIC, IDinsight, Sattva, CEGIS\n- ISS STOXX / CRISIL only if still live Mumbai 0-2 and she wants ESG",
+        "3 cases/week until log hits 10\nStata 2x/week\n1 timed brief/week",
+        "Do not start CFA ESG / GARP SCR unless a JD names them.\nDo not reopen Media Diet as a project.",
+        "TISS finish period. Fill actual internship/exam dates herself."
+      ],
+      [
+        "Feb 2027",
+        "12-15 hrs/week",
+        "Rolling applications only",
+        "Portfolio freeze check: Pride Place, BOCW, Stata table, SurveyCTO, model+deck, IDR sample if done. Patch gaps only.",
+        "Rolling: Sattva, CEGIS, IDinsight, IEIC.\nCSF / Room to Read only if she wants education PMU.\nLight CMGGA / fellowship GK habit (15 min, 3x/week).",
+        "2 cases/week\nStata 1x/week\n1 Bill-tracking note/week (PRS style)",
+        "No new certs unless a JD names one.\nNo migrant field relocate decision unless applying Aajeevika/SEWA.",
+        "Blank on her note. She fills real dates."
+      ],
+      [
+        "Mar 2027",
+        "12-15 hrs/week",
+        "Keep rolling; deepen interviews",
+        "Interview story bank refresh (3 STAR stories + 1 failure story).\nDistrict / PMU note rewrite of Sanchay if chasing gov/education.",
+        "Same Core rolling list.\nWatch Dalberg / Bridgespan next cycles if announced.\nPRS / Vidhi waves if open.",
+        "2 cases/week\n1 timed brief/week\nMental math 10 min before cases",
+        "Do not expand into 8 streams at once.\nSkip senior UN consultancies.",
+        "Blank on her note. She fills real dates."
+      ],
+      [
+        "Apr 2027",
+        "12-15 hrs/week",
+        "Steady state before full-time hunt",
+        "One logframe page (LEAP or Sanchay) for M&E vocabulary.\nConfirm proof folder is one Drive folder she can attach.",
+        "Rolling Core orgs.\nWatch fellowship calendars for mid-year opens.",
+        "2 cases/week\nStata maintenance 1x/week",
+        "No new tools (R, Power BI) unless a live JD requires them.",
+        "Blank on her note. She fills real dates."
+      ],
+      [
+        "May 2027",
+        "15-18 hrs/week",
+        "Full-time hunt for Jul/Aug start",
+        "Portfolio frozen. Only polish typos.\nApplication tracker: 8-10 active Core applications.",
+        "Same Core orgs at higher volume.\nWatch CMGGA / Maharashtra fellowship 2027 windows (2026 cycles closed).",
+        "3 cases/week\nInterview mocks 1x/week",
+        "Do not start new courses.\nDo not rebuild the skill tracker.",
+        "Pre-graduation push."
+      ],
+      [
+        "Jun 2027",
+        "15-18 hrs/week",
+        "Convert offers / keep pipeline",
+        "Offer decision note (location, pay, learning, fit rank).\nIf no offer: double Core applications; add one adjacent lane only.",
+        "Core orgs + any open RA / Analyst waves.\nWatch LAMP results / next PRS cycles if relevant.",
+        "Cases + mocks as needed for interviews",
+        "No geography spray (do not apply Gujarat field + Mumbai ESG + Delhi RA in one week without a decision).",
+        "Pre-graduation push."
+      ],
+      [
+        "Jul 2027",
+        "Transition (not a skill sprint)",
+        "Graduate and start",
+        "Convert internship if one exists.\nHandoff proof folder + application log to herself for the job.",
+        "Watch CMGGA / Maharashtra 2027 windows.\nOnboard wherever she lands.",
+        "None unless interview pending",
+        "Do not open a new learning stack in week one of a job.",
+        "Suhani graduates from TISS."
+      ]
+    ]
+  },
+  "weeks": [
+    [
+      "W1",
+      "17-21 Sep 2026",
+      "Lock artefacts",
+      "1. Finish Pride Place 1-pager\n2. Finish BOCW 2-pager\n3. Write 3 STAR stories (Pride Place, Sanchay, TRI)\n4. Two 30-min Stata drills\n5. One timed 500-word brief (no AI)\n6. Submit 1 UN/UNDP Gender Intern pack if eligibility still holds",
+      ""
+    ],
+    [
+      "W2",
+      "22-28 Sep 2026",
+      "Proof + light apply prep",
+      "1. Field CV bullet (sites, languages, travel)\n2. Two Stata drills (load, regress, export table)\n3. Two PrepLounge cases; log frameworks\n4. Shortlist Oct applications (IEIC, IDinsight, Sattva, EY GPS, PRS)\n5. One timed brief\n6. Read FEMAT JD; decide apply vs skip by next week",
+      ""
+    ],
+    [
+      "W3",
+      "29 Sep-5 Oct 2026",
+      "SurveyCTO + Excel start",
+      "1. Open SurveyCTO free training account\n2. Draft 20-question form (skips + constraints)\n3. Start Excel cost-coverage model from migrant/BOCW numbers\n4. One Stata drill + one case\n5. Apply: IDinsight evergreen if ready\n6. Watch YLAC dates (14 Nov start)",
+      ""
+    ],
+    [
+      "W4",
+      "6-12 Oct 2026",
+      "Ship form + FEMAT deadline",
+      "1. Pilot SurveyCTO form on phone; save screenshots\n2. FEMAT Law & Governance intern apply by 10 Oct (or skip with reason)\n3. Finish Excel model v1\n4. Turn model into 3-slide deck (headline titles)\n5. Two cases\n6. Apply: Sattva Analyst (Mumbai/gov or corporate advisory)",
+      ""
+    ],
+    [
+      "W5",
+      "13-19 Oct 2026",
+      "Stata table + RA wave",
+      "1. Stata replication table from NFHS extract (clean notebook)\n2. Field QC checklist from jpal-sa-ra-gec-scaleup-2026-08.md language\n3. Apply: IEIC RA gender/rolling\n4. Apply: EY GPS Analyst Transformation Delivery\n5. Two cases + one timed brief\n6. PRS Analyst pack draft (CV + short SOP)",
+      ""
+    ],
+    [
+      "W6",
+      "20-26 Oct 2026",
+      "Close Oct proof folder",
+      "1. Put Pride Place, BOCW, Stata, SurveyCTO, model+deck, STAR bank in one folder\n2. Apply: PRS Analyst / Associate Analyst\n3. Apply: Vidhi if wave open; else CEGIS careers watch\n4. Three cases this week\n5. One timed brief\n6. Decide YLAC: apply or skip",
+      ""
+    ],
+    [
+      "W7",
+      "27 Oct-2 Nov 2026",
+      "Internship chase week",
+      "1. YLAC Policy in Action application if pursuing\n2. MWCD internship portal check + pack\n3. Village Square / TRI outreach note\n4. UNDP intern pack refresh if still enrolled\n5. Stata 2x + one case\n6. No new tools",
+      ""
+    ],
+    [
+      "W8",
+      "3-9 Nov 2026",
+      "Intern or IDR",
+      "IF INTERNING: drills only (Stata 2x, brief 1x). Log what the internship teaches.\nIF NOT: 1) Outline IDR-shaped piece 2) Interview one source or use existing field notes 3) Draft 800 words 4) Three Core applications 5) Two cases",
+      ""
+    ],
+    [
+      "W9",
+      "10-16 Nov 2026",
+      "IDR / apply volume",
+      "IF INTERNING: protect Sunday application review only.\nIF NOT: 1) Finish IDR piece to 1,200 words (human edit only) 2) Hindi adaptation of one short section 3) Three more Core applications 4) Two cases 5) One timed brief",
+      ""
+    ],
+    [
+      "W10",
+      "17-23 Nov 2026",
+      "Close Nov wave",
+      "1. Application log: status of everything sent in Oct-Nov\n2. Follow-ups where polite (1 week after apply)\n3. Stata maintenance + one case\n4. If IDR piece done, cold-send only if quality bar is real\n5. Prep Dec exam schedule; cut hours next week",
+      ""
+    ],
+    [
+      "W11",
+      "24-30 Nov 2026",
+      "Handoff into exams",
+      "1. Freeze portfolio (no big new artefacts)\n2. Print or save LAMP past-prompt examples for Dec\n3. One Stata drill + one brief only\n4. Check PRS site for LAMP 2027-28 open date\n5. Light case (1) if energy left",
+      ""
+    ],
+    [
+      "W12",
+      "1-7 Dec 2026",
+      "Exams mode",
+      "1. Exams first\n2. One timed 500-word policy essay (LAMP shape)\n3. One Stata drill\n4. No application spray\n5. If LAMP portal opens: start essays immediately",
+      ""
+    ],
+    [
+      "W13",
+      "8-14 Dec 2026",
+      "Exams + LAMP",
+      "1. Exams first\n2. Second timed LAMP essay\n3. Watch PRS LAMP portal daily if rumoured open\n4. Rolling apply only if a Core door is perfect and quick",
+      ""
+    ],
+    [
+      "W14",
+      "15-21 Dec 2026",
+      "Exams + LAMP",
+      "1. Exams first\n2. Third timed LAMP essay\n3. Polish SOP/CV only if LAMP is open\n4. One Stata drill\n5. Rest between exams",
+      ""
+    ],
+    [
+      "W15",
+      "22-31 Dec 2026",
+      "Close 2026 / set Jan",
+      "1. Fourth timed LAMP essay (or submit LAMP if open)\n2. Jan watchlist: J-PAL general RA pools, Bridgespan cycle, IEIC/IDinsight rolling\n3. Case log count; plan Jan to hit 10\n4. Update Monthly Calendar with any real internship/exam dates she now knows\n5. One light Stata drill; no new courses",
+      ""
+    ]
+  ]
+}

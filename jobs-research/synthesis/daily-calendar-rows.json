@@ -1,0 +1,1072 @@
+[
+  {
+    "date": "2026-09-17",
+    "day": "Thu",
+    "week": "W1",
+    "start": "19:00",
+    "end": "20:30",
+    "task": "Write Pride Place 1-pager",
+    "how": "Cut the four-part Act memo to 1 page. Answer first, then 3 reasons. Skill Tracker: Gender / Rights implementation memo. This is the artefact for UNDP / IEIC applications.",
+    "mins": 90
+  },
+  {
+    "date": "2026-09-18",
+    "day": "Fri",
+    "week": "W1",
+    "start": "19:00",
+    "end": "20:30",
+    "task": "Write BOCW 2-pager",
+    "how": "Tighten the Dalberg BOCW memo to 2 pages in plain language (entitlement pathway, where it fails, what to do). Skill Tracker: Migrant / Welfare entitlement case memo.",
+    "mins": 90
+  },
+  {
+    "date": "2026-09-19",
+    "day": "Sat",
+    "week": "W1",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Write 3 STAR stories",
+    "how": "Pride Place, Sanchay, TRI. Situation / Task / Action / Result. One page total. Skill Tracker: Consulting / Client stakeholder engagement.",
+    "mins": 60
+  },
+  {
+    "date": "2026-09-19",
+    "day": "Sat",
+    "week": "W1",
+    "start": "11:00",
+    "end": "11:30",
+    "task": "Stata drill 1",
+    "how": "Princeton / UCLA Stata guide. Load a small CSV, run a regression, export one table. Log every error. 30 min timed.",
+    "mins": 30
+  },
+  {
+    "date": "2026-09-20",
+    "day": "Sun",
+    "week": "W1",
+    "start": "17:00",
+    "end": "18:00",
+    "task": "Sunday review + start UN intern pack",
+    "how": "Open undp-india-gender-intern-delhi.md. Check still-enrolled rule. Draft SOP from Pride Place 1-pager. Sunday rule: what went out, what is due, what to skip.",
+    "mins": 60
+  },
+  {
+    "date": "2026-09-21",
+    "day": "Mon",
+    "week": "W1",
+    "start": "19:00",
+    "end": "19:45",
+    "task": "Timed 500-word brief (no AI)",
+    "how": "One live Bill or circular. Conclusion in sentence 1. Minto / Pyramid. Timer on.",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-21",
+    "day": "Mon",
+    "week": "W1",
+    "start": "19:45",
+    "end": "20:15",
+    "task": "Stata drill 2",
+    "how": "Same dataset as Saturday. New regression. Export table without looking up syntax if you can.",
+    "mins": 30
+  },
+  {
+    "date": "2026-09-21",
+    "day": "Mon",
+    "week": "W1",
+    "start": "20:15",
+    "end": "21:00",
+    "task": "Submit UN / UNDP Gender Intern pack",
+    "how": "If eligibility still holds: CV + SOP + Pride Place 1-pager. If not eligible, write skip reason in the application log and stop.",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-22",
+    "day": "Tue",
+    "week": "W2",
+    "start": "19:00",
+    "end": "19:45",
+    "task": "Field CV bullet",
+    "how": "One paragraph: sites, languages, travel windows from TRI (6 states) and Sanchay. Skill Tracker: Fieldwork and travel readiness.",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-22",
+    "day": "Tue",
+    "week": "W2",
+    "start": "19:45",
+    "end": "20:15",
+    "task": "Stata drill 3",
+    "how": "Load, describe, regress, export. Same 30-min rule.",
+    "mins": 30
+  },
+  {
+    "date": "2026-09-23",
+    "day": "Wed",
+    "week": "W2",
+    "start": "19:00",
+    "end": "20:30",
+    "task": "Two PrepLounge cases",
+    "how": "5-step structure. Mental math 10 min before each. Log frameworks used. Skill Tracker: Consulting / Case interview. Two cases this week, not five.",
+    "mins": 90
+  },
+  {
+    "date": "2026-09-24",
+    "day": "Thu",
+    "week": "W2",
+    "start": "19:00",
+    "end": "19:45",
+    "task": "Timed 500-word brief",
+    "how": "New Bill or circular. No AI draft. Save in proof folder.",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-24",
+    "day": "Thu",
+    "week": "W2",
+    "start": "19:45",
+    "end": "20:30",
+    "task": "Shortlist October applications",
+    "how": "One row each: IEIC RA, IDinsight evergreen, Sattva Analyst, EY GPS Analyst, PRS Analyst. Fit / must-have / link. Do not apply yet except if a pack is already ready.",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-25",
+    "day": "Fri",
+    "week": "W2",
+    "start": "19:00",
+    "end": "19:30",
+    "task": "Read FEMAT intern JD; decide",
+    "how": "feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md. Deadline 10 Oct. Apply or skip with one-line reason.",
+    "mins": 30
+  },
+  {
+    "date": "2026-09-25",
+    "day": "Fri",
+    "week": "W2",
+    "start": "19:30",
+    "end": "20:00",
+    "task": "Stata drill 4",
+    "how": "Export a clean table. If you freeze, restart the timer. Do not extend past 30.",
+    "mins": 30
+  },
+  {
+    "date": "2026-09-26",
+    "day": "Sat",
+    "week": "W2",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Finish Oct shortlist table",
+    "how": "Add portal links and any missing docs (writing sample, transcripts).",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-27",
+    "day": "Sun",
+    "week": "W2",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "Nothing sent this week is fine. Check FEMAT decision and UN pack status.",
+    "mins": 30
+  },
+  {
+    "date": "2026-09-29",
+    "day": "Tue",
+    "week": "W3",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Open SurveyCTO free training account",
+    "how": "surveycto.com training. Skill Tracker: SurveyCTO / ODK form design. Watch the skip-logic module only today.",
+    "mins": 45
+  },
+  {
+    "date": "2026-09-29",
+    "day": "Tue",
+    "week": "W3",
+    "start": "16:00",
+    "end": "17:00",
+    "task": "Start 20-question form",
+    "how": "Pick Pride Place or Sanchay topic. Write questions on paper first. No skip logic yet.",
+    "mins": 60
+  },
+  {
+    "date": "2026-09-30",
+    "day": "Wed",
+    "week": "W3",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "Add skips and constraints to the form",
+    "how": "Relevance, constraints, required fields. Save a draft export.",
+    "mins": 90
+  },
+  {
+    "date": "2026-10-01",
+    "day": "Thu",
+    "week": "W3",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "Start Excel cost-coverage model",
+    "how": "Rebuild migrant / BOCW numbers from scratch. XLOOKUP, pivots, one chart. Skill Tracker: Excel to hireable. No notes.",
+    "mins": 90
+  },
+  {
+    "date": "2026-10-02",
+    "day": "Fri",
+    "week": "W3",
+    "start": "10:00",
+    "end": "10:30",
+    "task": "Stata drill",
+    "how": "30 min. Load NFHS extract if you have one; else keep the practice CSV.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-02",
+    "day": "Fri",
+    "week": "W3",
+    "start": "10:30",
+    "end": "11:15",
+    "task": "One PrepLounge case",
+    "how": "Log framework. Mental math first.",
+    "mins": 45
+  },
+  {
+    "date": "2026-10-03",
+    "day": "Sat",
+    "week": "W3",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Apply: IDinsight evergreen Associate",
+    "how": "idinsight-associate-senior-associate-evergreen-delhi.md. Attach Pride Place + Stata table if it exists; else CV + SOP only.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-03",
+    "day": "Sat",
+    "week": "W3",
+    "start": "16:00",
+    "end": "16:45",
+    "task": "Excel model continue",
+    "how": "Same sheet. Scenario toggle (coverage vs cost). Clean chart.",
+    "mins": 45
+  },
+  {
+    "date": "2026-10-04",
+    "day": "Sun",
+    "week": "W3",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Form polish + YLAC date note",
+    "how": "ylac-policy-in-action-nov-dec-2026.md. 14 Nov-13 Dec. Put apply/skip decision on next Sunday.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-05",
+    "day": "Mon",
+    "week": "W3",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "IDinsight sent? FEMAT still pending? YLAC noted?",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-06",
+    "day": "Tue",
+    "week": "W4",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "Pilot SurveyCTO form on phone",
+    "how": "Fill it yourself. Screenshot skips + constraints. Export. Skill Tracker portfolio: form export + screenshots.",
+    "mins": 90
+  },
+  {
+    "date": "2026-10-07",
+    "day": "Wed",
+    "week": "W4",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "Finish Excel model v1",
+    "how": "One sitting. Numbers match the 3-slide deck you will make tomorrow.",
+    "mins": 90
+  },
+  {
+    "date": "2026-10-08",
+    "day": "Thu",
+    "week": "W4",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "Turn model into a 3-slide deck",
+    "how": "Title is the takeaway. One idea per slide. Skill Tracker: Slide / deck logic + Excel+PPT pair.",
+    "mins": 90
+  },
+  {
+    "date": "2026-10-08",
+    "day": "Thu",
+    "week": "W4",
+    "start": "16:00",
+    "end": "17:00",
+    "task": "Two PrepLounge cases",
+    "how": "Log them. Mental math 10 min before.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-09",
+    "day": "Fri",
+    "week": "W4",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "FEMAT apply or skip (due 10 Oct)",
+    "how": "If apply: CV + short note from Pride Place. If skip: write the reason. Do this today, not on the deadline.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-10",
+    "day": "Sat",
+    "week": "W4",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "Apply: Sattva Analyst (Mumbai / gov or corporate advisory)",
+    "how": "sattva-talent.freshteam.com. Use STAR bank + 3-slide deck if asked for a sample.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-10",
+    "day": "Sat",
+    "week": "W4",
+    "start": "16:00",
+    "end": "16:30",
+    "task": "Stata drill",
+    "how": "30 min. Do not skip because you applied today.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-11",
+    "day": "Sun",
+    "week": "W4",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Proof folder tidy",
+    "how": "Pride Place, BOCW, STAR, SurveyCTO, Excel, 3-slide in one Drive folder.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-12",
+    "day": "Mon",
+    "week": "W4",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "FEMAT, Sattva, IDinsight status. Prep IEIC + EY for next week.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-13",
+    "day": "Tue",
+    "week": "W5",
+    "start": "10:00",
+    "end": "12:00",
+    "task": "Stata replication table from NFHS extract",
+    "how": "Clean do-file or notebook. One regression table you could attach. Skill Tracker: Stata under time pressure.",
+    "mins": 120
+  },
+  {
+    "date": "2026-10-14",
+    "day": "Wed",
+    "week": "W5",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "Field QC checklist from J-PAL GEC JD",
+    "how": "Read jpal-sa-ra-gec-scaleup-2026-08.md. One page: QC steps, travel, enumerator checks.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-15",
+    "day": "Thu",
+    "week": "W5",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "Apply: IEIC RA gender / rolling",
+    "how": "ieic-ra-gender-portfolio-2026.md and ieic-ra-rolling-bihar-mp-2026.md. Hindi + Stata + Pride Place.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-16",
+    "day": "Fri",
+    "week": "W5",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "Apply: EY GPS Analyst Transformation Delivery",
+    "how": "ey-analyst-gps-business-consulting-transformation-delivery-new-delhi-2026-09.md. STAR stories + Excel/PPT pair.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-16",
+    "day": "Fri",
+    "week": "W5",
+    "start": "16:00",
+    "end": "17:15",
+    "task": "Two cases + one timed brief",
+    "how": "Cases first (60), brief second (45). No AI.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-17",
+    "day": "Sat",
+    "week": "W5",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "Draft PRS Analyst pack",
+    "how": "prs-analyst-2026-09.md. CV + short SOP. Bill-tracking note as optional sample.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-18",
+    "day": "Sun",
+    "week": "W5",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Stata drill + case log update",
+    "how": "Count cases so far. Target 10 by end of January.",
+    "mins": 45
+  },
+  {
+    "date": "2026-10-19",
+    "day": "Mon",
+    "week": "W5",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "IEIC, EY, Sattva, IDinsight. Note any replies.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-20",
+    "day": "Tue",
+    "week": "W6",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Close Oct proof folder",
+    "how": "Checklist: Pride Place, BOCW, Stata table, SurveyCTO, model+deck, STAR bank, field QC, field CV.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-21",
+    "day": "Wed",
+    "week": "W6",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "Apply: PRS Analyst / Associate Analyst",
+    "how": "Send the pack drafted last week. prs-analyst-2026-09.md / prs-associate-analyst-2026-09.md.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-22",
+    "day": "Thu",
+    "week": "W6",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Vidhi wave check or CEGIS watch",
+    "how": "vidhilegalpolicy.in/careers. If no wave, open CEGIS careers and note any PA roles. Do not force a weak apply.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-23",
+    "day": "Fri",
+    "week": "W6",
+    "start": "10:00",
+    "end": "12:00",
+    "task": "Three cases",
+    "how": "Heavier case day. Log all three. Mental math before each.",
+    "mins": 120
+  },
+  {
+    "date": "2026-10-24",
+    "day": "Sat",
+    "week": "W6",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Timed brief",
+    "how": "500 words. Government-facing. Save.",
+    "mins": 45
+  },
+  {
+    "date": "2026-10-24",
+    "day": "Sat",
+    "week": "W6",
+    "start": "10:45",
+    "end": "11:15",
+    "task": "Decide YLAC: apply or skip",
+    "how": "ylac-policy-in-action-nov-dec-2026.md. 14 Nov start. Write the decision.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-25",
+    "day": "Sun",
+    "week": "W6",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Stata maintenance",
+    "how": "Re-run the NFHS table cold. Fix anything that breaks.",
+    "mins": 45
+  },
+  {
+    "date": "2026-10-26",
+    "day": "Mon",
+    "week": "W6",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "Oct wave closed. List Nov internship targets.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-27",
+    "day": "Tue",
+    "week": "W7",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "YLAC application if pursuing",
+    "how": "Only if last Saturday was apply. Else skip this block and do a case instead.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-28",
+    "day": "Wed",
+    "week": "W7",
+    "start": "10:00",
+    "end": "11:15",
+    "task": "MWCD internship pack",
+    "how": "mwcd-internship-programme-rolling.md. Women 21-40, while enrolled / associated. SOP + Pride Place.",
+    "mins": 75
+  },
+  {
+    "date": "2026-10-29",
+    "day": "Thu",
+    "week": "W7",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Village Square / TRI outreach note",
+    "how": "Short connect. She already has bylines. Ask about Nov intern / content lane. One note, not a spray.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-30",
+    "day": "Fri",
+    "week": "W7",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "UNDP intern pack refresh",
+    "how": "Only if still enrolled. Reuse W1 pack. If already submitted, stop.",
+    "mins": 60
+  },
+  {
+    "date": "2026-10-31",
+    "day": "Sat",
+    "week": "W7",
+    "start": "10:00",
+    "end": "10:30",
+    "task": "Stata drill",
+    "how": "30 min.",
+    "mins": 30
+  },
+  {
+    "date": "2026-10-31",
+    "day": "Sat",
+    "week": "W7",
+    "start": "10:30",
+    "end": "11:15",
+    "task": "One case",
+    "how": "Keep the log moving.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-01",
+    "day": "Sun",
+    "week": "W7",
+    "start": "10:00",
+    "end": "10:30",
+    "task": "No new tools day",
+    "how": "Do not open R, Power BI, or a paid course. Optional: reread Pride Place 1-pager out loud.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-02",
+    "day": "Mon",
+    "week": "W7",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "Internship chase status. If one lands, switch Nov to intern hours (12/week).",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-03",
+    "day": "Tue",
+    "week": "W8",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "If no intern: outline IDR-shaped piece",
+    "how": "1,200-word reported development feature. IDR archive for shape. No AI. If interning: Stata 30 + brief 30 only, then stop.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-04",
+    "day": "Wed",
+    "week": "W8",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "If no intern: gather notes / one source",
+    "how": "Use existing field notes (Pride Place, Sanchay, TRI). Do not invent quotes. If interning: one case, then stop.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-05",
+    "day": "Thu",
+    "week": "W8",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "If no intern: draft 800 words",
+    "how": "Human draft only. Skill Tracker: IDR-shaped reported piece. If interning: skip.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-06",
+    "day": "Fri",
+    "week": "W8",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "If no intern: three Core applications",
+    "how": "From IEIC, IDinsight, Sattva, EY GPS, PRS, CEGIS. Only doors still open. If interning: Sunday-style log only.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-07",
+    "day": "Sat",
+    "week": "W8",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "If no intern: two cases",
+    "how": "Log them. If interning: one Stata drill.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-08",
+    "day": "Sun",
+    "week": "W8",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Catch-up or rest",
+    "how": "Finish any slipped draft. Do not start a new lane.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-09",
+    "day": "Mon",
+    "week": "W8",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "IDR progress. Applications sent.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-10",
+    "day": "Tue",
+    "week": "W9",
+    "start": "10:00",
+    "end": "12:00",
+    "task": "If no intern: finish IDR piece to 1,200 words",
+    "how": "Human edit only. Skill Tracker: IDR writing sample. If interning: drills only (Stata + brief).",
+    "mins": 120
+  },
+  {
+    "date": "2026-11-11",
+    "day": "Wed",
+    "week": "W9",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "If no intern: Hindi adaptation of one short section",
+    "how": "Peer read if possible. Skill Tracker: Hindi + English bilingual content. If interning: skip.",
+    "mins": 60
+  },
+  {
+    "date": "2026-11-12",
+    "day": "Thu",
+    "week": "W9",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "If no intern: three more Core applications",
+    "how": "Do not repeat closed portals. If interning: protect the internship; no spray.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-13",
+    "day": "Fri",
+    "week": "W9",
+    "start": "10:00",
+    "end": "11:30",
+    "task": "Two cases + one timed brief",
+    "how": "If interning: one brief only.",
+    "mins": 90
+  },
+  {
+    "date": "2026-11-14",
+    "day": "Sat",
+    "week": "W9",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "YLAC start check",
+    "how": "If enrolled, sessions begin around 14 Nov. Block session times on this sheet if they publish a timetable.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-15",
+    "day": "Sun",
+    "week": "W9",
+    "start": "10:00",
+    "end": "10:30",
+    "task": "Stata maintenance",
+    "how": "30 min.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-16",
+    "day": "Mon",
+    "week": "W9",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "Nov wave. Any interview invites?",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-17",
+    "day": "Tue",
+    "week": "W10",
+    "start": "10:00",
+    "end": "11:00",
+    "task": "Application log: Oct-Nov status",
+    "how": "One table: org, date sent, reply, next step. This becomes the weekly habit.",
+    "mins": 60
+  },
+  {
+    "date": "2026-11-18",
+    "day": "Wed",
+    "week": "W10",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Polite follow-ups (1 week after apply)",
+    "how": "Only where a portal or person accepts a nudge. One paragraph each. Max 4.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-19",
+    "day": "Thu",
+    "week": "W10",
+    "start": "10:00",
+    "end": "10:30",
+    "task": "Stata drill",
+    "how": "30 min.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-19",
+    "day": "Thu",
+    "week": "W10",
+    "start": "10:30",
+    "end": "11:15",
+    "task": "One case",
+    "how": "Keep the log alive.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-20",
+    "day": "Fri",
+    "week": "W10",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "IDR send decision",
+    "how": "Cold-send to IDR only if the piece is actually good. If not, keep it as a sample.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-21",
+    "day": "Sat",
+    "week": "W10",
+    "start": "10:00",
+    "end": "10:45",
+    "task": "Map December exam days",
+    "how": "Write real exam dates into Monthly Calendar column Her constraint. Cut hours from next week.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-22",
+    "day": "Sun",
+    "week": "W10",
+    "start": "10:00",
+    "end": "10:30",
+    "task": "Light Stata or rest",
+    "how": "Do not start a new artefact.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-23",
+    "day": "Mon",
+    "week": "W10",
+    "start": "17:00",
+    "end": "17:30",
+    "task": "Sunday application review",
+    "how": "Handoff into exam mode.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-24",
+    "day": "Tue",
+    "week": "W11",
+    "start": "20:00",
+    "end": "20:30",
+    "task": "Freeze portfolio",
+    "how": "No big new artefacts until exams end. Folder is closed except typos.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-25",
+    "day": "Wed",
+    "week": "W11",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "Save LAMP past-prompt examples",
+    "how": "PRS / Legal School FAQs. 2026-27 is closed (prs-lamp-fellowship-2026-27.md). Prep for 2027-28.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-26",
+    "day": "Thu",
+    "week": "W11",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "One Stata drill + one brief",
+    "how": "Keep the habit. Do not extend.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-27",
+    "day": "Fri",
+    "week": "W11",
+    "start": "20:00",
+    "end": "20:30",
+    "task": "Check PRS for LAMP 2027-28 open date",
+    "how": "prsindia.org/lamp. If closed, stop. If open, start essays next week.",
+    "mins": 30
+  },
+  {
+    "date": "2026-11-28",
+    "day": "Sat",
+    "week": "W11",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "One light case if energy left",
+    "how": "Skip if exams are already on. Exams win.",
+    "mins": 45
+  },
+  {
+    "date": "2026-11-29",
+    "day": "Sun",
+    "week": "W11",
+    "start": "17:00",
+    "end": "17:20",
+    "task": "Rest",
+    "how": "No new tools. Optional 20-min reread of STAR stories.",
+    "mins": 20
+  },
+  {
+    "date": "2026-11-30",
+    "day": "Mon",
+    "week": "W11",
+    "start": "17:00",
+    "end": "17:20",
+    "task": "Sunday review (short)",
+    "how": "LAMP portal status only.",
+    "mins": 20
+  },
+  {
+    "date": "2026-12-01",
+    "day": "Tue",
+    "week": "W12",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "Timed LAMP-shape essay 1",
+    "how": "500 words. Timer. Exams first: if an exam is tomorrow, skip and move to the next free night.",
+    "mins": 45
+  },
+  {
+    "date": "2026-12-03",
+    "day": "Thu",
+    "week": "W12",
+    "start": "20:00",
+    "end": "20:30",
+    "task": "Stata drill",
+    "how": "30 min. Skip if exam day.",
+    "mins": 30
+  },
+  {
+    "date": "2026-12-05",
+    "day": "Sat",
+    "week": "W12",
+    "start": "20:00",
+    "end": "20:20",
+    "task": "LAMP portal check",
+    "how": "If open, start remaining essays immediately. If not, stop.",
+    "mins": 20
+  },
+  {
+    "date": "2026-12-06",
+    "day": "Sun",
+    "week": "W12",
+    "start": "17:00",
+    "end": "17:20",
+    "task": "Sunday review",
+    "how": "No application spray.",
+    "mins": 20
+  },
+  {
+    "date": "2026-12-08",
+    "day": "Tue",
+    "week": "W13",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "Timed LAMP essay 2",
+    "how": "Exams first. Same 500-word rule.",
+    "mins": 45
+  },
+  {
+    "date": "2026-12-10",
+    "day": "Thu",
+    "week": "W13",
+    "start": "20:00",
+    "end": "20:20",
+    "task": "LAMP portal check",
+    "how": "Daily only if rumoured open. Otherwise this one check is enough.",
+    "mins": 20
+  },
+  {
+    "date": "2026-12-12",
+    "day": "Sat",
+    "week": "W13",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "Optional Core apply only if perfect and quick",
+    "how": "IEIC / IDinsight / Sattva if a door is actually open and the pack is ready. Default is skip.",
+    "mins": 45
+  },
+  {
+    "date": "2026-12-13",
+    "day": "Sun",
+    "week": "W13",
+    "start": "17:00",
+    "end": "17:20",
+    "task": "Sunday review",
+    "how": "Essay count. Exam load.",
+    "mins": 20
+  },
+  {
+    "date": "2026-12-15",
+    "day": "Tue",
+    "week": "W14",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "Timed LAMP essay 3",
+    "how": "Exams first. Rest after.",
+    "mins": 45
+  },
+  {
+    "date": "2026-12-17",
+    "day": "Thu",
+    "week": "W14",
+    "start": "20:00",
+    "end": "20:30",
+    "task": "Polish SOP/CV only if LAMP is open",
+    "how": "If portal is closed, skip this block entirely.",
+    "mins": 30
+  },
+  {
+    "date": "2026-12-19",
+    "day": "Sat",
+    "week": "W14",
+    "start": "20:00",
+    "end": "20:30",
+    "task": "Stata drill",
+    "how": "30 min. Keep the habit alive through exams.",
+    "mins": 30
+  },
+  {
+    "date": "2026-12-20",
+    "day": "Sun",
+    "week": "W14",
+    "start": "17:00",
+    "end": "17:20",
+    "task": "Sunday review",
+    "how": "Rest between exams.",
+    "mins": 20
+  },
+  {
+    "date": "2026-12-22",
+    "day": "Tue",
+    "week": "W15",
+    "start": "20:00",
+    "end": "20:45",
+    "task": "Timed LAMP essay 4 or submit LAMP",
+    "how": "If portal open: submit. If not: bank the fourth essay.",
+    "mins": 45
+  },
+  {
+    "date": "2026-12-24",
+    "day": "Thu",
+    "week": "W15",
+    "start": "16:00",
+    "end": "16:45",
+    "task": "January watchlist",
+    "how": "J-PAL general RA pools, Bridgespan cycle, IEIC / IDinsight rolling. Write dates on Monthly Calendar.",
+    "mins": 45
+  },
+  {
+    "date": "2026-12-26",
+    "day": "Sat",
+    "week": "W15",
+    "start": "16:00",
+    "end": "16:30",
+    "task": "Case log count; plan January to 10",
+    "how": "How many cases done? Remaining = 10 minus that. Spread across January.",
+    "mins": 30
+  },
+  {
+    "date": "2026-12-27",
+    "day": "Sun",
+    "week": "W15",
+    "start": "16:00",
+    "end": "16:30",
+    "task": "Update Monthly Calendar with real dates",
+    "how": "Internship / exam / offer dates she now knows. Fill the blank 2027 rows.",
+    "mins": 30
+  },
+  {
+    "date": "2026-12-28",
+    "day": "Mon",
+    "week": "W15",
+    "start": "16:00",
+    "end": "16:30",
+    "task": "Light Stata drill",
+    "how": "No new courses. Habit only.",
+    "mins": 30
+  },
+  {
+    "date": "2026-12-31",
+    "day": "Thu",
+    "week": "W15",
+    "start": "17:00",
+    "end": "17:20",
+    "task": "Year-end review",
+    "how": "Proof folder list. Applications sent. First three January tasks.",
+    "mins": 20
+  }
+]

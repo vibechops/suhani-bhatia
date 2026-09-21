@@ -1,0 +1,1180 @@
+{
+  "rows": [
+    {
+      "track": "Cross-Cutting",
+      "skill": "Government-facing stakeholder writing",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Briefs, notes and decks written for officials who skim. Conclusion first, then evidence.",
+      "why": "Top ask across the corpus. Asked in 54% of 623 corpus postings. e.g. access-assist-communications-intern-digital-social-media-302952.md, agami-research-project-intern-2026-05.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md.",
+      "where": "Rewrite Pride Place memo and one TRI note as 1-page briefs. Study 2 PRS bill summaries.",
+      "how": "One timed 500-word brief per week from a live Bill or circular. No AI draft.",
+      "portfolio": "Three timed government briefs"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "Conclusion-first brief / report writing",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Pyramid: answer, then reasons, then detail. Not Village Square narrative build-up.",
+      "why": "Second most common ask. Asked in 43% of 623 corpus postings. e.g. access-assist-communications-intern-digital-social-media-302952.md, athena-infonomics-consultant-senior-consultant-mel-2026-09.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md.",
+      "where": "Minto Pyramid Principle notes. PrepLounge case-writing basics.",
+      "how": "Rewrite one Village Square piece as a 1-page brief.",
+      "portfolio": "Three timed memos"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "Fieldwork and travel readiness",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "Willingness to travel weeks at a stretch; district / rural placement comfort.",
+      "why": "Named in about a third of all postings; higher in gov, education, migrant. Asked in 35% of 623 corpus postings. e.g. deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md, mobile-creches-mc-program-officer-content-innovation-302415.md.",
+      "where": "Already demonstrated at TRI (6 states) and Sanchay.",
+      "how": "Keep a one-pager of field sites, languages, and travel windows for applications.",
+      "portfolio": "Field CV bullet locked"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "Hindi working fluency (spoken + written notes)",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "Hindi for field teams, SHGs, district offices; written notes that travel.",
+      "why": "Named especially in government, gender, education, and comms. Asked in 21% of 623 corpus postings. e.g. giz-india-energy-advisor-hydrogen-delhi-2026-09.md, it-for-change-associate-research-policy-engagement-2026-06.md, mobile-creches-mc-program-officer-content-innovation-302415.md.",
+      "where": "Already on resume. Practice written Hindi notes if applying to state roles.",
+      "how": "One Hindi field note per fortnight from a published scheme FAQ.",
+      "portfolio": "Optional Hindi writing sample"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "Excel to hireable",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "XLOOKUP, pivots, scenario / cost-coverage models, clean charts.",
+      "why": "Appears across consulting, CSR, ESG. Asked in 16% of 623 corpus postings. e.g. ccs-research-intern-brussels-effect-2026-08.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, iss-stoxx-esg-ratings-analyst-mumbai-2026-07.md.",
+      "where": "Kevin Stratvert Excel playlist. Macquarie Excel Skills for Business (audit).",
+      "how": "Rebuild the migrant cost model from scratch in one sitting. No notes.",
+      "portfolio": "One Excel model in proof folder"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "Slide / deck logic",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "One idea per slide. Title is the takeaway. Resume says advanced PPT.",
+      "why": "Named in consulting and ESG; tested in Dalberg / Bridgespan process even when JD is silent. Asked in 11% of 623 corpus postings. e.g. deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, iss-stoxx-esg-ratings-analyst-mumbai-2026-07.md, orf-research-assistant-technology-vertical-delhi-2026-08.md.",
+      "where": "PrepLounge PowerPoint section. Study 2 public Dalberg or Sattva decks.",
+      "how": "Turn one memo into a 3-slide deck in 90 minutes.",
+      "portfolio": "One 3-slide and one 8-slide deck"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "Proposal and concept-note writing",
+      "priority": "Medium-High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Short EOIs, concept notes, client-facing proposals.",
+      "why": "Common in consulting, CSR, UN, education. Asked in 28% of 623 corpus postings. e.g. access-assist-communications-intern-digital-social-media-302952.md, athena-infonomics-consultant-senior-consultant-mel-2026-09.md, giz-india-climate-finance-advisor-fastr-delhi-2026-09.md.",
+      "where": "Read 2 public Sattva / Dasra concept notes.",
+      "how": "Write one 1-page concept note from the BOCW memo.",
+      "portfolio": "One concept note"
+    },
+    {
+      "track": "Cross-Cutting",
+      "skill": "M&E / logframe vocabulary",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "2027",
+      "what": "Indicators, baselines, logframes, theory of change, results frameworks.",
+      "why": "Appears in research, CSR, education, UN. Asked in 19% of 623 corpus postings. e.g. athena-infonomics-consultant-senior-consultant-mel-2026-09.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, jpal-sa-policy-manager-pil-goap-vijayawada-2026-09.md.",
+      "where": "BetterEvaluation.org explainers. theoryofchange.org free guide.",
+      "how": "Build a 1-page logframe for LEAP or Sanchay pension work.",
+      "portfolio": "One logframe page"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "Stata under time pressure",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Clean, regress, DiD, produce a table without looking up syntax.",
+      "why": "Hard gate for J-PAL SA and common for Inclusion Economics / CEGIS. Asked in 25% of 215 research-evidence postings (eligible-now 24%). e.g. athena-infonomics-consultant-senior-consultant-mel-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md, aser-centre-pratham-research-associate-mathematics-assessment-delhi-2026-07.md.",
+      "where": "Princeton / UCLA Stata guides. J-PAL RA resources. MITx Evaluating Social Programs (market-valued).",
+      "how": "30-minute drills: load NFHS extract, run regression, export table. Log errors.",
+      "portfolio": "One replication notebook + table"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "SurveyCTO / ODK form design",
+      "priority": "High",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "Skip logic, constraints, relevance; pilot a short form.",
+      "why": "JD-named in evidence shops even when percent looks low; IDinsight / J-PAL preference. Asked in 7% of 215 research-evidence postings (eligible-now 7%). e.g. dil-india-senior-research-associate-2026-09.md, educate-girls-data-officer-impact-qamis-saran-2026-04.md, idinsight-associate-senior-associate-evergreen-delhi.md.",
+      "where": "SurveyCTO free training account. ODK docs.",
+      "how": "Build one 20-question form with constraints; pilot on phone.",
+      "portfolio": "Form export + screenshots"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "Qualitative interviewing (FGD / SSI)",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "Semi-structured interviews, FGDs, synthesis into findings.",
+      "why": "Already in her file (14 SSIs across 6 states). Asked in 28% of 215 research-evidence postings (eligible-now 26%). e.g. athena-infonomics-consultant-senior-consultant-mel-2026-09.md, ccs-research-intern-brussels-effect-2026-08.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md.",
+      "where": "Extend existing TRI protocol; no new course.",
+      "how": "One new interview memo using Pride Place protocol.",
+      "portfolio": "Interview memo"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "Primary fieldwork management",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "QC checks, enumerator coordination, weeks of travel.",
+      "why": "Required language on J-PAL SA GEC RA and Inclusion Economics RAs. Asked in 47% of 215 research-evidence postings (eligible-now 47%). e.g. prs-associate-analyst-2026-09.md, peepul-senior-project-associate-delhi-pmu-2026-09.md, technoserve-data-analyst-senior-associate-pma-mumbai.md.",
+      "where": "Read one J-PAL field RA JD end to end; list QC steps.",
+      "how": "Write a 1-page field QC checklist from GEC JD language.",
+      "portfolio": "Field QC checklist"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "Impact evaluation / RCT literacy",
+      "priority": "Medium-High",
+      "status": "Partial",
+      "horizon": "2027",
+      "what": "Identify design, identification, and what a finding can and cannot claim.",
+      "why": "Coursework done; rare as explicit JD keyword but expected at J-PAL / IDinsight. Asked in 13% of 215 research-evidence postings (eligible-now 12%). e.g. jpal-sa-policy-manager-labour-education-2026-09.md, jpal-sa-policy-manager-pil-goap-vijayawada-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md.",
+      "where": "MITx Evaluating Social Programs (J-PAL). Duflo / Banerjee lectures.",
+      "how": "One-pager: GEC scale-up design risks in plain language.",
+      "portfolio": "RCT design one-pager"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "Cert: Stata (JD-named tool)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Not a certificate; demonstrated Stata fluency is what JDs name.",
+      "why": "Named in 25% of research postings. Asked in 25% of 215 research-evidence postings (eligible-now 24%). e.g. athena-infonomics-consultant-senior-consultant-mel-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md, aser-centre-pratham-research-associate-mathematics-assessment-delhi-2026-07.md.",
+      "where": "Practice, not a paid cert. Optional: MITx J-PAL course as signal.",
+      "how": "Cold Stata drills weekly until error-free on DiD.",
+      "portfolio": "Stata portfolio table"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "skill": "Cert: MITx Evaluating Social Programs (market-valued)",
+      "priority": "Medium",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "J-PAL online course; market-valued, not JD-named in this corpus.",
+      "why": "Helps Inclusion Economics / J-PAL / CEGIS conversations. Asked in 13% of 215 research-evidence postings (eligible-now 12%). e.g. jpal-sa-policy-manager-labour-education-2026-09.md, jpal-sa-policy-manager-pil-goap-vijayawada-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md.",
+      "where": "MITx / edX Evaluating Social Programs.",
+      "how": "Complete modules that cover RCTs and power; keep certificate PDF.",
+      "portfolio": "Course certificate"
+    },
+    {
+      "track": "Consulting",
+      "skill": "Case interview (5-step structure)",
+      "priority": "High",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "Understand, structure, analyse, quantify, synthesise. Mental math.",
+      "why": "Dalberg and Bridgespan test this in process; JDs stay silent. Corpus shows Sattva / EY GPS as volume employers. Asked in 70% of 154 consulting postings (eligible-now 72%). e.g. access-assist-communications-intern-digital-social-media-302952.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, ey-analyst-gov-risk-management-delhi-2026-08.md.",
+      "where": "PrepLounge free cases. Bridgespan Applicant Toolkit. Official Bridgespan cases (do 5+).",
+      "how": "3 cases/week. Log frameworks used. Mental math 10 min before each.",
+      "portfolio": "Case log (10 cases)"
+    },
+    {
+      "track": "Consulting",
+      "skill": "One-page newspaper-headline slide",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Single slide that states the recommendation as a headline.",
+      "why": "Dalberg Analyst India assignment form; reusable for Sattva / EY. Asked in 19% of 154 consulting postings (eligible-now 22%). e.g. deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, access-assist-program-research-analyst-lucknow-2026-09.md, eki-consultant-climate-lca-carbon-indore-2026-09.md.",
+      "where": "Study 2 public Dalberg decks. PrepLounge slide section.",
+      "how": "Rewrite BOCW memo as one headline slide in 60 minutes.",
+      "portfolio": "Dalberg-style 1-pager"
+    },
+    {
+      "track": "Consulting",
+      "skill": "Excel + PPT client deliverable pair",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Model in Excel, recommendation in slides, same numbers.",
+      "why": "Excel 27% / PPT 19% of consulting postings. Asked in 27% of 154 consulting postings (eligible-now 29%). e.g. deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, sattva-biodiversity-intern-2026-09.md, sattva-data-intern-india-data-insights-2026-09.md.",
+      "where": "Kevin Stratvert + PrepLounge.",
+      "how": "One cost-coverage model + 5-slide deck from the same sheet.",
+      "portfolio": "Model + deck pair"
+    },
+    {
+      "track": "Consulting",
+      "skill": "Client / government stakeholder engagement",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Meeting notes, workshop support, structured follow-ups.",
+      "why": "Top consulting ask (70%). Asked in 70% of 154 consulting postings (eligible-now 72%). e.g. access-assist-communications-intern-digital-social-media-302952.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, ey-analyst-gov-risk-management-delhi-2026-08.md.",
+      "where": "Pride Place and Sanchay BDO work as stories. Practice STAR.",
+      "how": "Write 3 STAR stories: Pride Place, Sanchay, TRI.",
+      "portfolio": "Interview story bank"
+    },
+    {
+      "track": "Consulting",
+      "skill": "Cert: NISM Social Impact Assessment (JD-named in CSR/ESG advisory)",
+      "priority": "Medium",
+      "status": "Missing",
+      "horizon": "2027",
+      "what": "NISM / SROI-style impact measurement named on KPMG ESG-CSR Associate JD.",
+      "why": "Appears in Big 4 CSR advisory and some Sattva-adjacent roles. Asked in 21% of 154 consulting postings (eligible-now 24%). e.g. athena-infonomics-consultant-senior-consultant-mel-2026-09.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, sattva-data-intern-india-data-insights-2026-09.md.",
+      "where": "NISM Social Impact Assessment materials when aiming KPMG / Samhita.",
+      "how": "Read syllabus; take only if applying to that desk.",
+      "portfolio": "Optional cert"
+    },
+    {
+      "track": "Legal-policy",
+      "skill": "Statutory and case-law research memo",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "Trace a statute to administrative delivery failure; cite cases and circulars.",
+      "why": "Her Pride Place four-part Act analysis is the proof. Law degree named in 26% of legal-policy postings. Asked in 26% of 118 legal-policy postings (eligible-now 25%). e.g. feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md, clpr-litigation-associate-2026-04.md, daksh-research-associate-cdr-bangalore.md.",
+      "where": "Extend Pride Place method to one new Act chapter.",
+      "how": "One 4-page memo on a live Bill (PRS).",
+      "portfolio": "Legal-policy memo"
+    },
+    {
+      "track": "Legal-policy",
+      "skill": "Legislative / Bill tracking (PRS style)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Track stage, stakeholders, implications in 5 lines.",
+      "why": "PRS Analyst is the live door (master's with 0 years or bachelor's with 2-3). Asked in 47% of 118 legal-policy postings (eligible-now 46%). e.g. cprg-research-assistant-empirical-ai-2026-09.md, ccs-research-intern-brussels-effect-2026-08.md, esya-centre-fellow-economics-2026-07.md.",
+      "where": "prsindia.org bill summaries. Weekly habit.",
+      "how": "Weekly 5-line note on one live Bill.",
+      "portfolio": "Bill tracker notebook"
+    },
+    {
+      "track": "Legal-policy",
+      "skill": "Timed policy essay (LAMP / YLAC shape)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Two ~500-word essays under time; SOP + policy analysis.",
+      "why": "LAMP 2026-27 closed; next window December. YLAC Policy in Action is a practice lane. Asked in 35% of 118 legal-policy postings (eligible-now 34%). e.g. feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md, sp-global-associate-director-india-government-affairs-public-policy-2026-04.md, vidhi-design-communications-internship-impact-collective-2026-09.md.",
+      "where": "Past LAMP prompts via Legal School / PRS FAQs. YLAC Nov-Dec program.",
+      "how": "One timed 500-word essay per week until December.",
+      "portfolio": "LAMP essay bank"
+    },
+    {
+      "track": "Legal-policy",
+      "skill": "Public-interest drafting (RTI, petitions, explainers)",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "RTI drafts, short explainers for non-lawyers (Nyaaya / FEMAT / IFF style).",
+      "why": "Appears in rights and legal-aid adjacent JDs. Asked in 11% of 118 legal-policy postings (eligible-now 13%). e.g. cprg-research-assistant-empirical-ai-2026-09.md, feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md, iff-legal-policy-counsel-eoi-rolling.md.",
+      "where": "Nyaaya explainers as models. FEMAT volunteer JD tasks.",
+      "how": "One explainer + one RTI draft on a Pride Place entitlement.",
+      "portfolio": "Explainer + RTI draft"
+    },
+    {
+      "track": "Government",
+      "skill": "District / PMU execution notes",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Action plans, monitoring notes, coordination with line departments.",
+      "why": "Fieldwork 45%, government stakeholders 40% of government stream. Asked in 40% of 166 government postings (eligible-now 36%). e.g. deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, jpal-sa-policy-manager-pil-goap-vijayawada-2026-09.md, peepul-academic-coordinator-2026-09.md.",
+      "where": "CEGIS / CSF / CMGGA public materials. Muralidharan Seen and Unseen (CEGIS pre-read).",
+      "how": "Rewrite Sanchay pension barriers as a 1-page district note.",
+      "portfolio": "District note"
+    },
+    {
+      "track": "Government",
+      "skill": "Fellowship test + essay prep",
+      "priority": "High",
+      "status": "Missing",
+      "horizon": "2027",
+      "what": "Online test, essay, interview (Maharashtra weights: 30/20/50). CMGGA age and PG rules.",
+      "why": "2026 cycles closed (CMGGA Aug, Maharashtra May). Next window 2027. Asked in 31% of 166 government postings (eligible-now 30%). e.g. access-assist-communications-intern-digital-social-media-302952.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, jpal-sa-policy-manager-pil-goap-vijayawada-2026-09.md.",
+      "where": "Past papers where public; YLAC Policy in Action as rehearsal.",
+      "how": "Weekly essay + GK/current affairs block from Oct 2026.",
+      "portfolio": "Fellowship prep log"
+    },
+    {
+      "track": "Government",
+      "skill": "Hindi + English bilingual delivery",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "Meetings and notes in both languages.",
+      "why": "Hindi in 30% of government postings. Asked in 30% of 166 government postings (eligible-now 31%). e.g. mobile-creches-mc-program-officer-content-innovation-302415.md, peepul-academic-coordinator-2026-09.md, peepul-project-associate-senior-project-associate-lifted-2026-09.md.",
+      "where": "Already claimed. Stress in applications for state roles.",
+      "how": "One bilingual meeting note from a public gram sabha transcript.",
+      "portfolio": "Bilingual note sample"
+    },
+    {
+      "track": "Government",
+      "skill": "NITI / ministry application pack",
+      "priority": "Medium-High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "CV + SOP tuned to YP / MWCD internship language.",
+      "why": "NITI YP live pool (\u20b970k, 1 year experience, master's or LLB). MWCD internship rolling. Asked in 31% of 166 government postings (eligible-now 30%). e.g. access-assist-communications-intern-digital-social-media-302952.md, deloitte-consultant-oids-social-and-other-sectors-delhi-2026-09.md, jpal-sa-policy-manager-pil-goap-vijayawada-2026-09.md.",
+      "where": "NITI Work for Viksit Bharat guidelines. MWCD internship circular.",
+      "how": "Draft NITI SOP; keep updated for each portal open.",
+      "portfolio": "NITI SOP draft"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "skill": "Rights implementation memo (police / entitlement)",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "Where statute fails at the desk: Pride Place shape.",
+      "why": "Gender/GBV language in 71% of gender-rights postings. Asked in 71% of 128 gender-rights postings (eligible-now 73%). e.g. feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md, girls-count-volunteer-intern-rolling-2026-09.md, it-for-change-associate-research-policy-engagement-2026-06.md.",
+      "where": "Pride Place memo is the artefact. Optional: UNDP Gender Intern JD as target shape.",
+      "how": "One-page version of Pride Place for UNDP / Inclusion Economics applications.",
+      "portfolio": "Pride Place 1-pager"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "skill": "VAW / counselling adjacency literacy",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Understand SNEHA / OSC referral language without claiming clinical skill.",
+      "why": "SNEHA PO Counselling roles are volume live seats in Mumbai. Asked in 71% of 128 gender-rights postings (eligible-now 73%). e.g. feminist-alliance-trust-volunteer-intern-law-governance-delhi-2026-09.md, girls-count-volunteer-intern-rolling-2026-09.md, it-for-change-associate-research-policy-engagement-2026-06.md.",
+      "where": "SNEHA public materials. Do not claim counselling credentials she lacks.",
+      "how": "Glossary of VAW referral terms; decide apply vs skip.",
+      "portfolio": "VAW glossary"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "skill": "Gender + research methods combo",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Stata or field research on gender portfolio (Inclusion Economics WIL / MGNREGS).",
+      "why": "Inclusion Economics RAs are live 0-2 doors with Hindi + Stata. Asked in 16% of 128 gender-rights postings (eligible-now 13%). e.g. mwcd-internship-programme-rolling.md, ieic-ifmr-research-associate-womens-political-voice-chhattisgarh-2026-07.md, ieic-ra-women-leadership-economics-2026.md.",
+      "where": "Same Stata drills as research stream; gender paper abstracts.",
+      "how": "One short note linking NFHS gender indicator to a scheme.",
+      "portfolio": "NFHS gender note"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "skill": "UN gender internship pack (while enrolled)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "SOP + writing sample for UNDP / UN Women internships open only while enrolled.",
+      "why": "UN stream is internship-heavy until master's; Gender Intern JDs want Law / Development / Gender Studies. Asked in 25% of 128 gender-rights postings (eligible-now 31%). e.g. it-for-change-associate-research-policy-engagement-2026-06.md, unfpa-state-head-of-office-jaipur-noc-2026-09.md, unfpa-state-programme-analyst-jaipur-nob-2026-08.md.",
+      "where": "UNDP internship eligibility text. Lawctopus / careers mirrors.",
+      "how": "Submit one UNDP/UN Women pack this term.",
+      "portfolio": "UN intern application pack"
+    },
+    {
+      "track": "Knowledge / comms",
+      "skill": "IDR-shaped reported piece (no AI edit)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Reported development feature; writing sample not third-party or AI edited.",
+      "why": "IDR Analyst English Editorial: 1-3 years, \u20b93.9-4.8L. Hindi valued across 47% of comms postings. Asked in 45% of 102 knowledge-comms postings (eligible-now 49%). e.g. access-assist-communications-intern-digital-social-media-302952.md, vidhi-design-communications-internship-impact-collective-2026-09.md, cegis-senior-program-associate-kcm-delhi-2026-09.md.",
+      "where": "IDR archive. Village Square edits as practice, then one clean piece.",
+      "how": "One 1,200-word reported piece to IDR shape. Human edit only.",
+      "portfolio": "IDR writing sample"
+    },
+    {
+      "track": "Knowledge / comms",
+      "skill": "Social / digital content for development",
+      "priority": "Medium-High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Posts, newsletters, carousels; Canva named in 15% of knowledge-comms cert hits.",
+      "why": "Comms/social language in 45% of stream. Asked in 15% of 102 knowledge-comms postings (eligible-now 17%). e.g. access-assist-communications-intern-digital-social-media-302952.md, mobile-creches-mc-program-officer-content-innovation-302415.md, pratham-senior-associate-design-communications-2026-09.md.",
+      "where": "Canva. Study IDR and Educate Girls social.",
+      "how": "Four posts from one research finding; track engagement privately.",
+      "portfolio": "Content pack"
+    },
+    {
+      "track": "Knowledge / comms",
+      "skill": "Hindi + English bilingual content",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Draft or adapt content in both languages.",
+      "why": "Highest Hindi share of any stream (47%). Asked in 47% of 102 knowledge-comms postings (eligible-now 40%). e.g. mobile-creches-mc-program-officer-content-innovation-302415.md, peepul-project-manager-lifted-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md.",
+      "where": "IDR Hindi track examples. Own Village Square English as base.",
+      "how": "Translate one English piece to Hindi; get one peer read.",
+      "portfolio": "Bilingual pair"
+    },
+    {
+      "track": "Knowledge / comms",
+      "skill": "Cert: Canva (JD-named)",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Canva fluency for UNV / NGO communications roles.",
+      "why": "JD-named in knowledge-comms (e.g. UNFPA UNV communications). Asked in 15% of 102 knowledge-comms postings (eligible-now 17%). e.g. access-assist-communications-intern-digital-social-media-302952.md, mobile-creches-mc-program-officer-content-innovation-302415.md, pratham-senior-associate-design-communications-2026-09.md.",
+      "where": "Canva Design School free.",
+      "how": "Rebuild one TRI finding as a carousel.",
+      "portfolio": "Carousel PDF"
+    },
+    {
+      "track": "Education / FLN",
+      "skill": "District PMU coordination",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Workplans, government meetings, field travel 10-18 days/month.",
+      "why": "Stakeholder 67%, fieldwork 54%, Hindi 41% of education stream. Live seats at CSF, Rocket Learning, Peepul, Room to Read. Asked in 32% of 147 education postings (eligible-now 34%). e.g. peepul-senior-project-associate-delhi-pmu-2026-09.md, piramal-foundation-senior-program-manager-sog-operations-2026-08 2.md, piramal-foundation-senior-program-manager-sog-operations-2026-08.md.",
+      "where": "CSF / Rocket Learning public JDs. Green Apple ops as proof of delivery.",
+      "how": "Map Green Apple ops to a PMU workplan one-pager.",
+      "portfolio": "PMU workplan sample"
+    },
+    {
+      "track": "Education / FLN",
+      "skill": "Foundational learning / NEP vocabulary",
+      "priority": "Medium-High",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "FLN, Aadharshila, NEP 2020 language without claiming M.Ed.",
+      "why": "Rocket Learning and CSF JDs assume policy fluency. Asked in 22% of 147 education postings (eligible-now 15%). e.g. jpal-sa-policy-manager-labour-education-2026-09.md, peepul-senior-project-associate-delhi-pmu-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md.",
+      "where": "NEP 2020 summary. CSF public notes.",
+      "how": "One-page FLN glossary in her words.",
+      "portfolio": "FLN glossary"
+    },
+    {
+      "track": "Education / FLN",
+      "skill": "Education MEL / assessment literacy",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "2027",
+      "what": "Indicators, ASER-style assessment language.",
+      "why": "ASER RA Mathematics live; SurveyCTO/Stata appear in LLF M&E. Asked in 25% of 147 education postings (eligible-now 25%). e.g. peepul-project-associate-senior-project-associate-lifted-2026-09.md, peepul-project-manager-lifted-2026-09.md, peepul-senior-project-associate-monitoring-evaluation-and-learning-2026-09.md.",
+      "where": "ASER reports. Same Stata path as research.",
+      "how": "Summarise one ASER finding as a 1-page brief.",
+      "portfolio": "ASER brief"
+    },
+    {
+      "track": "CSR",
+      "skill": "CSR advisory analyst craft (Sattva / Samhita)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Landscape notes, partner maps, Excel trackers, client decks.",
+      "why": "Foundations are senior; entry is advisory/implementer. Stakeholder 81% of CSR stream. Asked in 81% of 67 csr postings (eligible-now 84%). e.g. piramal-foundation-senior-program-manager-sog-operations-2026-08 2.md, piramal-foundation-senior-program-manager-sog-operations-2026-08.md, american-india-foundation-trust-aif-officer-human-resources-2026-09 2.md.",
+      "where": "Sattva Analyst Corporate Advisory / IMA JDs. Samhita Catalytic Finance JD.",
+      "how": "One partner-map + 3-slide deck from Green Apple / AIESEC.",
+      "portfolio": "CSR advisory mini-deck"
+    },
+    {
+      "track": "CSR",
+      "skill": "Field CSR implementation basics",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Community mobilisation, SHGs, reporting to CSR clients.",
+      "why": "BharatCares Field Coordinator 1-3 years; MSW preferred (39%). Asked in 39% of 67 csr postings (eligible-now 44%). e.g. bharatcares-field-coordinator-health-program-2026-09.md, bharatcares-field-coordinator-livelihoods-and-csr-2026-09.md, bharatcares-project-associate-csr-and-road-safety-programs-2026-09.md.",
+      "where": "BharatCares live JDs. Sanchay as proof.",
+      "how": "Decide apply vs skip; if apply, stress Sanchay + SHG sessions.",
+      "portfolio": "CSR field application note"
+    },
+    {
+      "track": "CSR",
+      "skill": "Schedule VII / Section 135 literacy",
+      "priority": "Medium",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "Know what counts as CSR spend and how companies report it.",
+      "why": "Explicit in 13% of CSR postings; expected in interviews. Asked in 13% of 67 csr postings (eligible-now 11%). e.g. sattva-analyst-corporate-advisory-mumbai-2026-09.md, sattva-associate-consultant-csr-implant-bangalore-2026-09.md, sattva-associate-consultant-csr-implant-mumbai-2026-09.md.",
+      "where": "MCA CSR rules PDF. One company CSR report.",
+      "how": "One-page note: Schedule VII buckets mapped to a real company report.",
+      "portfolio": "CSR Act one-pager"
+    },
+    {
+      "track": "CSR",
+      "skill": "Cert: NISM Social Impact Assessment (JD-named)",
+      "priority": "Medium",
+      "status": "Missing",
+      "horizon": "2027",
+      "what": "Named on KPMG ESG-CSR Associate JD with SROI.",
+      "why": "Useful if targeting Big 4 CSR advisory. Asked in 33% of 67 csr postings (eligible-now 38%). e.g. bharatcares-field-coordinator-livelihoods-and-csr-2026-09.md, csrbox-data-analyst-dashboard-and-insights-2026-09.md, samhita-associate-catalytic-finance-mumbai-delhi-bangalore-2026-07.md.",
+      "where": "NISM materials.",
+      "how": "Take only if applying to that desk.",
+      "portfolio": "Optional cert"
+    },
+    {
+      "track": "ESG / BRSR",
+      "skill": "BRSR Section C reading (Principles 3 and 5)",
+      "priority": "High",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "Female wage share, POSH, LTIFR, turnover; social KPIs.",
+      "why": "BRSR in 17% of ESG postings; GRI/SASB/TCFD in 27%. Asked in 17% of 90 esg postings (eligible-now 20%). e.g. sattva-biodiversity-intern-2026-09.md, sattva-biodiversity-intern-2026.md, sattva-sustainability-intern-2026.md.",
+      "where": "SEBI BRSR circular. One listed company BRSR PDF.",
+      "how": "Annotate Principles 3 and 5 for one company; 2-page note.",
+      "portfolio": "BRSR company note"
+    },
+    {
+      "track": "ESG / BRSR",
+      "skill": "ESG ratings desk literacy (ISS / CRISIL shape)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Pull disclosures, score controversies, Excel databases.",
+      "why": "ISS STOXX live 0-2 years wants master's; development studies / human rights desirable. Asked in 27% of 90 esg postings (eligible-now 36%). e.g. iss-stoxx-esg-ratings-analyst-mumbai-2026-07.md, sattva-biodiversity-intern-2026-09.md, sattva-biodiversity-intern-2026.md.",
+      "where": "ISS STOXX JD. CRISIL Executive ESG JD.",
+      "how": "Build a mini Excel controversy log for 5 companies.",
+      "portfolio": "ESG Excel log"
+    },
+    {
+      "track": "ESG / BRSR",
+      "skill": "GHG / Scope 1-2-3 vocabulary",
+      "priority": "Medium-High",
+      "status": "Missing",
+      "horizon": "2027",
+      "what": "Name scopes; read an inventory table; do not claim carbon accounting.",
+      "why": "GHG/carbon in 42% of ESG postings. Asked in 42% of 90 esg postings (eligible-now 36%). e.g. ey-consultant-risk-consulting-esg-bangalore-2026-07.md, iss-stoxx-esg-ratings-analyst-mumbai-2026-07.md, eki-consultant-climate-lca-carbon-indore-2026-09.md.",
+      "where": "GHG Protocol overview pages.",
+      "how": "One-page scopes cheat sheet with one company example.",
+      "portfolio": "GHG cheat sheet"
+    },
+    {
+      "track": "ESG / BRSR",
+      "skill": "Cert: GRI / BRSR (JD-named frameworks)",
+      "priority": "High",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "Framework literacy, not necessarily a paid GRI certificate.",
+      "why": "GRI named in 22% of ESG postings. Asked in 27% of 90 esg postings (eligible-now 27%). e.g. ey-consultant-risk-consulting-esg-bangalore-2026-07.md, sattva-biodiversity-intern-2026-09.md, sattva-biodiversity-intern-2026.md.",
+      "where": "GRI standards free overview. SEBI BRSR circular.",
+      "how": "Complete reading + company annotation before any paid course.",
+      "portfolio": "Annotated BRSR"
+    },
+    {
+      "track": "ESG / BRSR",
+      "skill": "Cert: CFA ESG Investing (market-valued)",
+      "priority": "Medium",
+      "status": "Missing",
+      "horizon": "2027",
+      "what": "Market-valued; rarely JD-named in this India corpus.",
+      "why": "Useful for ratings / Big 4 ESG conversations. Asked in 17% of 90 esg postings (eligible-now 20%). e.g. sattva-biodiversity-intern-2026-09.md, sattva-biodiversity-intern-2026.md, sattva-sustainability-intern-2026.md.",
+      "where": "CFA Institute Certificate in ESG Investing.",
+      "how": "Consider after BRSR annotation exists.",
+      "portfolio": "Optional cert"
+    },
+    {
+      "track": "ESG / BRSR",
+      "skill": "Cert: GARP SCR (market-valued)",
+      "priority": "Low",
+      "status": "Missing",
+      "horizon": "2027",
+      "what": "Climate risk cert; market-valued for CRISIL climate tracks.",
+      "why": "Not required in corpus JDs. Asked in 42% of 90 esg postings (eligible-now 36%). e.g. ey-consultant-risk-consulting-esg-bangalore-2026-07.md, iss-stoxx-esg-ratings-analyst-mumbai-2026-07.md, eki-consultant-climate-lca-carbon-indore-2026-09.md.",
+      "where": "GARP SCR.",
+      "how": "Skip unless targeting climate-risk analyst seats.",
+      "portfolio": "Optional cert"
+    },
+    {
+      "track": "UN / multilateral",
+      "skill": "UN internship application craft",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Eligibility self-check, SOP, writing sample, TMS profile.",
+      "why": "20 of 62 UN postings are intern/0; consultancies are 8-12 years. Asked in 45% of 62 un-multilateral postings (eligible-now 37%). e.g. access-assist-communications-intern-digital-social-media-302952.md, giz-india-climate-finance-advisor-fastr-delhi-2026-09.md, giz-india-energy-advisor-hydrogen-delhi-2026-09.md.",
+      "where": "jobs.unicef.org / UNDP careers. Past Gender Intern JD.",
+      "how": "One complete TMS-ready pack this month.",
+      "portfolio": "UN application pack"
+    },
+    {
+      "track": "UN / multilateral",
+      "skill": "Results / M&E language for UN JDs",
+      "priority": "Medium-High",
+      "status": "Partial",
+      "horizon": "2027",
+      "what": "Outputs, outcomes, indicators in UNFPA / UNDP NPSA style.",
+      "why": "M&E in 31% of UN stream; gender in 69%. Asked in 31% of 62 un-multilateral postings (eligible-now 41%). e.g. unfpa-state-programme-analyst-jaipur-nob-2026-08.md, giz-india-junior-transport-infrastructure-advisor-delhi-2026-09.md, unfpa-rfq-unfpa-ind-00017-technical-assistance-for-infrastructure-upgradation-m-.md.",
+      "where": "UNFPA NO-B JD. UNDP Project Analyst Gender JD.",
+      "how": "Rewrite Pride Place as results language (output/outcome).",
+      "portfolio": "Results-framed memo"
+    },
+    {
+      "track": "UN / multilateral",
+      "skill": "GIZ / bilateral junior advisor literacy",
+      "priority": "Medium",
+      "status": "Missing",
+      "horizon": "Now",
+      "what": "German bilateral JDs (transport, climate finance) with 1-2 years bars.",
+      "why": "GIZ is the most active live bilateral in the corpus. Asked in 21% of 62 un-multilateral postings (eligible-now 15%). e.g. unfpa-state-head-of-office-jaipur-noc-2026-09.md, unfpa-state-programme-analyst-jaipur-nob-2026-08.md, prem-consultant-district-coordinator-unfpa-ms-odisha-2026-09.md.",
+      "where": "GIZ India careers pages.",
+      "how": "Read one full GIZ JD; list must-haves vs nice-to-haves.",
+      "portfolio": "GIZ JD annotation"
+    },
+    {
+      "track": "Migrant / livelihoods",
+      "skill": "Welfare entitlement case memo (BOCW / labourline)",
+      "priority": "High",
+      "status": "Strong",
+      "horizon": "Now",
+      "what": "BOCW, PF/ESIC, wage theft pathways in plain language.",
+      "why": "Her Dalberg memo is the artefact. Field seats are Gujarat/Rajasthan/Bangalore-first. Asked in 9% of 78 migrant-livelihoods postings (eligible-now 13%). e.g. development-consortium-dc-ansh-people-culture-manager-302535.md, aajeevika-senior-associate-field-ankleshwar-2026-09.md, cmid-project-manager-pdwp-idukki-2026-08.md.",
+      "where": "Aajeevika JDs. India Labourline materials.",
+      "how": "Tighten BOCW memo to 2 pages for Aajeevika / SEWA applications.",
+      "portfolio": "BOCW 2-pager"
+    },
+    {
+      "track": "Migrant / livelihoods",
+      "skill": "Field casework readiness (languages + travel)",
+      "priority": "High",
+      "status": "Partial",
+      "horizon": "Now",
+      "what": "Accept field posting; Hindi plus regional language when required.",
+      "why": "Labourline Case Manager needs Hindi + south Indian language. Senior Associate Ankleshwar closed Sep. Asked in 42% of 78 migrant-livelihoods postings (eligible-now 47%). e.g. good-business-lab-research-associate-biofuel-north-india-2026-04.md, ieic-ifmr-policy-associate-mpsegc-bhopal-2026-09.md, poshan-mindcare-mental-health-counsellor-302670.md.",
+      "where": "Decide geography. Learn basics of one target state language if applying.",
+      "how": "Geography decision note; language plan.",
+      "portfolio": "Relocation decision note"
+    },
+    {
+      "track": "Migrant / livelihoods",
+      "skill": "MEL for livelihoods programmes",
+      "priority": "Medium",
+      "status": "Partial",
+      "horizon": "2027",
+      "what": "Indicators for worker facilitation / entitlements.",
+      "why": "SEWA MEL Associate 2-3 years, Kolkata, live pattern. Asked in 18% of 78 migrant-livelihoods postings (eligible-now 18%). e.g. family-planning-association-of-india-pune-branch-project-coordinator-302733.md, sewa-mel-associate-kolkata-2026-08.md, waste-management-society-yavatmal-wms-specialist-livelihood-skill-development-30.md.",
+      "where": "Same M&E basics as cross-cutting.",
+      "how": "Logframe for Worker Facilitation Centre.",
+      "portfolio": "WFC logframe"
+    }
+  ],
+  "orgs": [
+    {
+      "track": "Research / evidence / MEL",
+      "tier": "Core",
+      "org": "Inclusion Economics India Centre (IFMR)",
+      "why": "Live RA roles 0-2 years; Hindi + Stata; gender portfolio fits Pride Place + NFHS.",
+      "mumbai": "No (Bihar/MP hubs)",
+      "hiring": "Rolling",
+      "route": "Careers / IEIC site"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "tier": "Core",
+      "org": "J-PAL South Asia",
+      "why": "Stata hard requirement; GEC RA pattern; network RA deadline Jan 2027.",
+      "mumbai": "Delhi office",
+      "hiring": "Cycles + network pool",
+      "route": "povertyactionlab.org/careers"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "tier": "Core",
+      "org": "IDinsight",
+      "why": "Evergreen Associate pool Delhi; Shillong opening; SurveyCTO preferred.",
+      "mumbai": "No (Delhi/Shillong)",
+      "hiring": "Evergreen + waves",
+      "route": "IDinsight careers"
+    },
+    {
+      "track": "Research / evidence / MEL",
+      "tier": "Core",
+      "org": "CEGIS",
+      "why": "PA 1-3 with master's; Stata/R; gov embed.",
+      "mumbai": "Mumbai option on some roles",
+      "hiring": "Rolling",
+      "route": "CEGIS careers-page"
+    },
+    {
+      "track": "Consulting",
+      "tier": "Core",
+      "org": "Sattva Consulting",
+      "why": "Volume employer (33 consulting tags); Analyst 0-2 live across gov/CSR/IMA.",
+      "mumbai": "Yes (Mumbai)",
+      "hiring": "Rolling Freshteam",
+      "route": "sattva-talent.freshteam.com"
+    },
+    {
+      "track": "Consulting",
+      "tier": "Core",
+      "org": "EY India GPS",
+      "why": "Analyst Transformation Delivery 0-2 Delhi live.",
+      "mumbai": "Delhi primary",
+      "hiring": "ATS rolling",
+      "route": "careers.ey.com"
+    },
+    {
+      "track": "Consulting",
+      "tier": "Core",
+      "org": "Dalberg Advisors",
+      "why": "Analyst India cycle closed Sep 2026; next cycle + case prep.",
+      "mumbai": "Yes (Mumbai/Delhi)",
+      "hiring": "Annual campus/lateral",
+      "route": "dalberg.com + NGOBox mirrors"
+    },
+    {
+      "track": "Consulting",
+      "tier": "Core",
+      "org": "Bridgespan India",
+      "why": "AC 0-3; Jan deadline historically; do 5+ official cases.",
+      "mumbai": "Yes (Mumbai/Delhi)",
+      "hiring": "Annual",
+      "route": "bridgespan.org Applicant Toolkit"
+    },
+    {
+      "track": "Consulting",
+      "tier": "Adjacent",
+      "org": "IDinsight",
+      "why": "Counts as evidence + consulting hybrid.",
+      "mumbai": "Delhi",
+      "hiring": "Evergreen",
+      "route": "IDinsight careers"
+    },
+    {
+      "track": "Legal-policy",
+      "tier": "Core",
+      "org": "PRS Legislative Research",
+      "why": "Analyst live (master's 0 yrs); LAMP Dec window; State Assemblies outreach.",
+      "mumbai": "Delhi",
+      "hiring": "Rolling + annual LAMP",
+      "route": "prsindia.org"
+    },
+    {
+      "track": "Legal-policy",
+      "tier": "Core",
+      "org": "Vidhi Centre for Legal Policy",
+      "why": "Fellow waves 0-1 years; law + PG policy desirable.",
+      "mumbai": "Delhi / Bengaluru",
+      "hiring": "Wave hiring",
+      "route": "vidhilegalpolicy.in/careers"
+    },
+    {
+      "track": "Legal-policy",
+      "tier": "Core",
+      "org": "DAKSH",
+      "why": "RA judicial reforms; law degree must; 1-2 years.",
+      "mumbai": "Bengaluru / Delhi",
+      "hiring": "Rolling",
+      "route": "dakshindia.org"
+    },
+    {
+      "track": "Legal-policy",
+      "tier": "Core",
+      "org": "CLPR",
+      "why": "RA / litigation; gender and minority rights fit.",
+      "mumbai": "Bengaluru / Delhi",
+      "hiring": "Periodic",
+      "route": "clpr.org.in"
+    },
+    {
+      "track": "Legal-policy",
+      "tier": "Adjacent",
+      "org": "Pahle India Foundation",
+      "why": "Research & Outreach Associate 0-4 live Delhi hybrid.",
+      "mumbai": "Delhi",
+      "hiring": "Rolling",
+      "route": "Pahle careers / LinkedIn"
+    },
+    {
+      "track": "Government",
+      "tier": "Core",
+      "org": "NITI Aayog (YP pool)",
+      "why": "\u20b970k; 1 year experience; master's or LLB.",
+      "mumbai": "Delhi",
+      "hiring": "Resource pool",
+      "route": "Work for Viksit Bharat portal"
+    },
+    {
+      "track": "Government",
+      "tier": "Core",
+      "org": "CEGIS",
+      "why": "Year-round gov systems work vs annual fellowships.",
+      "mumbai": "Multi-state",
+      "hiring": "Rolling",
+      "route": "CEGIS careers"
+    },
+    {
+      "track": "Government",
+      "tier": "Core",
+      "org": "CMGGA Haryana",
+      "why": "2026 closed; age 28; PG or UG+1 yr; \u20b990k.",
+      "mumbai": "Haryana districts",
+      "hiring": "Annual Aug",
+      "route": "cmgga.in"
+    },
+    {
+      "track": "Government",
+      "tier": "Adjacent",
+      "org": "MWCD Internship",
+      "why": "Women 21-40; rolling quarterly; while enrolled.",
+      "mumbai": "Delhi",
+      "hiring": "Quarterly",
+      "route": "MWCD portal"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "tier": "Core",
+      "org": "Inclusion Economics (gender RAs)",
+      "why": "0-2 live; Hindi + Stata.",
+      "mumbai": "Bihar/MP",
+      "hiring": "Rolling",
+      "route": "IEIC"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "tier": "Core",
+      "org": "SNEHA",
+      "why": "Volume Mumbai VAW / counselling PO roles.",
+      "mumbai": "Yes (Mumbai)",
+      "hiring": "Rolling",
+      "route": "SNEHA careers / DevNetJobs"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "tier": "Core",
+      "org": "UNDP India",
+      "why": "Gender Intern while enrolled; Project Analyst Gender (master's 0 yrs).",
+      "mumbai": "Delhi",
+      "hiring": "Intern rolling + NPSA waves",
+      "route": "UNDP careers"
+    },
+    {
+      "track": "Gender / LGBTQ+ rights",
+      "tier": "Adjacent",
+      "org": "Humsafar / Naz",
+      "why": "1-4 years; community preference.",
+      "mumbai": "Mumbai / Delhi",
+      "hiring": "Sparse",
+      "route": "Org careers"
+    },
+    {
+      "track": "Knowledge / comms",
+      "tier": "Core",
+      "org": "India Development Review (IDR)",
+      "why": "Analyst 1-3; writing sample rule (no AI).",
+      "mumbai": "Mumbai/Delhi hybrid",
+      "hiring": "Periodic",
+      "route": "hiring@idronline.org"
+    },
+    {
+      "track": "Knowledge / comms",
+      "tier": "Core",
+      "org": "Village Square / TRI",
+      "why": "Intern and content lanes; she already has bylines.",
+      "mumbai": "Hybrid Delhi",
+      "hiring": "Periodic",
+      "route": "Village Square email"
+    },
+    {
+      "track": "Knowledge / comms",
+      "tier": "Adjacent",
+      "org": "IFMR / LEAD Communications",
+      "why": "Associate 1-2 Chennai pattern.",
+      "mumbai": "Chennai",
+      "hiring": "Periodic",
+      "route": "IFMR careers"
+    },
+    {
+      "track": "Education / FLN",
+      "tier": "Core",
+      "org": "Central Square Foundation",
+      "why": "PMU / FLN roles 2-4; Delhi and districts.",
+      "mumbai": "Delhi + states",
+      "hiring": "Rolling",
+      "route": "CSF careers"
+    },
+    {
+      "track": "Education / FLN",
+      "tier": "Core",
+      "org": "Room to Read India",
+      "why": "Field Coordinator 1-3; live deadlines in corpus.",
+      "mumbai": "Multi-state",
+      "hiring": "Rolling",
+      "route": "Room to Read careers"
+    },
+    {
+      "track": "Education / FLN",
+      "tier": "Core",
+      "org": "Rocket Learning / Peepul",
+      "why": "PMU associates 2-4.",
+      "mumbai": "Delhi / MP",
+      "hiring": "Rolling",
+      "route": "Org careers"
+    },
+    {
+      "track": "Education / FLN",
+      "tier": "Adjacent",
+      "org": "ASER Centre (Pratham)",
+      "why": "RA Mathematics 1+; psychology/measurement advantage.",
+      "mumbai": "Delhi",
+      "hiring": "Periodic",
+      "route": "Pratham / ASER"
+    },
+    {
+      "track": "CSR",
+      "tier": "Core",
+      "org": "Sattva (CSR / Corporate Advisory)",
+      "why": "True 0-2 CSR door.",
+      "mumbai": "Mumbai",
+      "hiring": "Rolling",
+      "route": "Sattva Freshteam"
+    },
+    {
+      "track": "CSR",
+      "tier": "Core",
+      "org": "Samhita Social Ventures",
+      "why": "Associate Catalytic Finance 1-2.",
+      "mumbai": "Mumbai/Delhi/BLR remote",
+      "hiring": "Periodic",
+      "route": "careers@samhita.org"
+    },
+    {
+      "track": "CSR",
+      "tier": "Adjacent",
+      "org": "BharatCares / CSRBOX",
+      "why": "Field and associate volume; 1-3 years.",
+      "mumbai": "Multi-city",
+      "hiring": "Live deadlines Sep/Oct",
+      "route": "DevNetJobs / CSRBOX"
+    },
+    {
+      "track": "CSR",
+      "tier": "Deprioritized",
+      "org": "HDFC Parivartan / Tata Trusts foundations",
+      "why": "Senior bars (7-15 years) in corpus.",
+      "mumbai": "Mumbai",
+      "hiring": "Lateral senior",
+      "route": "Foundation careers"
+    },
+    {
+      "track": "ESG / BRSR",
+      "tier": "Core",
+      "org": "ISS STOXX",
+      "why": "ESG Ratings Analyst Mumbai 0-2; master's; development/human rights desirable.",
+      "mumbai": "Yes (Mumbai)",
+      "hiring": "Rolling Workday",
+      "route": "ISS careers"
+    },
+    {
+      "track": "ESG / BRSR",
+      "tier": "Core",
+      "org": "CRISIL",
+      "why": "Executive ESG 0-1; Research Support 1-3; Excel heavy.",
+      "mumbai": "Yes (Mumbai)",
+      "hiring": "Periodic",
+      "route": "CRISIL / Foundit"
+    },
+    {
+      "track": "ESG / BRSR",
+      "tier": "Adjacent",
+      "org": "Sattva SBA / Deloitte / EY ESG",
+      "why": "Advisory; often 2-4 years.",
+      "mumbai": "Mumbai/Delhi/BLR",
+      "hiring": "Rolling",
+      "route": "Firm careers"
+    },
+    {
+      "track": "UN / multilateral",
+      "tier": "Core",
+      "org": "UNDP India",
+      "why": "Internships now; NPSA analyst with master's.",
+      "mumbai": "Delhi",
+      "hiring": "Rolling",
+      "route": "UNDP careers"
+    },
+    {
+      "track": "UN / multilateral",
+      "tier": "Core",
+      "org": "GIZ India",
+      "why": "Most active live bilateral (junior advisors).",
+      "mumbai": "Delhi",
+      "hiring": "Fixed deadlines",
+      "route": "GIZ India careers"
+    },
+    {
+      "track": "UN / multilateral",
+      "tier": "Adjacent",
+      "org": "UNFPA / UNICEF India",
+      "why": "NO-B / NO-1 rare; consultancies senior.",
+      "mumbai": "Delhi",
+      "hiring": "TMS waves",
+      "route": "Agency careers"
+    },
+    {
+      "track": "Migrant / livelihoods",
+      "tier": "Core",
+      "org": "Aajeevika Bureau / India Labourline",
+      "why": "Field 1-2 years; law/social work; languages matter.",
+      "mumbai": "Gujarat / Rajasthan / BLR",
+      "hiring": "Periodic",
+      "route": "aajeevika.org / DevNetJobs"
+    },
+    {
+      "track": "Migrant / livelihoods",
+      "tier": "Core",
+      "org": "SEWA Bharat",
+      "why": "Programme Associate 0-2; MEL Associate 2-3.",
+      "mumbai": "Delhi / Kolkata",
+      "hiring": "Periodic",
+      "route": "SEWA careers"
+    },
+    {
+      "track": "Migrant / livelihoods",
+      "tier": "Adjacent",
+      "org": "TRI (own employer)",
+      "why": "DRE PA / PPiA district leads; internal mobility.",
+      "mumbai": "Multi-state",
+      "hiring": "Rolling",
+      "route": "TRI HR"
+    }
+  ],
+  "media": [
+    {
+      "type": "Paper/Report",
+      "title": "SEBI BRSR circular",
+      "category": "ESG",
+      "why": "Primary source for BRSR Section C practice",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "PRS Legislative Research bill summaries",
+      "category": "Legal-policy / Government",
+      "why": "Weekly Bill-tracking practice",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "One listed company BRSR PDF",
+      "category": "ESG",
+      "why": "Annotation target for Principles 3 and 5",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "CEGIS pre-reads (Muralidharan; Seen and Unseen)",
+      "category": "Government / Research",
+      "why": "Named in CEGIS application pre-reads",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "J-PAL / Inclusion Economics RA JD (print)",
+      "category": "Research",
+      "why": "Reverse-engineer must-haves",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "IDR archive (Analyst-shaped features)",
+      "category": "Comms",
+      "why": "Writing-sample shape; no AI edit rule",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "Dalberg / Sattva public decks",
+      "category": "Consulting",
+      "why": "Slide headline and structure models",
+      "consumed": "N"
+    },
+    {
+      "type": "Paper/Report",
+      "title": "Aajeevika / India Labourline public briefs",
+      "category": "Migrant",
+      "why": "Entitlement pathway language",
+      "consumed": "N"
+    },
+    {
+      "type": "Course",
+      "title": "MITx Evaluating Social Programs (J-PAL)",
+      "category": "Research",
+      "why": "Market-valued RCT literacy",
+      "consumed": "N"
+    },
+    {
+      "type": "Course",
+      "title": "SurveyCTO free training",
+      "category": "Research",
+      "why": "Form design for RA applications",
+      "consumed": "N"
+    },
+    {
+      "type": "Book",
+      "title": "The Pyramid Principle (Minto)",
+      "category": "Cross-Cutting",
+      "why": "Conclusion-first briefs",
+      "consumed": "N"
+    },
+    {
+      "type": "Tool",
+      "title": "PrepLounge (cases + mental math)",
+      "category": "Consulting",
+      "why": "Dalberg / Bridgespan process prep",
+      "consumed": "N"
+    },
+    {
+      "type": "Tool",
+      "title": "Canva Design School",
+      "category": "Comms",
+      "why": "JD-named in several comms roles",
+      "consumed": "N"
+    },
+    {
+      "type": "Podcast",
+      "title": "Grand Tamasha",
+      "category": "Government / Policy",
+      "why": "India policy fluency",
+      "consumed": "N"
+    },
+    {
+      "type": "Podcast",
+      "title": "Puliyabaazi",
+      "category": "Government / Policy",
+      "why": "Hindi/English policy discussion",
+      "consumed": "N"
+    }
+  ],
+  "priority": {
+    "High": 34,
+    "Medium-High": 7,
+    "Medium": 13,
+    "Low": 1
+  },
+  "horizon": {
+    "Now": 44,
+    "2027": 11
+  },
+  "corpus": {
+    "total": 623,
+    "live": 356,
+    "closed": 267,
+    "scraped": "2026-09-17",
+    "fit_rank": [
+      "research-evidence",
+      "consulting",
+      "legal-policy",
+      "government",
+      "gender-rights",
+      "knowledge-comms",
+      "education",
+      "csr",
+      "esg",
+      "un-multilateral",
+      "migrant-livelihoods"
+    ]
+  }
+}
